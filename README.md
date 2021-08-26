@@ -9,6 +9,6 @@
 
 <p align=center><img src="Docs/readme-images/Datapath.png" width="fit-content"></p>
 
-## Control Unit
+## Controller
 
 <p align=center><img src="Docs/readme-images/ControlUnit.png" width="fit-content"></p>
