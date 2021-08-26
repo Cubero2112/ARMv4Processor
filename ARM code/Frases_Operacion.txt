@@ -1,0 +1,48 @@
+			;		Almacenar las frases (XOR) con operando2 = 3
+			mov		r1, #0X1000      ; almacena la direccion de las frases codificadas
+			mov		r2, #0b01001011 ; obtiene una H cifrada (01001000) -> 72 (ASCII)
+			str		r2, [r1]		 ; almacena la H
+			
+			add		r1, r1, #4	 ; aumenta la memoria
+			mov		r2, #0b01001100 ; obtiene una O cifrada (01001111) -> 79 (ASCII)
+			str		r2, [r1]		 ; almacena la O
+			
+			add		r1, r1, #4	 ; aumenta la memoria
+			mov		r2, #0b00110010 ; obtiene un 1 cifrado (00110001) -> 49 (ASCII)
+			str		r2, [r1]		 ; almacena el 1 (condicion de parada)
+
+			;		Almacenar las frases (NOT)
+			mov		r1, #0X1000      ; almacena la direccion de las frases codificadas
+			mov		r2, #0b10110111 ; obtiene una H cifrada (01001000)
+			str		r2, [r1]		 ; almacena la H
+		
+			add		r1, r1, #4	 ; aumenta la memoria
+			mov		r2, #0b10110000 ; obtiene una O cifrada (01001111)
+			str		r2, [r1]		 ; almacena la O
+		
+			add		r1, r1, #4	 ; aumenta la memoria
+			mov		r2, #0b11001110 ; obtiene un 1 cifrado (00110001)
+			str		r2, [r1]		 ; almacena el 1 (condicion de parada)
+
+			;		Almacenar las frases (SUMA)
+			mov		r1, #0X1000      ; almacena la direccion de las frases codificadas
+			mov		r2, #0b01001010 ; obtiene una H cifrada (01001000)
+			str		r2, [r1]		 ; almacena la H
+			
+			add		r1, r1, #4	 ; aumenta la memoria
+			mov		r2, #0b01001110 ; obtiene una O cifrada (01001111)
+			str		r2, [r1]		 ; almacena la O
+			
+			add		r1, r1, #4	 ; aumenta la memoria
+			mov		r2, #0b00110011 ; obtiene un 1 cifrado (00110001)
+			str		r2, [r1]		 ; almacena el 1 (condicion de parada)
+
+			;		Almacenar la operacion
+			mov		r1, #0X2000 ; almacena la direccion de la operacion (XOR, NOT, SUMA)
+			mov		r2, #1      ; XOR = 1; NOT = 2; SUMA = 3;
+			str		r2, [r1]    ; almacena en la direccion 0X2000 la operacion elegida
+		
+			add		r1, r1, #4  ; direccion de operando dos para la operacion XOR
+			mov		r2, #3      ; operando 2 (XOR)
+			str		r2, [r1]    ; almacena en la direccion 0X1004 el operando 2 (XOR)
+

@@ -1,0 +1,620 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Usuario/Desktop/JosueCodes/p_digitales-SystemVerilogCodes/Procesador/simulation/modelsim
+vadder
+Z1 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
+Z2 !s110 1623622345
+!i10b 1
+!s100 TB^hnR53]ckCVRY8;@>QR0
+Z3 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I;EPC?>W<I^hPa=6gE^:Go1
+Z4 VDg1SIo80bB@j0V0VzS_@n1
+S1
+R0
+Z5 w1623360165
+8C:/Users/Usuario/Desktop/JosueCodes/p_digitales-SystemVerilogCodes/Procesador/adder.sv
+FC:/Users/Usuario/Desktop/JosueCodes/p_digitales-SystemVerilogCodes/Procesador/adder.sv
+!i122 9
+L0 1 5
+Z6 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z7 !s108 1623622345.000000
+!s107 C:/Users/Usuario/Desktop/JosueCodes/p_digitales-SystemVerilogCodes/Procesador/adder.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Usuario/Desktop/JosueCodes/p_digitales-SystemVerilogCodes/Procesador|C:/Users/Usuario/Desktop/JosueCodes/p_digitales-SystemVerilogCodes/Procesador/adder.sv|
+!i113 1
+Z8 o-sv -work work
+Z9 !s92 -sv -work work +incdir+C:/Users/Usuario/Desktop/JosueCodes/p_digitales-SystemVerilogCodes/Procesador
+Z10 tCvgOpt 0
+vadderWithCarry
+R1
+Z11 !s110 1623622346
+!i10b 1
+!s100 ;WF7S0K;kZ16PfY1l:DW=1
+R3
+IR<QFRbSfjnf_G9X?b3Bma3
+R4
+S1
+R0
+R5
+8C:/Users/Usuario/Desktop/JosueCodes/p_digitales-SystemVerilogCodes/Procesador/adderWithCarry.sv
+FC:/Users/Usuario/Desktop/JosueCodes/p_digitales-SystemVerilogCodes/Procesador/adderWithCarry.sv
+!i122 15
+L0 1 7
+R6
+r1
+!s85 0
+31
+R7
+!s107 C:/Users/Usuario/Desktop/JosueCodes/p_digitales-SystemVerilogCodes/Procesador/adderWithCarry.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Usuario/Desktop/JosueCodes/p_digitales-SystemVerilogCodes/Procesador|C:/Users/Usuario/Desktop/JosueCodes/p_digitales-SystemVerilogCodes/Procesador/adderWithCarry.sv|
+!i113 1
+R8
+R9
+R10
+nadder@with@carry
+vALUConFlags
+R1
+R2
+!i10b 1
+!s100 f0f1VEZZh5ZB6?gRBehBf2
+R3
+I:ak^=hhWLo8f<;@FzeUNN3
+R4
+S1
+R0
+R5
+8C:/Users/Usuario/Desktop/JosueCodes/p_digitales-SystemVerilogCodes/Procesador/ALUConFlags.sv
+FC:/Users/Usuario/Desktop/JosueCodes/p_digitales-SystemVerilogCodes/Procesador/ALUConFlags.sv
+!i122 13
+L0 11 35
+R6
+r1
+!s85 0
+31
+R7
+!s107 C:/Users/Usuario/Desktop/JosueCodes/p_digitales-SystemVerilogCodes/Procesador/ALUConFlags.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Usuario/Desktop/JosueCodes/p_digitales-SystemVerilogCodes/Procesador|C:/Users/Usuario/Desktop/JosueCodes/p_digitales-SystemVerilogCodes/Procesador/ALUConFlags.sv|
+!i113 1
+R8
+R9
+R10
+n@a@l@u@con@flags
+vALUSinFlags
+R1
+R2
+!i10b 1
+!s100 @Q]D=Ndnff<DB]8^U@Ymi3
+R3
+IbDBOX^zLiVf1`dVWko64<2
+R4
+S1
+R0
+R5
+8C:/Users/Usuario/Desktop/JosueCodes/p_digitales-SystemVerilogCodes/Procesador/ALUSinFlags.sv
+FC:/Users/Usuario/Desktop/JosueCodes/p_digitales-SystemVerilogCodes/Procesador/ALUSinFlags.sv
+!i122 14
+L0 10 18
+R6
+r1
+!s85 0
+31
+R7
+!s107 C:/Users/Usuario/Desktop/JosueCodes/p_digitales-SystemVerilogCodes/Procesador/ALUSinFlags.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Usuario/Desktop/JosueCodes/p_digitales-SystemVerilogCodes/Procesador|C:/Users/Usuario/Desktop/JosueCodes/p_digitales-SystemVerilogCodes/Procesador/ALUSinFlags.sv|
+!i113 1
+R8
+R9
+R10
+n@a@l@u@sin@flags
+varmForTest
+R1
+!s110 1623622343
+!i10b 1
+!s100 50>?JcOY4ANDD7`7SDP012
+R3
+IRL`46G7K;3[KR^B:X<@512
+R4
+S1
+R0
+w1623548770
+8C:/Users/Usuario/Desktop/JosueCodes/p_digitales-SystemVerilogCodes/Procesador/armForTest.sv
+FC:/Users/Usuario/Desktop/JosueCodes/p_digitales-SystemVerilogCodes/Procesador/armForTest.sv
+!i122 0
+L0 1 39
+R6
+r1
+!s85 0
+31
+!s108 1623622343.000000
+!s107 C:/Users/Usuario/Desktop/JosueCodes/p_digitales-SystemVerilogCodes/Procesador/armForTest.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Usuario/Desktop/JosueCodes/p_digitales-SystemVerilogCodes/Procesador|C:/Users/Usuario/Desktop/JosueCodes/p_digitales-SystemVerilogCodes/Procesador/armForTest.sv|
+!i113 1
+R8
+R9
+R10
+narm@for@test
+vconditionalLogic
+R1
+Z12 !s110 1623622344
+!i10b 1
+!s100 3LPi3Z=[cDmdadY:W2li>0
+R3
+I]4Ik7AS_L>WWBgO43fCH=3
+R4
+S1
+R0
+R5
+8C:/Users/Usuario/Desktop/JosueCodes/p_digitales-SystemVerilogCodes/Procesador/conditionalLogic.sv
+FC:/Users/Usuario/Desktop/JosueCodes/p_digitales-SystemVerilogCodes/Procesador/conditionalLogic.sv
+!i122 2
+L0 1 26
+R6
+r1
+!s85 0
+31
+Z13 !s108 1623622344.000000
+!s107 C:/Users/Usuario/Desktop/JosueCodes/p_digitales-SystemVerilogCodes/Procesador/conditionalLogic.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Usuario/Desktop/JosueCodes/p_digitales-SystemVerilogCodes/Procesador|C:/Users/Usuario/Desktop/JosueCodes/p_digitales-SystemVerilogCodes/Procesador/conditionalLogic.sv|
+!i113 1
+R8
+R9
+R10
+nconditional@logic
+vconditionCheck
+R1
+R12
+!i10b 1
+!s100 ?P:cX8UPV?zQFbTTi:5dZ3
+R3
+I7BTnm]J[99aYIXkMXZ7N33
+R4
+S1
+R0
+R5
+8C:/Users/Usuario/Desktop/JosueCodes/p_digitales-SystemVerilogCodes/Procesador/conditionCheck.sv
+FC:/Users/Usuario/Desktop/JosueCodes/p_digitales-SystemVerilogCodes/Procesador/conditionCheck.sv
+!i122 3
+L0 1 30
+R6
+r1
+!s85 0
+31
+R13
+!s107 C:/Users/Usuario/Desktop/JosueCodes/p_digitales-SystemVerilogCodes/Procesador/conditionCheck.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Usuario/Desktop/JosueCodes/p_digitales-SystemVerilogCodes/Procesador|C:/Users/Usuario/Desktop/JosueCodes/p_digitales-SystemVerilogCodes/Procesador/conditionCheck.sv|
+!i113 1
+R8
+R9
+R10
+ncondition@check
+vcontroller
+R1
+R12
+!i10b 1
+!s100 mL@DzTiiL9DRhQUf>LEO<3
+R3
+Ij:f>?K;6o:]MT;od<m9oS0
+R4
+S1
+R0
+R5
+8C:/Users/Usuario/Desktop/JosueCodes/p_digitales-SystemVerilogCodes/Procesador/controller.sv
+FC:/Users/Usuario/Desktop/JosueCodes/p_digitales-SystemVerilogCodes/Procesador/controller.sv
+!i122 4
+L0 8 24
+R6
+r1
+!s85 0
+31
+R13
+!s107 C:/Users/Usuario/Desktop/JosueCodes/p_digitales-SystemVerilogCodes/Procesador/controller.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Usuario/Desktop/JosueCodes/p_digitales-SystemVerilogCodes/Procesador|C:/Users/Usuario/Desktop/JosueCodes/p_digitales-SystemVerilogCodes/Procesador/controller.sv|
+!i113 1
+R8
+R9
+R10
+vdataMemory
+R1
+R11
+!i10b 1
+!s100 _FocQNEOPgA790G<z0XQP0
+R3
+IVLSU^g^S`2Fk9ZIJeln5Y1
+R4
+S1
+R0
+w1623555477
+8C:/Users/Usuario/Desktop/JosueCodes/p_digitales-SystemVerilogCodes/Procesador/dataMemory.sv
+FC:/Users/Usuario/Desktop/JosueCodes/p_digitales-SystemVerilogCodes/Procesador/dataMemory.sv
+!i122 19
+L0 6 25
+R6
+r1
+!s85 0
+31
+Z14 !s108 1623622346.000000
+!s107 C:/Users/Usuario/Desktop/JosueCodes/p_digitales-SystemVerilogCodes/Procesador/dataMemory.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Usuario/Desktop/JosueCodes/p_digitales-SystemVerilogCodes/Procesador|C:/Users/Usuario/Desktop/JosueCodes/p_digitales-SystemVerilogCodes/Procesador/dataMemory.sv|
+!i113 1
+R8
+R9
+R10
+ndata@memory
+vdatapath
+R1
+R2
+!i10b 1
+!s100 Y;?@gX`HZUz4=PEHD;R4R2
+R3
+Ij<9QEdjklW]][1Zma@0`J0
+R4
+S1
+R0
+w1623564075
+8C:/Users/Usuario/Desktop/JosueCodes/p_digitales-SystemVerilogCodes/Procesador/datapath.sv
+FC:/Users/Usuario/Desktop/JosueCodes/p_digitales-SystemVerilogCodes/Procesador/datapath.sv
+!i122 6
+L0 17 50
+R6
+r1
+!s85 0
+31
+R13
+!s107 C:/Users/Usuario/Desktop/JosueCodes/p_digitales-SystemVerilogCodes/Procesador/datapath.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Usuario/Desktop/JosueCodes/p_digitales-SystemVerilogCodes/Procesador|C:/Users/Usuario/Desktop/JosueCodes/p_digitales-SystemVerilogCodes/Procesador/datapath.sv|
+!i113 1
+R8
+R9
+R10
+vdeco_datos
+R1
+R11
+!i10b 1
+!s100 DH7coGL2[Q110LHB1J6:C1
+R3
+I`RaJTLb>j7H=@_QY?^mjM3
+R4
+S1
+R0
+w1623556386
+8C:/Users/Usuario/Desktop/JosueCodes/p_digitales-SystemVerilogCodes/Procesador/deco_datos.sv
+FC:/Users/Usuario/Desktop/JosueCodes/p_digitales-SystemVerilogCodes/Procesador/deco_datos.sv
+!i122 21
+L0 1 32
+R6
+r1
+!s85 0
+31
+R14
+!s107 C:/Users/Usuario/Desktop/JosueCodes/p_digitales-SystemVerilogCodes/Procesador/deco_datos.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Usuario/Desktop/JosueCodes/p_digitales-SystemVerilogCodes/Procesador|C:/Users/Usuario/Desktop/JosueCodes/p_digitales-SystemVerilogCodes/Procesador/deco_datos.sv|
+!i113 1
+R8
+R9
+R10
+vdecoder
+R1
+R12
+!i10b 1
+!s100 5j]NH2;nn;Z[ZAK]>FX:S0
+R3
+IUf1lI@[R<BHd>6FHzO::i1
+R4
+S1
+R0
+R5
+8C:/Users/Usuario/Desktop/JosueCodes/p_digitales-SystemVerilogCodes/Procesador/decoder.sv
+FC:/Users/Usuario/Desktop/JosueCodes/p_digitales-SystemVerilogCodes/Procesador/decoder.sv
+!i122 1
+L0 1 58
+R6
+r1
+!s85 0
+31
+R13
+!s107 C:/Users/Usuario/Desktop/JosueCodes/p_digitales-SystemVerilogCodes/Procesador/decoder.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Usuario/Desktop/JosueCodes/p_digitales-SystemVerilogCodes/Procesador|C:/Users/Usuario/Desktop/JosueCodes/p_digitales-SystemVerilogCodes/Procesador/decoder.sv|
+!i113 1
+R8
+R9
+R10
+vextend
+R1
+R2
+!i10b 1
+!s100 YVQ5=gLLmKOjbcUHNDSg>2
+R3
+ID53I@bC4X]<5G]c>=OBiC1
+R4
+S1
+R0
+R5
+8C:/Users/Usuario/Desktop/JosueCodes/p_digitales-SystemVerilogCodes/Procesador/extend.sv
+FC:/Users/Usuario/Desktop/JosueCodes/p_digitales-SystemVerilogCodes/Procesador/extend.sv
+!i122 12
+L0 1 15
+R6
+r1
+!s85 0
+31
+R7
+!s107 C:/Users/Usuario/Desktop/JosueCodes/p_digitales-SystemVerilogCodes/Procesador/extend.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Usuario/Desktop/JosueCodes/p_digitales-SystemVerilogCodes/Procesador|C:/Users/Usuario/Desktop/JosueCodes/p_digitales-SystemVerilogCodes/Procesador/extend.sv|
+!i113 1
+R8
+R9
+R10
+vflopenr
+R1
+R12
+!i10b 1
+!s100 S3S:^ng^A2]T3^7n]9Cch2
+R3
+IT9gcmFln48MdQHZd:AHWU2
+R4
+S1
+R0
+R5
+8C:/Users/Usuario/Desktop/JosueCodes/p_digitales-SystemVerilogCodes/Procesador/flopenr.sv
+FC:/Users/Usuario/Desktop/JosueCodes/p_digitales-SystemVerilogCodes/Procesador/flopenr.sv
+!i122 5
+Z15 L0 1 10
+R6
+r1
+!s85 0
+31
+R13
+!s107 C:/Users/Usuario/Desktop/JosueCodes/p_digitales-SystemVerilogCodes/Procesador/flopenr.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Usuario/Desktop/JosueCodes/p_digitales-SystemVerilogCodes/Procesador|C:/Users/Usuario/Desktop/JosueCodes/p_digitales-SystemVerilogCodes/Procesador/flopenr.sv|
+!i113 1
+R8
+R9
+R10
+vflopr
+R1
+R2
+!i10b 1
+!s100 Yi>CZ<dTRmR7V^DFR8V=81
+R3
+I]gYQR3:Cj=[13A>ZY5H?_2
+R4
+S1
+R0
+R5
+8C:/Users/Usuario/Desktop/JosueCodes/p_digitales-SystemVerilogCodes/Procesador/flopr.sv
+FC:/Users/Usuario/Desktop/JosueCodes/p_digitales-SystemVerilogCodes/Procesador/flopr.sv
+!i122 7
+R15
+R6
+r1
+!s85 0
+31
+R7
+!s107 C:/Users/Usuario/Desktop/JosueCodes/p_digitales-SystemVerilogCodes/Procesador/flopr.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Usuario/Desktop/JosueCodes/p_digitales-SystemVerilogCodes/Procesador|C:/Users/Usuario/Desktop/JosueCodes/p_digitales-SystemVerilogCodes/Procesador/flopr.sv|
+!i113 1
+R8
+R9
+R10
+vinstructionMemory
+R1
+R2
+!i10b 1
+!s100 bQ4iF0Z4hOSE4^L?[XBhB1
+R3
+I0dSYVS;RPE5ecUk5B;imk0
+R4
+S1
+R0
+w1623622279
+8C:/Users/Usuario/Desktop/JosueCodes/p_digitales-SystemVerilogCodes/Procesador/instructionMemory.sv
+FC:/Users/Usuario/Desktop/JosueCodes/p_digitales-SystemVerilogCodes/Procesador/instructionMemory.sv
+!i122 8
+L0 6 97
+R6
+r1
+!s85 0
+31
+R7
+!s107 C:/Users/Usuario/Desktop/JosueCodes/p_digitales-SystemVerilogCodes/Procesador/instructionMemory.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Usuario/Desktop/JosueCodes/p_digitales-SystemVerilogCodes/Procesador|C:/Users/Usuario/Desktop/JosueCodes/p_digitales-SystemVerilogCodes/Procesador/instructionMemory.sv|
+!i113 1
+R8
+R9
+R10
+ninstruction@memory
+vinv
+R1
+R11
+!i10b 1
+!s100 T6]JW5TMA[`ik>d64c_YZ2
+R3
+Id[W;kmbfFR0<=Gi1bRo5^1
+R4
+S1
+R0
+R5
+8C:/Users/Usuario/Desktop/JosueCodes/p_digitales-SystemVerilogCodes/Procesador/inv.sv
+FC:/Users/Usuario/Desktop/JosueCodes/p_digitales-SystemVerilogCodes/Procesador/inv.sv
+!i122 17
+Z16 L0 1 6
+R6
+r1
+!s85 0
+31
+R14
+!s107 C:/Users/Usuario/Desktop/JosueCodes/p_digitales-SystemVerilogCodes/Procesador/inv.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Usuario/Desktop/JosueCodes/p_digitales-SystemVerilogCodes/Procesador|C:/Users/Usuario/Desktop/JosueCodes/p_digitales-SystemVerilogCodes/Procesador/inv.sv|
+!i113 1
+R8
+R9
+R10
+vmux2
+R1
+R2
+!i10b 1
+!s100 chEUMf29dLm;hkSPWAcdA0
+R3
+IdM8S6HXDBzFEdjBM9Hm`J2
+R4
+S1
+R0
+R5
+8C:/Users/Usuario/Desktop/JosueCodes/p_digitales-SystemVerilogCodes/Procesador/mux2.sv
+FC:/Users/Usuario/Desktop/JosueCodes/p_digitales-SystemVerilogCodes/Procesador/mux2.sv
+!i122 10
+L0 1 8
+R6
+r1
+!s85 0
+31
+R7
+!s107 C:/Users/Usuario/Desktop/JosueCodes/p_digitales-SystemVerilogCodes/Procesador/mux2.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Usuario/Desktop/JosueCodes/p_digitales-SystemVerilogCodes/Procesador|C:/Users/Usuario/Desktop/JosueCodes/p_digitales-SystemVerilogCodes/Procesador/mux2.sv|
+!i113 1
+R8
+R9
+R10
+vmux4a1
+R1
+R11
+!i10b 1
+!s100 fgAL=H?L>?kQ@4l;WbGm<0
+R3
+IWB7H=LcUm2:FKdeNQ6;iY2
+R4
+S1
+R0
+R5
+8C:/Users/Usuario/Desktop/JosueCodes/p_digitales-SystemVerilogCodes/Procesador/mux4a1.sv
+FC:/Users/Usuario/Desktop/JosueCodes/p_digitales-SystemVerilogCodes/Procesador/mux4a1.sv
+!i122 18
+L0 1 12
+R6
+r1
+!s85 0
+31
+R14
+!s107 C:/Users/Usuario/Desktop/JosueCodes/p_digitales-SystemVerilogCodes/Procesador/mux4a1.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Usuario/Desktop/JosueCodes/p_digitales-SystemVerilogCodes/Procesador|C:/Users/Usuario/Desktop/JosueCodes/p_digitales-SystemVerilogCodes/Procesador/mux4a1.sv|
+!i113 1
+R8
+R9
+R10
+vprocesadorTest
+R1
+R11
+!i10b 1
+!s100 aBlVg<JkeXhZ;ME^TiCnO0
+R3
+I3F[HF>A2I0@1dz5f91@OR2
+R4
+S1
+R0
+w1623555351
+8C:/Users/Usuario/Desktop/JosueCodes/p_digitales-SystemVerilogCodes/Procesador/procesadorTest.sv
+FC:/Users/Usuario/Desktop/JosueCodes/p_digitales-SystemVerilogCodes/Procesador/procesadorTest.sv
+!i122 22
+L0 1 42
+R6
+r1
+!s85 0
+31
+R14
+!s107 C:/Users/Usuario/Desktop/JosueCodes/p_digitales-SystemVerilogCodes/Procesador/procesadorTest.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Usuario/Desktop/JosueCodes/p_digitales-SystemVerilogCodes/Procesador|C:/Users/Usuario/Desktop/JosueCodes/p_digitales-SystemVerilogCodes/Procesador/procesadorTest.sv|
+!i113 1
+R8
+R9
+R10
+nprocesador@test
+vregfile
+R1
+R2
+!i10b 1
+!s100 l63N2kPhZ<Y[djBl:EZZ<1
+R3
+IoTRzDE9MbAH3VgYO1VSEC2
+R4
+S1
+R0
+R5
+8C:/Users/Usuario/Desktop/JosueCodes/p_digitales-SystemVerilogCodes/Procesador/regfile.sv
+FC:/Users/Usuario/Desktop/JosueCodes/p_digitales-SystemVerilogCodes/Procesador/regfile.sv
+!i122 11
+L0 13 19
+R6
+r1
+!s85 0
+31
+R7
+!s107 C:/Users/Usuario/Desktop/JosueCodes/p_digitales-SystemVerilogCodes/Procesador/regfile.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Usuario/Desktop/JosueCodes/p_digitales-SystemVerilogCodes/Procesador|C:/Users/Usuario/Desktop/JosueCodes/p_digitales-SystemVerilogCodes/Procesador/regfile.sv|
+!i113 1
+R8
+R9
+R10
+vROM32
+R1
+R11
+!i10b 1
+!s100 ;Aafdzi;P93kUn;@99h]Q0
+R3
+I3De`KH;1@D[=Pf6HFI5;X2
+R4
+S1
+R0
+w1623621374
+8C:/Users/Usuario/Desktop/JosueCodes/p_digitales-SystemVerilogCodes/Procesador/ROM32.sv
+FC:/Users/Usuario/Desktop/JosueCodes/p_digitales-SystemVerilogCodes/Procesador/ROM32.sv
+!i122 20
+L0 7 95
+R6
+r1
+!s85 0
+31
+R14
+!s107 C:/Users/Usuario/Desktop/JosueCodes/p_digitales-SystemVerilogCodes/Procesador/ROM32.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Usuario/Desktop/JosueCodes/p_digitales-SystemVerilogCodes/Procesador|C:/Users/Usuario/Desktop/JosueCodes/p_digitales-SystemVerilogCodes/Procesador/ROM32.sv|
+!i113 1
+R8
+R9
+R10
+n@r@o@m32
+vxorGate
+R1
+R11
+!i10b 1
+!s100 M]S7?2^F8Q^GGPYc=2c9g1
+R3
+I:TBBa<IZaFLjFD?je6o:C3
+R4
+S1
+R0
+R5
+8C:/Users/Usuario/Desktop/JosueCodes/p_digitales-SystemVerilogCodes/Procesador/xorGate.sv
+FC:/Users/Usuario/Desktop/JosueCodes/p_digitales-SystemVerilogCodes/Procesador/xorGate.sv
+!i122 16
+R16
+R6
+r1
+!s85 0
+31
+R14
+!s107 C:/Users/Usuario/Desktop/JosueCodes/p_digitales-SystemVerilogCodes/Procesador/xorGate.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Usuario/Desktop/JosueCodes/p_digitales-SystemVerilogCodes/Procesador|C:/Users/Usuario/Desktop/JosueCodes/p_digitales-SystemVerilogCodes/Procesador/xorGate.sv|
+!i113 1
+R8
+R9
+R10
+nxor@gate

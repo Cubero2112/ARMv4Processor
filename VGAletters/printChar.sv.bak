@@ -1,0 +1,21 @@
+module printChar
+	(
+	  input logic clk, 
+	  input logic [9:0] posX, posY, counterX, counterY, 
+	  input logic [7:0] char,
+	  output logic [23:0] RGB
+	 );
+	
+	 logic [23:0] rgb65;//, rgb66;
+    sprite65  ascii65 (clk, posX, posY,counterX, counterY,  rgb65);
+	 //sprite65 ascii66 (clk, counterX, counterY, posX, posY, rgb66);
+	 always
+        case (char)
+            8'd65: RGB <= rgb65; //Letra a HEX(41)= DEC (65)
+				//8'h42: RGB <= rgb66; //Letra b
+				default: RGB <= 24'h0000;
+            
+        endcase
+			
+
+endmodule 

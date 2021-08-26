@@ -1,0 +1,234 @@
+Flow report for VGAcontroller
+Wed Jun 16 17:45:47 2021
+Quartus Prime Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Flow Summary
+  3. Flow Settings
+  4. Flow Non-Default Global Settings
+  5. Flow Elapsed Time
+  6. Flow OS Summary
+  7. Flow Log
+  8. Flow Messages
+  9. Flow Suppressed Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 2020  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and any partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel FPGA IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Intel and sold by Intel or its authorized distributors.  Please
+refer to the applicable agreement for further details, at
+https://fpgasoftware.intel.com/eula.
+
+
+
++-------------------------------------------------------------------------------+
+; Flow Summary                                                                  ;
++---------------------------------+---------------------------------------------+
+; Flow Status                     ; Successful - Wed Jun 16 17:45:47 2021       ;
+; Quartus Prime Version           ; 20.1.1 Build 720 11/11/2020 SJ Lite Edition ;
+; Revision Name                   ; VGAcontroller                               ;
+; Top-level Entity Name           ; arm                                         ;
+; Family                          ; Cyclone V                                   ;
+; Device                          ; 5CSEMA5F31C6                                ;
+; Timing Models                   ; Final                                       ;
+; Logic utilization (in ALMs)     ; 1,620 / 32,070 ( 5 % )                      ;
+; Total registers                 ; 1007                                        ;
+; Total pins                      ; 31 / 457 ( 7 % )                            ;
+; Total virtual pins              ; 0                                           ;
+; Total block memory bits         ; 289,536 / 4,065,280 ( 7 % )                 ;
+; Total DSP Blocks                ; 0 / 87 ( 0 % )                              ;
+; Total HSSI RX PCSs              ; 0                                           ;
+; Total HSSI PMA RX Deserializers ; 0                                           ;
+; Total HSSI TX PCSs              ; 0                                           ;
+; Total HSSI PMA TX Serializers   ; 0                                           ;
+; Total PLLs                      ; 0 / 6 ( 0 % )                               ;
+; Total DLLs                      ; 0 / 4 ( 0 % )                               ;
++---------------------------------+---------------------------------------------+
+
+
++-----------------------------------------+
+; Flow Settings                           ;
++-------------------+---------------------+
+; Option            ; Setting             ;
++-------------------+---------------------+
+; Start date & time ; 06/16/2021 17:38:42 ;
+; Main task         ; Compilation         ;
+; Revision Name     ; VGAcontroller       ;
++-------------------+---------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------------------------+
+; Flow Non-Default Global Settings                                                                                                                ;
++--------------------------------------+----------------------------------------+---------------+-------------+-----------------------------------+
+; Assignment Name                      ; Value                                  ; Default Value ; Entity Name ; Section Id                        ;
++--------------------------------------+----------------------------------------+---------------+-------------+-----------------------------------+
+; COMPILER_SIGNATURE_ID                ; 273440545953989.162388672214824        ; --            ; --          ; --                                ;
+; EDA_DESIGN_INSTANCE_NAME             ; NA                                     ; --            ; --          ; Test                              ;
+; EDA_GENERATE_FUNCTIONAL_NETLIST      ; Off                                    ; --            ; --          ; eda_board_design_timing           ;
+; EDA_GENERATE_FUNCTIONAL_NETLIST      ; Off                                    ; --            ; --          ; eda_board_design_boundary_scan    ;
+; EDA_GENERATE_FUNCTIONAL_NETLIST      ; Off                                    ; --            ; --          ; eda_board_design_signal_integrity ;
+; EDA_GENERATE_FUNCTIONAL_NETLIST      ; Off                                    ; --            ; --          ; eda_board_design_symbol           ;
+; EDA_NATIVELINK_SIMULATION_TEST_BENCH ; Test                                   ; --            ; --          ; eda_simulation                    ;
+; EDA_OUTPUT_DATA_FORMAT               ; Systemverilog Hdl                      ; --            ; --          ; eda_simulation                    ;
+; EDA_SIMULATION_TOOL                  ; ModelSim-Altera (SystemVerilog)        ; <None>        ; --          ; --                                ;
+; EDA_TEST_BENCH_ENABLE_STATUS         ; TEST_BENCH_MODE                        ; --            ; --          ; eda_simulation                    ;
+; EDA_TEST_BENCH_FILE                  ; tb_VGA.sv                              ; --            ; --          ; Test                              ;
+; EDA_TEST_BENCH_MODULE_NAME           ; Test                                   ; --            ; --          ; Test                              ;
+; EDA_TEST_BENCH_NAME                  ; Test                                   ; --            ; --          ; eda_simulation                    ;
+; EDA_TIME_SCALE                       ; 1 ps                                   ; --            ; --          ; eda_simulation                    ;
+; MAX_CORE_JUNCTION_TEMP               ; 85                                     ; --            ; --          ; --                                ;
+; MIN_CORE_JUNCTION_TEMP               ; 0                                      ; --            ; --          ; --                                ;
+; MISC_FILE                            ; ascii65_bb.v                           ; --            ; --          ; --                                ;
+; MISC_FILE                            ; ascii72_bb.v                           ; --            ; --          ; --                                ;
+; MISC_FILE                            ; ascii76_bb.v                           ; --            ; --          ; --                                ;
+; MISC_FILE                            ; ascii79_bb.v                           ; --            ; --          ; --                                ;
+; MISC_FILE                            ; ascii32_bb.v                           ; --            ; --          ; --                                ;
+; MISC_FILE                            ; ascii33_bb.v                           ; --            ; --          ; --                                ;
+; MISC_FILE                            ; ascii34_bb.v                           ; --            ; --          ; --                                ;
+; MISC_FILE                            ; ascii35_bb.v                           ; --            ; --          ; --                                ;
+; MISC_FILE                            ; ascii36_bb.v                           ; --            ; --          ; --                                ;
+; MISC_FILE                            ; ascii37_bb.v                           ; --            ; --          ; --                                ;
+; MISC_FILE                            ; ascii38_bb.v                           ; --            ; --          ; --                                ;
+; MISC_FILE                            ; ascii39_bb.v                           ; --            ; --          ; --                                ;
+; MISC_FILE                            ; ascii40_bb.v                           ; --            ; --          ; --                                ;
+; MISC_FILE                            ; ascii41_bb.v                           ; --            ; --          ; --                                ;
+; MISC_FILE                            ; ascii42_bb.v                           ; --            ; --          ; --                                ;
+; MISC_FILE                            ; ascii43_bb.v                           ; --            ; --          ; --                                ;
+; MISC_FILE                            ; ascii44_bb.v                           ; --            ; --          ; --                                ;
+; MISC_FILE                            ; ascii45_bb.v                           ; --            ; --          ; --                                ;
+; MISC_FILE                            ; ascii46_bb.v                           ; --            ; --          ; --                                ;
+; MISC_FILE                            ; ascii47_bb.v                           ; --            ; --          ; --                                ;
+; MISC_FILE                            ; ascii48_bb.v                           ; --            ; --          ; --                                ;
+; MISC_FILE                            ; ascii49_bb.v                           ; --            ; --          ; --                                ;
+; MISC_FILE                            ; ascii50_bb.v                           ; --            ; --          ; --                                ;
+; MISC_FILE                            ; ascii51_bb.v                           ; --            ; --          ; --                                ;
+; MISC_FILE                            ; ascii52_bb.v                           ; --            ; --          ; --                                ;
+; MISC_FILE                            ; ascii53_bb.v                           ; --            ; --          ; --                                ;
+; MISC_FILE                            ; ascii54_bb.v                           ; --            ; --          ; --                                ;
+; MISC_FILE                            ; ascii55_bb.v                           ; --            ; --          ; --                                ;
+; MISC_FILE                            ; ascii56_bb.v                           ; --            ; --          ; --                                ;
+; MISC_FILE                            ; ascii57_bb.v                           ; --            ; --          ; --                                ;
+; MISC_FILE                            ; ascii58_bb.v                           ; --            ; --          ; --                                ;
+; MISC_FILE                            ; ascii59_bb.v                           ; --            ; --          ; --                                ;
+; MISC_FILE                            ; ascii60_bb.v                           ; --            ; --          ; --                                ;
+; MISC_FILE                            ; ascii61_bb.v                           ; --            ; --          ; --                                ;
+; MISC_FILE                            ; ascii62_bb.v                           ; --            ; --          ; --                                ;
+; MISC_FILE                            ; ascii63_bb.v                           ; --            ; --          ; --                                ;
+; MISC_FILE                            ; ascii64_bb.v                           ; --            ; --          ; --                                ;
+; MISC_FILE                            ; ascii66_bb.v                           ; --            ; --          ; --                                ;
+; MISC_FILE                            ; ascii67_bb.v                           ; --            ; --          ; --                                ;
+; MISC_FILE                            ; ascii68_bb.v                           ; --            ; --          ; --                                ;
+; MISC_FILE                            ; ascii69_bb.v                           ; --            ; --          ; --                                ;
+; MISC_FILE                            ; ascii70_bb.v                           ; --            ; --          ; --                                ;
+; MISC_FILE                            ; ascii71_bb.v                           ; --            ; --          ; --                                ;
+; MISC_FILE                            ; ascii73_bb.v                           ; --            ; --          ; --                                ;
+; MISC_FILE                            ; ascii74_bb.v                           ; --            ; --          ; --                                ;
+; MISC_FILE                            ; ascii75_bb.v                           ; --            ; --          ; --                                ;
+; MISC_FILE                            ; ascii77_bb.v                           ; --            ; --          ; --                                ;
+; MISC_FILE                            ; ascii78_bb.v                           ; --            ; --          ; --                                ;
+; MISC_FILE                            ; ascii80_bb.v                           ; --            ; --          ; --                                ;
+; MISC_FILE                            ; ascii81_bb.v                           ; --            ; --          ; --                                ;
+; MISC_FILE                            ; ascii82_bb.v                           ; --            ; --          ; --                                ;
+; MISC_FILE                            ; ascii83_bb.v                           ; --            ; --          ; --                                ;
+; MISC_FILE                            ; ascii84_bb.v                           ; --            ; --          ; --                                ;
+; MISC_FILE                            ; ascii85_bb.v                           ; --            ; --          ; --                                ;
+; MISC_FILE                            ; ascii86_bb.v                           ; --            ; --          ; --                                ;
+; MISC_FILE                            ; ascii87_bb.v                           ; --            ; --          ; --                                ;
+; MISC_FILE                            ; ascii88_bb.v                           ; --            ; --          ; --                                ;
+; MISC_FILE                            ; ascii89_bb.v                           ; --            ; --          ; --                                ;
+; MISC_FILE                            ; ascii90_bb.v                           ; --            ; --          ; --                                ;
+; MISC_FILE                            ; ascii91_bb.v                           ; --            ; --          ; --                                ;
+; MISC_FILE                            ; ascii92_bb.v                           ; --            ; --          ; --                                ;
+; MISC_FILE                            ; ascii93_bb.v                           ; --            ; --          ; --                                ;
+; MISC_FILE                            ; ascii94_bb.v                           ; --            ; --          ; --                                ;
+; MISC_FILE                            ; ascii95_bb.v                           ; --            ; --          ; --                                ;
+; MISC_FILE                            ; ascii96_bb.v                           ; --            ; --          ; --                                ;
+; MISC_FILE                            ; ascii97_bb.v                           ; --            ; --          ; --                                ;
+; MISC_FILE                            ; ascii98_bb.v                           ; --            ; --          ; --                                ;
+; MISC_FILE                            ; ascii99_bb.v                           ; --            ; --          ; --                                ;
+; MISC_FILE                            ; ascii100_bb.v                          ; --            ; --          ; --                                ;
+; MISC_FILE                            ; ascii101_bb.v                          ; --            ; --          ; --                                ;
+; MISC_FILE                            ; ascii102_bb.v                          ; --            ; --          ; --                                ;
+; MISC_FILE                            ; ascii103_bb.v                          ; --            ; --          ; --                                ;
+; MISC_FILE                            ; ascii104_bb.v                          ; --            ; --          ; --                                ;
+; MISC_FILE                            ; ascii105_bb.v                          ; --            ; --          ; --                                ;
+; MISC_FILE                            ; ascii106_bb.v                          ; --            ; --          ; --                                ;
+; MISC_FILE                            ; ascii107_bb.v                          ; --            ; --          ; --                                ;
+; MISC_FILE                            ; ascii108_bb.v                          ; --            ; --          ; --                                ;
+; MISC_FILE                            ; ascii109_bb.v                          ; --            ; --          ; --                                ;
+; MISC_FILE                            ; ascii110_bb.v                          ; --            ; --          ; --                                ;
+; MISC_FILE                            ; ascii111_bb.v                          ; --            ; --          ; --                                ;
+; MISC_FILE                            ; ascii112_bb.v                          ; --            ; --          ; --                                ;
+; MISC_FILE                            ; ascii113_bb.v                          ; --            ; --          ; --                                ;
+; MISC_FILE                            ; ascii114_bb.v                          ; --            ; --          ; --                                ;
+; MISC_FILE                            ; ascii115_bb.v                          ; --            ; --          ; --                                ;
+; MISC_FILE                            ; ascii116_bb.v                          ; --            ; --          ; --                                ;
+; MISC_FILE                            ; ascii117_bb.v                          ; --            ; --          ; --                                ;
+; MISC_FILE                            ; ascii118_bb.v                          ; --            ; --          ; --                                ;
+; MISC_FILE                            ; ascii119_bb.v                          ; --            ; --          ; --                                ;
+; MISC_FILE                            ; ascii120_bb.v                          ; --            ; --          ; --                                ;
+; MISC_FILE                            ; ascii121_bb.v                          ; --            ; --          ; --                                ;
+; MISC_FILE                            ; ascii122_bb.v                          ; --            ; --          ; --                                ;
+; MISC_FILE                            ; ascii123_bb.v                          ; --            ; --          ; --                                ;
+; MISC_FILE                            ; ascii124_bb.v                          ; --            ; --          ; --                                ;
+; MISC_FILE                            ; ascii125_bb.v                          ; --            ; --          ; --                                ;
+; MISC_FILE                            ; ascii126_bb.v                          ; --            ; --          ; --                                ;
+; PARTITION_COLOR                      ; -- (Not supported for targeted family) ; --            ; arm         ; Top                               ;
+; PARTITION_FITTER_PRESERVATION_LEVEL  ; -- (Not supported for targeted family) ; --            ; arm         ; Top                               ;
+; PARTITION_NETLIST_TYPE               ; -- (Not supported for targeted family) ; --            ; arm         ; Top                               ;
+; POWER_BOARD_THERMAL_MODEL            ; None (CONSERVATIVE)                    ; --            ; --          ; --                                ;
+; POWER_PRESET_COOLING_SOLUTION        ; 23 MM HEAT SINK WITH 200 LFPM AIRFLOW  ; --            ; --          ; --                                ;
+; PROJECT_OUTPUT_DIRECTORY             ; output_files                           ; --            ; --          ; --                                ;
+; TOP_LEVEL_ENTITY                     ; arm                                    ; VGAcontroller ; --          ; --                                ;
++--------------------------------------+----------------------------------------+---------------+-------------+-----------------------------------+
+
+
++--------------------------------------------------------------------------------------------------------------------------+
+; Flow Elapsed Time                                                                                                        ;
++----------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Module Name          ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
++----------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Analysis & Synthesis ; 00:00:44     ; 1.0                     ; 4926 MB             ; 00:00:59                           ;
+; Fitter               ; 00:06:05     ; 1.0                     ; 6629 MB             ; 00:08:11                           ;
+; Assembler            ; 00:00:10     ; 1.0                     ; 4873 MB             ; 00:00:10                           ;
+; Total                ; 00:06:59     ; --                      ; --                  ; 00:09:20                           ;
++----------------------+--------------+-------------------------+---------------------+------------------------------------+
+
+
++------------------------------------------------------------------------------------+
+; Flow OS Summary                                                                    ;
++----------------------+------------------+------------+------------+----------------+
+; Module Name          ; Machine Hostname ; OS Name    ; OS Version ; Processor type ;
++----------------------+------------------+------------+------------+----------------+
+; Analysis & Synthesis ; DESKTOP-LGT7EFS  ; Windows 10 ; 10.0       ; x86_64         ;
+; Fitter               ; DESKTOP-LGT7EFS  ; Windows 10 ; 10.0       ; x86_64         ;
+; Assembler            ; DESKTOP-LGT7EFS  ; Windows 10 ; 10.0       ; x86_64         ;
++----------------------+------------------+------------+------------+----------------+
+
+
+------------
+; Flow Log ;
+------------
+quartus_map --read_settings_files=on --write_settings_files=off VGAcontroller -c VGAcontroller
+quartus_fit --read_settings_files=off --write_settings_files=off VGAcontroller -c VGAcontroller
+quartus_asm --read_settings_files=off --write_settings_files=off VGAcontroller -c VGAcontroller
+
+
+

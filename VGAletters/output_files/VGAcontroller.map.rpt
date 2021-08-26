@@ -1,0 +1,427 @@
+Analysis & Synthesis report for VGAcontroller
+Mon Jun 14 22:38:34 2021
+Quartus Prime Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Analysis & Synthesis Summary
+  3. Analysis & Synthesis Settings
+  4. Parallel Compilation
+  5. Analysis & Synthesis Source Files Read
+  6. Analysis & Synthesis Resource Usage Summary
+  7. Analysis & Synthesis Resource Utilization by Entity
+  8. General Register Statistics
+  9. Port Connectivity Checks: "topController:genVGA|printChar:a65|sprite65:ascii65|addressGenerator:direccionesM"
+ 10. Port Connectivity Checks: "topController:genVGA|printChar:a65"
+ 11. Post-Synthesis Netlist Statistics for Top Partition
+ 12. Elapsed Time Per Partition
+ 13. Analysis & Synthesis Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 2020  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and any partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel FPGA IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Intel and sold by Intel or its authorized distributors.  Please
+refer to the applicable agreement for further details, at
+https://fpgasoftware.intel.com/eula.
+
+
+
++-------------------------------------------------------------------------------+
+; Analysis & Synthesis Summary                                                  ;
++---------------------------------+---------------------------------------------+
+; Analysis & Synthesis Status     ; Successful - Mon Jun 14 22:38:34 2021       ;
+; Quartus Prime Version           ; 20.1.1 Build 720 11/11/2020 SJ Lite Edition ;
+; Revision Name                   ; VGAcontroller                               ;
+; Top-level Entity Name           ; mcuVGA                                      ;
+; Family                          ; Cyclone V                                   ;
+; Logic utilization (in ALMs)     ; N/A                                         ;
+; Total registers                 ; 66                                          ;
+; Total pins                      ; 31                                          ;
+; Total virtual pins              ; 0                                           ;
+; Total block memory bits         ; 0                                           ;
+; Total DSP Blocks                ; 0                                           ;
+; Total HSSI RX PCSs              ; 0                                           ;
+; Total HSSI PMA RX Deserializers ; 0                                           ;
+; Total HSSI TX PCSs              ; 0                                           ;
+; Total HSSI PMA TX Serializers   ; 0                                           ;
+; Total PLLs                      ; 0                                           ;
+; Total DLLs                      ; 0                                           ;
++---------------------------------+---------------------------------------------+
+
+
++---------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Settings                                                                                             ;
++---------------------------------------------------------------------------------+--------------------+--------------------+
+; Option                                                                          ; Setting            ; Default Value      ;
++---------------------------------------------------------------------------------+--------------------+--------------------+
+; Device                                                                          ; 5CSEMA5F31C6       ;                    ;
+; Top-level entity name                                                           ; mcuVGA             ; VGAcontroller      ;
+; Family name                                                                     ; Cyclone V          ; Cyclone V          ;
+; Use smart compilation                                                           ; Off                ; Off                ;
+; Enable parallel Assembler and Timing Analyzer during compilation                ; On                 ; On                 ;
+; Enable compact report table                                                     ; Off                ; Off                ;
+; Restructure Multiplexers                                                        ; Auto               ; Auto               ;
+; MLAB Add Timing Constraints For Mixed-Port Feed-Through Mode Setting Don't Care ; Off                ; Off                ;
+; Create Debugging Nodes for IP Cores                                             ; Off                ; Off                ;
+; Preserve fewer node names                                                       ; On                 ; On                 ;
+; Intel FPGA IP Evaluation Mode                                                   ; Enable             ; Enable             ;
+; Verilog Version                                                                 ; Verilog_2001       ; Verilog_2001       ;
+; VHDL Version                                                                    ; VHDL_1993          ; VHDL_1993          ;
+; State Machine Processing                                                        ; Auto               ; Auto               ;
+; Safe State Machine                                                              ; Off                ; Off                ;
+; Extract Verilog State Machines                                                  ; On                 ; On                 ;
+; Extract VHDL State Machines                                                     ; On                 ; On                 ;
+; Ignore Verilog initial constructs                                               ; Off                ; Off                ;
+; Iteration limit for constant Verilog loops                                      ; 5000               ; 5000               ;
+; Iteration limit for non-constant Verilog loops                                  ; 250                ; 250                ;
+; Add Pass-Through Logic to Inferred RAMs                                         ; On                 ; On                 ;
+; Infer RAMs from Raw Logic                                                       ; On                 ; On                 ;
+; Parallel Synthesis                                                              ; On                 ; On                 ;
+; DSP Block Balancing                                                             ; Auto               ; Auto               ;
+; NOT Gate Push-Back                                                              ; On                 ; On                 ;
+; Power-Up Don't Care                                                             ; On                 ; On                 ;
+; Remove Redundant Logic Cells                                                    ; Off                ; Off                ;
+; Remove Duplicate Registers                                                      ; On                 ; On                 ;
+; Ignore CARRY Buffers                                                            ; Off                ; Off                ;
+; Ignore CASCADE Buffers                                                          ; Off                ; Off                ;
+; Ignore GLOBAL Buffers                                                           ; Off                ; Off                ;
+; Ignore ROW GLOBAL Buffers                                                       ; Off                ; Off                ;
+; Ignore LCELL Buffers                                                            ; Off                ; Off                ;
+; Ignore SOFT Buffers                                                             ; On                 ; On                 ;
+; Limit AHDL Integers to 32 Bits                                                  ; Off                ; Off                ;
+; Optimization Technique                                                          ; Balanced           ; Balanced           ;
+; Carry Chain Length                                                              ; 70                 ; 70                 ;
+; Auto Carry Chains                                                               ; On                 ; On                 ;
+; Auto Open-Drain Pins                                                            ; On                 ; On                 ;
+; Perform WYSIWYG Primitive Resynthesis                                           ; Off                ; Off                ;
+; Auto ROM Replacement                                                            ; On                 ; On                 ;
+; Auto RAM Replacement                                                            ; On                 ; On                 ;
+; Auto DSP Block Replacement                                                      ; On                 ; On                 ;
+; Auto Shift Register Replacement                                                 ; Auto               ; Auto               ;
+; Allow Shift Register Merging across Hierarchies                                 ; Auto               ; Auto               ;
+; Auto Clock Enable Replacement                                                   ; On                 ; On                 ;
+; Strict RAM Replacement                                                          ; Off                ; Off                ;
+; Allow Synchronous Control Signals                                               ; On                 ; On                 ;
+; Force Use of Synchronous Clear Signals                                          ; Off                ; Off                ;
+; Auto Resource Sharing                                                           ; Off                ; Off                ;
+; Allow Any RAM Size For Recognition                                              ; Off                ; Off                ;
+; Allow Any ROM Size For Recognition                                              ; Off                ; Off                ;
+; Allow Any Shift Register Size For Recognition                                   ; Off                ; Off                ;
+; Use LogicLock Constraints during Resource Balancing                             ; On                 ; On                 ;
+; Ignore translate_off and synthesis_off directives                               ; Off                ; Off                ;
+; Timing-Driven Synthesis                                                         ; On                 ; On                 ;
+; Report Parameter Settings                                                       ; On                 ; On                 ;
+; Report Source Assignments                                                       ; On                 ; On                 ;
+; Report Connectivity Checks                                                      ; On                 ; On                 ;
+; Ignore Maximum Fan-Out Assignments                                              ; Off                ; Off                ;
+; Synchronization Register Chain Length                                           ; 3                  ; 3                  ;
+; Power Optimization During Synthesis                                             ; Normal compilation ; Normal compilation ;
+; HDL message level                                                               ; Level2             ; Level2             ;
+; Suppress Register Optimization Related Messages                                 ; Off                ; Off                ;
+; Number of Removed Registers Reported in Synthesis Report                        ; 5000               ; 5000               ;
+; Number of Swept Nodes Reported in Synthesis Report                              ; 5000               ; 5000               ;
+; Number of Inverted Registers Reported in Synthesis Report                       ; 100                ; 100                ;
+; Clock MUX Protection                                                            ; On                 ; On                 ;
+; Auto Gated Clock Conversion                                                     ; Off                ; Off                ;
+; Block Design Naming                                                             ; Auto               ; Auto               ;
+; SDC constraint protection                                                       ; Off                ; Off                ;
+; Synthesis Effort                                                                ; Auto               ; Auto               ;
+; Shift Register Replacement - Allow Asynchronous Clear Signal                    ; On                 ; On                 ;
+; Pre-Mapping Resynthesis Optimization                                            ; Off                ; Off                ;
+; Analysis & Synthesis Message Level                                              ; Medium             ; Medium             ;
+; Disable Register Merging Across Hierarchies                                     ; Auto               ; Auto               ;
+; Resource Aware Inference For Block RAM                                          ; On                 ; On                 ;
+; Automatic Parallel Synthesis                                                    ; On                 ; On                 ;
+; Partial Reconfiguration Bitstream ID                                            ; Off                ; Off                ;
++---------------------------------------------------------------------------------+--------------------+--------------------+
+
+
++------------------------------------------+
+; Parallel Compilation                     ;
++----------------------------+-------------+
+; Processors                 ; Number      ;
++----------------------------+-------------+
+; Number detected on machine ; 8           ;
+; Maximum allowed            ; 4           ;
+;                            ;             ;
+; Average used               ; 1.00        ;
+; Maximum used               ; 4           ;
+;                            ;             ;
+; Usage by Processor         ; % Time Used ;
+;     Processor 1            ; 100.0%      ;
+;     Processor 2            ;   0.0%      ;
+;     Processors 3-4         ;   0.0%      ;
++----------------------------+-------------+
+
+
++----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                                                                 ;
++----------------------------------+-----------------+------------------------------+------------------------------------------------------------------------------------------+---------+
+; File Name with User-Entered Path ; Used in Netlist ; File Type                    ; File Name with Absolute Path                                                             ; Library ;
++----------------------------------+-----------------+------------------------------+------------------------------------------------------------------------------------------+---------+
+; clockDivider.sv                  ; yes             ; User SystemVerilog HDL File  ; C:/Users/Usuario/Downloads/Gerald/p_digitales-development/VGAletters/clockDivider.sv     ;         ;
+; rgbDecoder.sv                    ; yes             ; User SystemVerilog HDL File  ; C:/Users/Usuario/Downloads/Gerald/p_digitales-development/VGAletters/rgbDecoder.sv       ;         ;
+; addressGenerator.sv              ; yes             ; User SystemVerilog HDL File  ; C:/Users/Usuario/Downloads/Gerald/p_digitales-development/VGAletters/addressGenerator.sv ;         ;
+; VGAcontroller.sv                 ; yes             ; User SystemVerilog HDL File  ; C:/Users/Usuario/Downloads/Gerald/p_digitales-development/VGAletters/VGAcontroller.sv    ;         ;
+; counterXY.sv                     ; yes             ; User SystemVerilog HDL File  ; C:/Users/Usuario/Downloads/Gerald/p_digitales-development/VGAletters/counterXY.sv        ;         ;
+; sprite65.sv                      ; yes             ; User SystemVerilog HDL File  ; C:/Users/Usuario/Downloads/Gerald/p_digitales-development/VGAletters/sprite65.sv         ;         ;
+; printChar.sv                     ; yes             ; User SystemVerilog HDL File  ; C:/Users/Usuario/Downloads/Gerald/p_digitales-development/VGAletters/printChar.sv        ;         ;
+; topController.sv                 ; yes             ; User SystemVerilog HDL File  ; C:/Users/Usuario/Downloads/Gerald/p_digitales-development/VGAletters/topController.sv    ;         ;
+; mcuVGA.sv                        ; yes             ; User SystemVerilog HDL File  ; C:/Users/Usuario/Downloads/Gerald/p_digitales-development/VGAletters/mcuVGA.sv           ;         ;
+; ROMas.sv                         ; yes             ; User SystemVerilog HDL File  ; C:/Users/Usuario/Downloads/Gerald/p_digitales-development/VGAletters/ROMas.sv            ;         ;
++----------------------------------+-----------------+------------------------------+------------------------------------------------------------------------------------------+---------+
+
+
++---------------------------------------------------------------------------+
+; Analysis & Synthesis Resource Usage Summary                               ;
++---------------------------------------------+-----------------------------+
+; Resource                                    ; Usage                       ;
++---------------------------------------------+-----------------------------+
+; Estimate of Logic utilization (ALMs needed) ; 48                          ;
+;                                             ;                             ;
+; Combinational ALUT usage for logic          ; 86                          ;
+;     -- 7 input functions                    ; 0                           ;
+;     -- 6 input functions                    ; 9                           ;
+;     -- 5 input functions                    ; 5                           ;
+;     -- 4 input functions                    ; 5                           ;
+;     -- <=3 input functions                  ; 67                          ;
+;                                             ;                             ;
+; Dedicated logic registers                   ; 66                          ;
+;                                             ;                             ;
+; I/O pins                                    ; 31                          ;
+;                                             ;                             ;
+; Total DSP Blocks                            ; 0                           ;
+;                                             ;                             ;
+; Maximum fan-out node                        ; clockDivider:dvclk|clock_25 ;
+; Maximum fan-out                             ; 65                          ;
+; Total fan-out                               ; 494                         ;
+; Average fan-out                             ; 2.31                        ;
++---------------------------------------------+-----------------------------+
+
+
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Resource Utilization by Entity                                                                                                                                                             ;
++----------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+--------------------------------------------+---------------+--------------+
+; Compilation Hierarchy Node ; Combinational ALUTs ; Dedicated Logic Registers ; Block Memory Bits ; DSP Blocks ; Pins ; Virtual Pins ; Full Hierarchy Name                        ; Entity Name   ; Library Name ;
++----------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+--------------------------------------------+---------------+--------------+
+; |mcuVGA                    ; 86 (0)              ; 66 (0)                    ; 0                 ; 0          ; 31   ; 0            ; |mcuVGA                                    ; mcuVGA        ; work         ;
+;    |VGAcontroller:cntVGA|  ; 85 (7)              ; 64 (0)                    ; 0                 ; 0          ; 0    ; 0            ; |mcuVGA|VGAcontroller:cntVGA               ; VGAcontroller ; work         ;
+;       |counterXY:CXY|      ; 78 (78)             ; 64 (64)                   ; 0                 ; 0          ; 0    ; 0            ; |mcuVGA|VGAcontroller:cntVGA|counterXY:CXY ; counterXY     ; work         ;
+;    |clockDivider:dvclk|    ; 1 (1)               ; 2 (2)                     ; 0                 ; 0          ; 0    ; 0            ; |mcuVGA|clockDivider:dvclk                 ; clockDivider  ; work         ;
++----------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+--------------------------------------------+---------------+--------------+
+Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
+
+
++------------------------------------------------------+
+; General Register Statistics                          ;
++----------------------------------------------+-------+
+; Statistic                                    ; Value ;
++----------------------------------------------+-------+
+; Total registers                              ; 66    ;
+; Number of registers using Synchronous Clear  ; 64    ;
+; Number of registers using Synchronous Load   ; 0     ;
+; Number of registers using Asynchronous Clear ; 0     ;
+; Number of registers using Asynchronous Load  ; 0     ;
+; Number of registers using Clock Enable       ; 32    ;
+; Number of registers using Preset             ; 0     ;
++----------------------------------------------+-------+
+
+
++------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "topController:genVGA|printChar:a65|sprite65:ascii65|addressGenerator:direccionesM"                                                                      ;
++-----------+--------+----------+----------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port      ; Type   ; Severity ; Details                                                                                                                                            ;
++-----------+--------+----------+----------------------------------------------------------------------------------------------------------------------------------------------------+
+; initial_x ; Input  ; Warning  ; Input port expression (1 bits) is smaller than the input port (10 bits) it drives.  Extra input bit(s) "initial_x[9..1]" will be connected to GND. ;
+; initial_y ; Input  ; Warning  ; Input port expression (1 bits) is smaller than the input port (10 bits) it drives.  Extra input bit(s) "initial_y[9..1]" will be connected to GND. ;
+; x63       ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed.                                                                ;
+; y63       ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed.                                                                ;
++-----------+--------+----------+----------------------------------------------------------------------------------------------------------------------------------------------------+
+
+
++----------------------------------------------------------------+
+; Port Connectivity Checks: "topController:genVGA|printChar:a65" ;
++------------+-------+----------+--------------------------------+
+; Port       ; Type  ; Severity ; Details                        ;
++------------+-------+----------+--------------------------------+
+; posX[6..5] ; Input ; Info     ; Stuck at VCC                   ;
+; posX[9..7] ; Input ; Info     ; Stuck at GND                   ;
+; posX[4]    ; Input ; Info     ; Stuck at GND                   ;
+; posX[3]    ; Input ; Info     ; Stuck at VCC                   ;
+; posX[2]    ; Input ; Info     ; Stuck at GND                   ;
+; posX[1]    ; Input ; Info     ; Stuck at VCC                   ;
+; posX[0]    ; Input ; Info     ; Stuck at GND                   ;
+; posY[9..7] ; Input ; Info     ; Stuck at GND                   ;
+; posY[3..0] ; Input ; Info     ; Stuck at GND                   ;
+; posY[6]    ; Input ; Info     ; Stuck at VCC                   ;
+; posY[5]    ; Input ; Info     ; Stuck at GND                   ;
+; posY[4]    ; Input ; Info     ; Stuck at VCC                   ;
+; char[5..1] ; Input ; Info     ; Stuck at GND                   ;
+; char[7]    ; Input ; Info     ; Stuck at GND                   ;
+; char[6]    ; Input ; Info     ; Stuck at VCC                   ;
+; char[0]    ; Input ; Info     ; Stuck at VCC                   ;
++------------+-------+----------+--------------------------------+
+
+
++-----------------------------------------------------+
+; Post-Synthesis Netlist Statistics for Top Partition ;
++-----------------------+-----------------------------+
+; Type                  ; Count                       ;
++-----------------------+-----------------------------+
+; arriav_ff             ; 66                          ;
+;     ENA SCLR          ; 32                          ;
+;     SCLR              ; 32                          ;
+;     plain             ; 2                           ;
+; arriav_lcell_comb     ; 88                          ;
+;     arith             ; 64                          ;
+;         1 data inputs ; 64                          ;
+;     normal            ; 24                          ;
+;         0 data inputs ; 2                           ;
+;         1 data inputs ; 1                           ;
+;         2 data inputs ; 1                           ;
+;         3 data inputs ; 1                           ;
+;         4 data inputs ; 5                           ;
+;         5 data inputs ; 5                           ;
+;         6 data inputs ; 9                           ;
+; boundary_port         ; 31                          ;
+;                       ;                             ;
+; Max LUT depth         ; 4.10                        ;
+; Average LUT depth     ; 3.00                        ;
++-----------------------+-----------------------------+
+
+
++-------------------------------+
+; Elapsed Time Per Partition    ;
++----------------+--------------+
+; Partition Name ; Elapsed Time ;
++----------------+--------------+
+; Top            ; 00:00:00     ;
++----------------+--------------+
+
+
++-------------------------------+
+; Analysis & Synthesis Messages ;
++-------------------------------+
+Info: *******************************************************************
+Info: Running Quartus Prime Analysis & Synthesis
+    Info: Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
+    Info: Processing started: Mon Jun 14 22:38:21 2021
+Info: Command: quartus_map --read_settings_files=on --write_settings_files=off VGAcontroller -c VGAcontroller
+Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
+Info (20030): Parallel compilation is enabled and will use 4 of the 4 processors detected
+Info (12021): Found 1 design units, including 1 entities, in source file a65.v
+    Info (12023): Found entity 1: a65 File: C:/Users/Usuario/Downloads/Gerald/p_digitales-development/VGAletters/a65.v Line: 40
+Info (12021): Found 1 design units, including 1 entities, in source file clockdivider.sv
+    Info (12023): Found entity 1: clockDivider File: C:/Users/Usuario/Downloads/Gerald/p_digitales-development/VGAletters/clockDivider.sv Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file counter.sv
+    Info (12023): Found entity 1: counter File: C:/Users/Usuario/Downloads/Gerald/p_digitales-development/VGAletters/counter.sv Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file rgbdecoder.sv
+    Info (12023): Found entity 1: rgbDecoder File: C:/Users/Usuario/Downloads/Gerald/p_digitales-development/VGAletters/rgbDecoder.sv Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file addressgenerator.sv
+    Info (12023): Found entity 1: addressGenerator File: C:/Users/Usuario/Downloads/Gerald/p_digitales-development/VGAletters/addressGenerator.sv Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file vgacontroller.sv
+    Info (12023): Found entity 1: VGAcontroller File: C:/Users/Usuario/Downloads/Gerald/p_digitales-development/VGAletters/VGAcontroller.sv Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file counterxy.sv
+    Info (12023): Found entity 1: counterXY File: C:/Users/Usuario/Downloads/Gerald/p_digitales-development/VGAletters/counterXY.sv Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file imagememory/ascii65.v
+    Info (12023): Found entity 1: ascii65 File: C:/Users/Usuario/Downloads/Gerald/p_digitales-development/VGAletters/imageMemory/ascii65.v Line: 40
+Info (12021): Found 1 design units, including 1 entities, in source file imagememory/ascii66.v
+    Info (12023): Found entity 1: ascii66 File: C:/Users/Usuario/Downloads/Gerald/p_digitales-development/VGAletters/imageMemory/ascii66.v Line: 40
+Info (12021): Found 1 design units, including 1 entities, in source file sprite65.sv
+    Info (12023): Found entity 1: sprite65 File: C:/Users/Usuario/Downloads/Gerald/p_digitales-development/VGAletters/sprite65.sv Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file printchar.sv
+    Info (12023): Found entity 1: printChar File: C:/Users/Usuario/Downloads/Gerald/p_digitales-development/VGAletters/printChar.sv Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file topcontroller.sv
+    Info (12023): Found entity 1: topController File: C:/Users/Usuario/Downloads/Gerald/p_digitales-development/VGAletters/topController.sv Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file mcuvga.sv
+    Info (12023): Found entity 1: mcuVGA File: C:/Users/Usuario/Downloads/Gerald/p_digitales-development/VGAletters/mcuVGA.sv Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file tb_vga.sv
+    Info (12023): Found entity 1: tb_VGA File: C:/Users/Usuario/Downloads/Gerald/p_digitales-development/VGAletters/tb_VGA.sv Line: 3
+Info (12021): Found 1 design units, including 1 entities, in source file test65.v
+    Info (12023): Found entity 1: test65 File: C:/Users/Usuario/Downloads/Gerald/p_digitales-development/VGAletters/test65.v Line: 40
+Info (12021): Found 1 design units, including 1 entities, in source file roma.v
+    Info (12023): Found entity 1: roma File: C:/Users/Usuario/Downloads/Gerald/p_digitales-development/VGAletters/roma.v Line: 40
+Info (12021): Found 1 design units, including 1 entities, in source file romas.sv
+    Info (12023): Found entity 1: ROMas File: C:/Users/Usuario/Downloads/Gerald/p_digitales-development/VGAletters/ROMas.sv Line: 8
+Info (12021): Found 1 design units, including 1 entities, in source file tb_sprite.sv
+    Info (12023): Found entity 1: tb_sprite File: C:/Users/Usuario/Downloads/Gerald/p_digitales-development/VGAletters/tb_sprite.sv Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file tb_counterxy.sv
+    Info (12023): Found entity 1: tb_counterXY File: C:/Users/Usuario/Downloads/Gerald/p_digitales-development/VGAletters/tb_counterXY.sv Line: 1
+Warning (10236): Verilog HDL Implicit Net warning at sprite65.sv(19): created implicit net for "posx" File: C:/Users/Usuario/Downloads/Gerald/p_digitales-development/VGAletters/sprite65.sv Line: 19
+Warning (10236): Verilog HDL Implicit Net warning at sprite65.sv(19): created implicit net for "posy" File: C:/Users/Usuario/Downloads/Gerald/p_digitales-development/VGAletters/sprite65.sv Line: 19
+Warning (10236): Verilog HDL Implicit Net warning at tb_sprite.sv(9): created implicit net for "clk" File: C:/Users/Usuario/Downloads/Gerald/p_digitales-development/VGAletters/tb_sprite.sv Line: 9
+Info (12127): Elaborating entity "mcuVGA" for the top level hierarchy
+Info (12128): Elaborating entity "clockDivider" for hierarchy "clockDivider:dvclk" File: C:/Users/Usuario/Downloads/Gerald/p_digitales-development/VGAletters/mcuVGA.sv Line: 10
+Info (12128): Elaborating entity "VGAcontroller" for hierarchy "VGAcontroller:cntVGA" File: C:/Users/Usuario/Downloads/Gerald/p_digitales-development/VGAletters/mcuVGA.sv Line: 13
+Info (12128): Elaborating entity "counterXY" for hierarchy "VGAcontroller:cntVGA|counterXY:CXY" File: C:/Users/Usuario/Downloads/Gerald/p_digitales-development/VGAletters/VGAcontroller.sv Line: 8
+Warning (10230): Verilog HDL assignment warning at counterXY.sv(21): truncated value with size 32 to match size of target (13) File: C:/Users/Usuario/Downloads/Gerald/p_digitales-development/VGAletters/counterXY.sv Line: 21
+Warning (10230): Verilog HDL assignment warning at counterXY.sv(22): truncated value with size 32 to match size of target (13) File: C:/Users/Usuario/Downloads/Gerald/p_digitales-development/VGAletters/counterXY.sv Line: 22
+Info (12128): Elaborating entity "topController" for hierarchy "topController:genVGA" File: C:/Users/Usuario/Downloads/Gerald/p_digitales-development/VGAletters/mcuVGA.sv Line: 17
+Info (12128): Elaborating entity "printChar" for hierarchy "topController:genVGA|printChar:a65" File: C:/Users/Usuario/Downloads/Gerald/p_digitales-development/VGAletters/topController.sv Line: 20
+Info (12128): Elaborating entity "sprite65" for hierarchy "topController:genVGA|printChar:a65|sprite65:ascii65" File: C:/Users/Usuario/Downloads/Gerald/p_digitales-development/VGAletters/printChar.sv Line: 11
+Info (12128): Elaborating entity "ROMas" for hierarchy "topController:genVGA|printChar:a65|sprite65:ascii65|ROMas:ROM65" File: C:/Users/Usuario/Downloads/Gerald/p_digitales-development/VGAletters/sprite65.sv Line: 14
+Info (12128): Elaborating entity "rgbDecoder" for hierarchy "topController:genVGA|printChar:a65|sprite65:ascii65|rgbDecoder:DECOM" File: C:/Users/Usuario/Downloads/Gerald/p_digitales-development/VGAletters/sprite65.sv Line: 16
+Info (12128): Elaborating entity "addressGenerator" for hierarchy "topController:genVGA|printChar:a65|sprite65:ascii65|addressGenerator:direccionesM" File: C:/Users/Usuario/Downloads/Gerald/p_digitales-development/VGAletters/sprite65.sv Line: 19
+Warning (10230): Verilog HDL assignment warning at addressGenerator.sv(9): truncated value with size 13 to match size of target (10) File: C:/Users/Usuario/Downloads/Gerald/p_digitales-development/VGAletters/addressGenerator.sv Line: 9
+Warning (10230): Verilog HDL assignment warning at addressGenerator.sv(11): truncated value with size 13 to match size of target (10) File: C:/Users/Usuario/Downloads/Gerald/p_digitales-development/VGAletters/addressGenerator.sv Line: 11
+Info (276014): Found 1 instances of uninferred RAM logic
+    Info (276007): RAM logic "topController:genVGA|printChar:a65|sprite65:ascii65|ROMas:ROM65|Ram0" is uninferred due to asynchronous read logic File: C:/Users/Usuario/Downloads/Gerald/p_digitales-development/VGAletters/ROMas.sv Line: 13
+Warning (12241): 1 hierarchies have connectivity warnings - see the Connectivity Checks report folder
+Warning (13024): Output pins are stuck at VCC or GND
+    Warning (13410): Pin "SYNC_B" is stuck at VCC File: C:/Users/Usuario/Downloads/Gerald/p_digitales-development/VGAletters/mcuVGA.sv Line: 3
+    Warning (13410): Pin "RGB[0]" is stuck at VCC File: C:/Users/Usuario/Downloads/Gerald/p_digitales-development/VGAletters/mcuVGA.sv Line: 4
+    Warning (13410): Pin "RGB[1]" is stuck at GND File: C:/Users/Usuario/Downloads/Gerald/p_digitales-development/VGAletters/mcuVGA.sv Line: 4
+    Warning (13410): Pin "RGB[2]" is stuck at GND File: C:/Users/Usuario/Downloads/Gerald/p_digitales-development/VGAletters/mcuVGA.sv Line: 4
+    Warning (13410): Pin "RGB[3]" is stuck at GND File: C:/Users/Usuario/Downloads/Gerald/p_digitales-development/VGAletters/mcuVGA.sv Line: 4
+    Warning (13410): Pin "RGB[4]" is stuck at VCC File: C:/Users/Usuario/Downloads/Gerald/p_digitales-development/VGAletters/mcuVGA.sv Line: 4
+    Warning (13410): Pin "RGB[5]" is stuck at GND File: C:/Users/Usuario/Downloads/Gerald/p_digitales-development/VGAletters/mcuVGA.sv Line: 4
+    Warning (13410): Pin "RGB[6]" is stuck at GND File: C:/Users/Usuario/Downloads/Gerald/p_digitales-development/VGAletters/mcuVGA.sv Line: 4
+    Warning (13410): Pin "RGB[7]" is stuck at GND File: C:/Users/Usuario/Downloads/Gerald/p_digitales-development/VGAletters/mcuVGA.sv Line: 4
+    Warning (13410): Pin "RGB[8]" is stuck at VCC File: C:/Users/Usuario/Downloads/Gerald/p_digitales-development/VGAletters/mcuVGA.sv Line: 4
+    Warning (13410): Pin "RGB[9]" is stuck at GND File: C:/Users/Usuario/Downloads/Gerald/p_digitales-development/VGAletters/mcuVGA.sv Line: 4
+    Warning (13410): Pin "RGB[10]" is stuck at GND File: C:/Users/Usuario/Downloads/Gerald/p_digitales-development/VGAletters/mcuVGA.sv Line: 4
+    Warning (13410): Pin "RGB[11]" is stuck at GND File: C:/Users/Usuario/Downloads/Gerald/p_digitales-development/VGAletters/mcuVGA.sv Line: 4
+    Warning (13410): Pin "RGB[12]" is stuck at VCC File: C:/Users/Usuario/Downloads/Gerald/p_digitales-development/VGAletters/mcuVGA.sv Line: 4
+    Warning (13410): Pin "RGB[13]" is stuck at GND File: C:/Users/Usuario/Downloads/Gerald/p_digitales-development/VGAletters/mcuVGA.sv Line: 4
+    Warning (13410): Pin "RGB[14]" is stuck at GND File: C:/Users/Usuario/Downloads/Gerald/p_digitales-development/VGAletters/mcuVGA.sv Line: 4
+    Warning (13410): Pin "RGB[15]" is stuck at GND File: C:/Users/Usuario/Downloads/Gerald/p_digitales-development/VGAletters/mcuVGA.sv Line: 4
+    Warning (13410): Pin "RGB[16]" is stuck at VCC File: C:/Users/Usuario/Downloads/Gerald/p_digitales-development/VGAletters/mcuVGA.sv Line: 4
+    Warning (13410): Pin "RGB[17]" is stuck at GND File: C:/Users/Usuario/Downloads/Gerald/p_digitales-development/VGAletters/mcuVGA.sv Line: 4
+    Warning (13410): Pin "RGB[18]" is stuck at GND File: C:/Users/Usuario/Downloads/Gerald/p_digitales-development/VGAletters/mcuVGA.sv Line: 4
+    Warning (13410): Pin "RGB[19]" is stuck at GND File: C:/Users/Usuario/Downloads/Gerald/p_digitales-development/VGAletters/mcuVGA.sv Line: 4
+    Warning (13410): Pin "RGB[20]" is stuck at VCC File: C:/Users/Usuario/Downloads/Gerald/p_digitales-development/VGAletters/mcuVGA.sv Line: 4
+    Warning (13410): Pin "RGB[21]" is stuck at GND File: C:/Users/Usuario/Downloads/Gerald/p_digitales-development/VGAletters/mcuVGA.sv Line: 4
+    Warning (13410): Pin "RGB[22]" is stuck at GND File: C:/Users/Usuario/Downloads/Gerald/p_digitales-development/VGAletters/mcuVGA.sv Line: 4
+    Warning (13410): Pin "RGB[23]" is stuck at GND File: C:/Users/Usuario/Downloads/Gerald/p_digitales-development/VGAletters/mcuVGA.sv Line: 4
+Info (286030): Timing-Driven Synthesis is running
+Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
+    Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
+Warning (21074): Design contains 1 input pin(s) that do not drive logic
+    Warning (15610): No output dependent on input pin "rstBtn" File: C:/Users/Usuario/Downloads/Gerald/p_digitales-development/VGAletters/mcuVGA.sv Line: 2
+Info (21057): Implemented 118 device resources after synthesis - the final resource count might be different
+    Info (21058): Implemented 2 input pins
+    Info (21059): Implemented 29 output pins
+    Info (21061): Implemented 87 logic cells
+Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 37 warnings
+    Info: Peak virtual memory: 4816 megabytes
+    Info: Processing ended: Mon Jun 14 22:38:34 2021
+    Info: Elapsed time: 00:00:13
+    Info: Total CPU time (on all processors): 00:00:31
+
+

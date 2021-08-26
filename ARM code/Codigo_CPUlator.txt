@@ -1,0 +1,48 @@
+.global _start
+_start:
+	
+		//;		Instrucciones
+		mov		r1,  #0X2000 //; moverse a la posicion de la operacion elegida
+		ldr		r2, [r1]     //; carga la posicion
+		
+		add		r1, r1, #4   //; moverse a la direccion de operando dos para la operacion XOR
+		ldr		r3, [r1]     //; carga la posicion
+		
+		mov		r4, #0b00110001  //; almacena la direccion del valor de 1 cifrado
+		mov		r1, #0X1000      //; direccion caracter
+		
+		cmp		r2, #2
+		bgt		suma		   //; si es mayor a 2 -> suma
+		beq		not		       //; si es igual a 2 -> not
+		b		xor 		   //; sino -> xor
+		
+xor:
+		ldr		r2, [r1]      //; carga el caracter
+		eor		r2, r2, r3
+		str		r2, [r1]      //; almacenar el caracter cifrado
+		add		r1, r1, #4    //; aumenta la memoria
+		cmp		r2, r4
+		bne		xor
+		b		fin
+		
+not:
+		ldr		r2, [r1]      //; carga el caracter
+		mvn		r5, r2        //; not al caracter
+		strb		r5, [r1]  //; almacenar el caracter cifrado
+		ldr		r6, [r1]
+		add		r1, r1, #4    //; aumenta la memoria
+		cmp		r6, r4
+		bne		not
+		b		fin
+		
+suma:
+		ldr		r2, [r1]        //; carga el caracter
+		sub		r2, r2, #2
+		str		r2, [r1]        //; almacenar el caracter cifrado
+		add		r1, r1, #4	    //; aumenta la memoria
+		cmp		r2, r4 
+		bne		suma
+		b		fin
+		
+fin:
+		nop

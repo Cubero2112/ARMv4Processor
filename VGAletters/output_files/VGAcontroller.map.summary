@@ -1,0 +1,17 @@
+Analysis & Synthesis Status : Successful - Mon Jun 14 22:38:34 2021
+Quartus Prime Version : 20.1.1 Build 720 11/11/2020 SJ Lite Edition
+Revision Name : VGAcontroller
+Top-level Entity Name : mcuVGA
+Family : Cyclone V
+Logic utilization (in ALMs) : N/A
+Total registers : 66
+Total pins : 31
+Total virtual pins : 0
+Total block memory bits : 0
+Total DSP Blocks : 0
+Total HSSI RX PCSs : 0
+Total HSSI PMA RX Deserializers : 0
+Total HSSI TX PCSs : 0
+Total HSSI PMA TX Serializers : 0
+Total PLLs : 0
+Total DLLs : 0

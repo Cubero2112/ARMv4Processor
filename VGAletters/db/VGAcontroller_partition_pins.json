@@ -1,0 +1,29 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "H_SYNC",
+					"strict" : false
+				},
+				{
+					"name" : "V_SYNC",
+					"strict" : false
+				},
+				{
+					"name" : "SYNC_BLANK",
+					"strict" : false
+				},
+				{
+					"name" : "clk25",
+					"strict" : false
+				},
+				{
+					"name" : "clk",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

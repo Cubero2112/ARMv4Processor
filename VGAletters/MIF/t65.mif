@@ -1,0 +1,108 @@
+-- Copyright (C) 2020  Intel Corporation. All rights reserved.
+-- Your use of Intel Corporation's design tools, logic functions 
+-- and other software and tools, and any partner logic 
+-- functions, and any output files from any of the foregoing 
+-- (including device programming or simulation files), and any 
+-- associated documentation or information are expressly subject 
+-- to the terms and conditions of the Intel Program License 
+-- Subscription Agreement, the Intel Quartus Prime License Agreement,
+-- the Intel FPGA IP License Agreement, or other applicable license
+-- agreement, including, without limitation, that your use is for
+-- the sole purpose of programming logic devices manufactured by
+-- Intel and sold by Intel or its authorized distributors.  Please
+-- refer to the applicable agreement for further details, at
+-- https://fpgasoftware.intel.com/eula.
+
+-- Quartus Prime generated Memory Initialization File (.mif)
+
+WIDTH=3;
+DEPTH=1024;
+
+ADDRESS_RADIX=UNS;
+DATA_RADIX=BIN;
+
+CONTENT BEGIN
+	[0..25]  :   000;
+	[26..28]  :   111;
+	[29..33]  :   000;
+	[34..36]  :   111;
+	[37..41]  :   000;
+	[42..44]  :   111;
+	[45..49]  :   000;
+	[50..52]  :   111;
+	[53..57]  :   000;
+	[58..60]  :   111;
+	[61..65]  :   000;
+	[66..68]  :   111;
+	[69..73]  :   000;
+	[74..76]  :   111;
+	[77..81]  :   000;
+	[82..84]  :   111;
+	[85..89]  :   000;
+	[90..92]  :   111;
+	[93..97]  :   000;
+	[98..100]  :   111;
+	[101..105]  :   000;
+	106   :   111;
+	107   :   000;
+	108   :   111;
+	[109..113]  :   000;
+	114   :   111;
+	115   :   000;
+	116   :   111;
+	[117..121]  :   000;
+	122   :   111;
+	123   :   000;
+	124   :   111;
+	[125..129]  :   000;
+	130   :   111;
+	131   :   000;
+	132   :   111;
+	[133..139]  :   000;
+	140   :   111;
+	[141..145]  :   000;
+	146   :   111;
+	[147..153]  :   000;
+	154   :   111;
+	[155..161]  :   000;
+	162   :   111;
+	[163..169]  :   000;
+	170   :   111;
+	[171..177]  :   000;
+	178   :   111;
+	[179..185]  :   000;
+	186   :   011;
+	[187..217]  :   000;
+	218   :   111;
+	[219..225]  :   000;
+	226   :   111;
+	[227..233]  :   000;
+	234   :   111;
+	[235..850]  :   000;
+	851   :   111;
+	[852..858]  :   000;
+	859   :   111;
+	[860..866]  :   000;
+	867   :   111;
+	[868..874]  :   000;
+	875   :   111;
+	[876..882]  :   000;
+	883   :   111;
+	[884..890]  :   000;
+	891   :   111;
+	[892..898]  :   000;
+	[899..900]  :   111;
+	[901..907]  :   000;
+	908   :   111;
+	[909..915]  :   000;
+	916   :   111;
+	[917..923]  :   000;
+	924   :   111;
+	[925..931]  :   000;
+	932   :   111;
+	[933..939]  :   000;
+	940   :   111;
+	[941..945]  :   000;
+	[946..948]  :   111;
+	[949..1023]  :   000;
+END;

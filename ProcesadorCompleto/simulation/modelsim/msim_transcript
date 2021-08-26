@@ -1,0 +1,1315 @@
+# Reading pref.tcl
+# do VGAcontroller_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters {C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii65.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:45:24 on Jun 16,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters" C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii65.v 
+# -- Compiling module ascii65
+# 
+# Top level modules:
+# 	ascii65
+# End time: 15:45:24 on Jun 16,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters {C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii72.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:45:24 on Jun 16,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters" C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii72.v 
+# -- Compiling module ascii72
+# 
+# Top level modules:
+# 	ascii72
+# End time: 15:45:24 on Jun 16,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters {C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii76.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:45:24 on Jun 16,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters" C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii76.v 
+# -- Compiling module ascii76
+# 
+# Top level modules:
+# 	ascii76
+# End time: 15:45:24 on Jun 16,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters {C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii79.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:45:24 on Jun 16,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters" C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii79.v 
+# -- Compiling module ascii79
+# 
+# Top level modules:
+# 	ascii79
+# End time: 15:45:25 on Jun 16,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters {C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii32.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:45:25 on Jun 16,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters" C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii32.v 
+# -- Compiling module ascii32
+# 
+# Top level modules:
+# 	ascii32
+# End time: 15:45:25 on Jun 16,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters {C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii33.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:45:25 on Jun 16,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters" C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii33.v 
+# -- Compiling module ascii33
+# 
+# Top level modules:
+# 	ascii33
+# End time: 15:45:25 on Jun 16,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters {C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii34.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:45:25 on Jun 16,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters" C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii34.v 
+# -- Compiling module ascii34
+# 
+# Top level modules:
+# 	ascii34
+# End time: 15:45:25 on Jun 16,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters {C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii35.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:45:25 on Jun 16,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters" C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii35.v 
+# -- Compiling module ascii35
+# 
+# Top level modules:
+# 	ascii35
+# End time: 15:45:25 on Jun 16,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters {C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii36.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:45:25 on Jun 16,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters" C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii36.v 
+# -- Compiling module ascii36
+# 
+# Top level modules:
+# 	ascii36
+# End time: 15:45:25 on Jun 16,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters {C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii37.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:45:25 on Jun 16,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters" C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii37.v 
+# -- Compiling module ascii37
+# 
+# Top level modules:
+# 	ascii37
+# End time: 15:45:25 on Jun 16,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters {C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii38.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:45:25 on Jun 16,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters" C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii38.v 
+# -- Compiling module ascii38
+# 
+# Top level modules:
+# 	ascii38
+# End time: 15:45:25 on Jun 16,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters {C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii39.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:45:25 on Jun 16,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters" C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii39.v 
+# -- Compiling module ascii39
+# 
+# Top level modules:
+# 	ascii39
+# End time: 15:45:25 on Jun 16,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters {C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii40.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:45:25 on Jun 16,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters" C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii40.v 
+# -- Compiling module ascii40
+# 
+# Top level modules:
+# 	ascii40
+# End time: 15:45:25 on Jun 16,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters {C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii41.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:45:25 on Jun 16,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters" C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii41.v 
+# -- Compiling module ascii41
+# 
+# Top level modules:
+# 	ascii41
+# End time: 15:45:26 on Jun 16,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters {C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii42.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:45:26 on Jun 16,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters" C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii42.v 
+# -- Compiling module ascii42
+# 
+# Top level modules:
+# 	ascii42
+# End time: 15:45:26 on Jun 16,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters {C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii43.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:45:26 on Jun 16,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters" C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii43.v 
+# -- Compiling module ascii43
+# 
+# Top level modules:
+# 	ascii43
+# End time: 15:45:26 on Jun 16,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters {C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii44.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:45:26 on Jun 16,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters" C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii44.v 
+# -- Compiling module ascii44
+# 
+# Top level modules:
+# 	ascii44
+# End time: 15:45:26 on Jun 16,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters {C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii45.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:45:26 on Jun 16,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters" C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii45.v 
+# -- Compiling module ascii45
+# 
+# Top level modules:
+# 	ascii45
+# End time: 15:45:26 on Jun 16,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters {C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii46.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:45:26 on Jun 16,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters" C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii46.v 
+# -- Compiling module ascii46
+# 
+# Top level modules:
+# 	ascii46
+# End time: 15:45:26 on Jun 16,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters {C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii47.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:45:26 on Jun 16,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters" C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii47.v 
+# -- Compiling module ascii47
+# 
+# Top level modules:
+# 	ascii47
+# End time: 15:45:26 on Jun 16,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters {C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii48.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:45:26 on Jun 16,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters" C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii48.v 
+# -- Compiling module ascii48
+# 
+# Top level modules:
+# 	ascii48
+# End time: 15:45:26 on Jun 16,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters {C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii49.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:45:26 on Jun 16,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters" C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii49.v 
+# -- Compiling module ascii49
+# 
+# Top level modules:
+# 	ascii49
+# End time: 15:45:26 on Jun 16,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters {C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii50.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:45:26 on Jun 16,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters" C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii50.v 
+# -- Compiling module ascii50
+# 
+# Top level modules:
+# 	ascii50
+# End time: 15:45:27 on Jun 16,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters {C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii51.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:45:27 on Jun 16,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters" C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii51.v 
+# -- Compiling module ascii51
+# 
+# Top level modules:
+# 	ascii51
+# End time: 15:45:27 on Jun 16,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters {C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii52.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:45:27 on Jun 16,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters" C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii52.v 
+# -- Compiling module ascii52
+# 
+# Top level modules:
+# 	ascii52
+# End time: 15:45:27 on Jun 16,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters {C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii53.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:45:27 on Jun 16,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters" C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii53.v 
+# -- Compiling module ascii53
+# 
+# Top level modules:
+# 	ascii53
+# End time: 15:45:27 on Jun 16,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters {C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii54.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:45:27 on Jun 16,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters" C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii54.v 
+# -- Compiling module ascii54
+# 
+# Top level modules:
+# 	ascii54
+# End time: 15:45:27 on Jun 16,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters {C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii55.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:45:27 on Jun 16,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters" C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii55.v 
+# -- Compiling module ascii55
+# 
+# Top level modules:
+# 	ascii55
+# End time: 15:45:27 on Jun 16,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters {C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii56.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:45:27 on Jun 16,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters" C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii56.v 
+# -- Compiling module ascii56
+# 
+# Top level modules:
+# 	ascii56
+# End time: 15:45:27 on Jun 16,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters {C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii57.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:45:27 on Jun 16,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters" C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii57.v 
+# -- Compiling module ascii57
+# 
+# Top level modules:
+# 	ascii57
+# End time: 15:45:27 on Jun 16,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters {C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii58.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:45:27 on Jun 16,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters" C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii58.v 
+# -- Compiling module ascii58
+# 
+# Top level modules:
+# 	ascii58
+# End time: 15:45:27 on Jun 16,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters {C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii59.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:45:27 on Jun 16,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters" C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii59.v 
+# -- Compiling module ascii59
+# 
+# Top level modules:
+# 	ascii59
+# End time: 15:45:28 on Jun 16,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters {C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii60.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:45:28 on Jun 16,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters" C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii60.v 
+# -- Compiling module ascii60
+# 
+# Top level modules:
+# 	ascii60
+# End time: 15:45:28 on Jun 16,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters {C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii61.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:45:28 on Jun 16,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters" C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii61.v 
+# -- Compiling module ascii61
+# 
+# Top level modules:
+# 	ascii61
+# End time: 15:45:28 on Jun 16,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters {C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii62.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:45:28 on Jun 16,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters" C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii62.v 
+# -- Compiling module ascii62
+# 
+# Top level modules:
+# 	ascii62
+# End time: 15:45:28 on Jun 16,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters {C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii63.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:45:28 on Jun 16,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters" C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii63.v 
+# -- Compiling module ascii63
+# 
+# Top level modules:
+# 	ascii63
+# End time: 15:45:28 on Jun 16,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters {C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii64.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:45:28 on Jun 16,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters" C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii64.v 
+# -- Compiling module ascii64
+# 
+# Top level modules:
+# 	ascii64
+# End time: 15:45:28 on Jun 16,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters {C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii66.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:45:28 on Jun 16,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters" C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii66.v 
+# -- Compiling module ascii66
+# 
+# Top level modules:
+# 	ascii66
+# End time: 15:45:28 on Jun 16,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters {C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii67.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:45:28 on Jun 16,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters" C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii67.v 
+# -- Compiling module ascii67
+# 
+# Top level modules:
+# 	ascii67
+# End time: 15:45:28 on Jun 16,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters {C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii68.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:45:28 on Jun 16,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters" C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii68.v 
+# -- Compiling module ascii68
+# 
+# Top level modules:
+# 	ascii68
+# End time: 15:45:28 on Jun 16,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters {C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii69.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:45:28 on Jun 16,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters" C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii69.v 
+# -- Compiling module ascii69
+# 
+# Top level modules:
+# 	ascii69
+# End time: 15:45:29 on Jun 16,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters {C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii70.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:45:29 on Jun 16,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters" C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii70.v 
+# -- Compiling module ascii70
+# 
+# Top level modules:
+# 	ascii70
+# End time: 15:45:29 on Jun 16,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters {C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii71.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:45:29 on Jun 16,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters" C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii71.v 
+# -- Compiling module ascii71
+# 
+# Top level modules:
+# 	ascii71
+# End time: 15:45:29 on Jun 16,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters {C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii73.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:45:29 on Jun 16,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters" C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii73.v 
+# -- Compiling module ascii73
+# 
+# Top level modules:
+# 	ascii73
+# End time: 15:45:29 on Jun 16,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters {C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii74.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:45:29 on Jun 16,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters" C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii74.v 
+# -- Compiling module ascii74
+# 
+# Top level modules:
+# 	ascii74
+# End time: 15:45:29 on Jun 16,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters {C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii75.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:45:29 on Jun 16,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters" C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii75.v 
+# -- Compiling module ascii75
+# 
+# Top level modules:
+# 	ascii75
+# End time: 15:45:29 on Jun 16,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters {C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii77.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:45:29 on Jun 16,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters" C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii77.v 
+# -- Compiling module ascii77
+# 
+# Top level modules:
+# 	ascii77
+# End time: 15:45:29 on Jun 16,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters {C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii78.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:45:29 on Jun 16,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters" C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii78.v 
+# -- Compiling module ascii78
+# 
+# Top level modules:
+# 	ascii78
+# End time: 15:45:29 on Jun 16,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters {C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii80.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:45:29 on Jun 16,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters" C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii80.v 
+# -- Compiling module ascii80
+# 
+# Top level modules:
+# 	ascii80
+# End time: 15:45:29 on Jun 16,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters {C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii81.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:45:30 on Jun 16,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters" C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii81.v 
+# -- Compiling module ascii81
+# 
+# Top level modules:
+# 	ascii81
+# End time: 15:45:30 on Jun 16,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters {C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii82.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:45:30 on Jun 16,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters" C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii82.v 
+# -- Compiling module ascii82
+# 
+# Top level modules:
+# 	ascii82
+# End time: 15:45:30 on Jun 16,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters {C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii83.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:45:30 on Jun 16,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters" C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii83.v 
+# -- Compiling module ascii83
+# 
+# Top level modules:
+# 	ascii83
+# End time: 15:45:30 on Jun 16,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters {C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii84.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:45:30 on Jun 16,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters" C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii84.v 
+# -- Compiling module ascii84
+# 
+# Top level modules:
+# 	ascii84
+# End time: 15:45:30 on Jun 16,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters {C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii85.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:45:30 on Jun 16,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters" C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii85.v 
+# -- Compiling module ascii85
+# 
+# Top level modules:
+# 	ascii85
+# End time: 15:45:30 on Jun 16,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters {C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii86.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:45:30 on Jun 16,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters" C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii86.v 
+# -- Compiling module ascii86
+# 
+# Top level modules:
+# 	ascii86
+# End time: 15:45:30 on Jun 16,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters {C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii87.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:45:30 on Jun 16,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters" C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii87.v 
+# -- Compiling module ascii87
+# 
+# Top level modules:
+# 	ascii87
+# End time: 15:45:30 on Jun 16,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters {C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii88.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:45:30 on Jun 16,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters" C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii88.v 
+# -- Compiling module ascii88
+# 
+# Top level modules:
+# 	ascii88
+# End time: 15:45:30 on Jun 16,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters {C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii89.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:45:30 on Jun 16,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters" C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii89.v 
+# -- Compiling module ascii89
+# 
+# Top level modules:
+# 	ascii89
+# End time: 15:45:30 on Jun 16,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters {C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii90.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:45:31 on Jun 16,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters" C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii90.v 
+# -- Compiling module ascii90
+# 
+# Top level modules:
+# 	ascii90
+# End time: 15:45:31 on Jun 16,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters {C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii91.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:45:31 on Jun 16,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters" C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii91.v 
+# -- Compiling module ascii91
+# 
+# Top level modules:
+# 	ascii91
+# End time: 15:45:31 on Jun 16,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters {C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii92.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:45:31 on Jun 16,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters" C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii92.v 
+# -- Compiling module ascii92
+# 
+# Top level modules:
+# 	ascii92
+# End time: 15:45:31 on Jun 16,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters {C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii93.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:45:31 on Jun 16,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters" C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii93.v 
+# -- Compiling module ascii93
+# 
+# Top level modules:
+# 	ascii93
+# End time: 15:45:31 on Jun 16,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters {C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii94.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:45:31 on Jun 16,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters" C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii94.v 
+# -- Compiling module ascii94
+# 
+# Top level modules:
+# 	ascii94
+# End time: 15:45:31 on Jun 16,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters {C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii95.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:45:31 on Jun 16,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters" C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii95.v 
+# -- Compiling module ascii95
+# 
+# Top level modules:
+# 	ascii95
+# End time: 15:45:31 on Jun 16,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters {C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii96.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:45:31 on Jun 16,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters" C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii96.v 
+# -- Compiling module ascii96
+# 
+# Top level modules:
+# 	ascii96
+# End time: 15:45:31 on Jun 16,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters {C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii97.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:45:31 on Jun 16,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters" C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii97.v 
+# -- Compiling module ascii97
+# 
+# Top level modules:
+# 	ascii97
+# End time: 15:45:31 on Jun 16,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters {C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii98.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:45:31 on Jun 16,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters" C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii98.v 
+# -- Compiling module ascii98
+# 
+# Top level modules:
+# 	ascii98
+# End time: 15:45:32 on Jun 16,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters {C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii99.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:45:32 on Jun 16,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters" C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii99.v 
+# -- Compiling module ascii99
+# 
+# Top level modules:
+# 	ascii99
+# End time: 15:45:32 on Jun 16,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters {C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii100.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:45:32 on Jun 16,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters" C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii100.v 
+# -- Compiling module ascii100
+# 
+# Top level modules:
+# 	ascii100
+# End time: 15:45:32 on Jun 16,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters {C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii101.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:45:32 on Jun 16,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters" C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii101.v 
+# -- Compiling module ascii101
+# 
+# Top level modules:
+# 	ascii101
+# End time: 15:45:32 on Jun 16,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters {C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii102.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:45:32 on Jun 16,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters" C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii102.v 
+# -- Compiling module ascii102
+# 
+# Top level modules:
+# 	ascii102
+# End time: 15:45:32 on Jun 16,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters {C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii103.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:45:32 on Jun 16,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters" C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii103.v 
+# -- Compiling module ascii103
+# 
+# Top level modules:
+# 	ascii103
+# End time: 15:45:32 on Jun 16,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters {C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii104.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:45:32 on Jun 16,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters" C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii104.v 
+# -- Compiling module ascii104
+# 
+# Top level modules:
+# 	ascii104
+# End time: 15:45:32 on Jun 16,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters {C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii105.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:45:32 on Jun 16,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters" C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii105.v 
+# -- Compiling module ascii105
+# 
+# Top level modules:
+# 	ascii105
+# End time: 15:45:32 on Jun 16,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters {C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii106.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:45:32 on Jun 16,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters" C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii106.v 
+# -- Compiling module ascii106
+# 
+# Top level modules:
+# 	ascii106
+# End time: 15:45:32 on Jun 16,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters {C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii107.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:45:32 on Jun 16,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters" C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii107.v 
+# -- Compiling module ascii107
+# 
+# Top level modules:
+# 	ascii107
+# End time: 15:45:33 on Jun 16,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters {C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii108.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:45:33 on Jun 16,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters" C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii108.v 
+# -- Compiling module ascii108
+# 
+# Top level modules:
+# 	ascii108
+# End time: 15:45:33 on Jun 16,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters {C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii109.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:45:33 on Jun 16,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters" C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii109.v 
+# -- Compiling module ascii109
+# 
+# Top level modules:
+# 	ascii109
+# End time: 15:45:33 on Jun 16,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters {C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii110.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:45:33 on Jun 16,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters" C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii110.v 
+# -- Compiling module ascii110
+# 
+# Top level modules:
+# 	ascii110
+# End time: 15:45:33 on Jun 16,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters {C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii111.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:45:33 on Jun 16,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters" C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii111.v 
+# -- Compiling module ascii111
+# 
+# Top level modules:
+# 	ascii111
+# End time: 15:45:33 on Jun 16,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters {C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii112.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:45:33 on Jun 16,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters" C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii112.v 
+# -- Compiling module ascii112
+# 
+# Top level modules:
+# 	ascii112
+# End time: 15:45:33 on Jun 16,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters {C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii113.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:45:33 on Jun 16,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters" C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii113.v 
+# -- Compiling module ascii113
+# 
+# Top level modules:
+# 	ascii113
+# End time: 15:45:33 on Jun 16,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters {C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii114.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:45:33 on Jun 16,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters" C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii114.v 
+# -- Compiling module ascii114
+# 
+# Top level modules:
+# 	ascii114
+# End time: 15:45:33 on Jun 16,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters {C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii115.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:45:33 on Jun 16,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters" C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii115.v 
+# -- Compiling module ascii115
+# 
+# Top level modules:
+# 	ascii115
+# End time: 15:45:33 on Jun 16,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters {C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii116.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:45:33 on Jun 16,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters" C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii116.v 
+# -- Compiling module ascii116
+# 
+# Top level modules:
+# 	ascii116
+# End time: 15:45:34 on Jun 16,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters {C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii117.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:45:34 on Jun 16,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters" C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii117.v 
+# -- Compiling module ascii117
+# 
+# Top level modules:
+# 	ascii117
+# End time: 15:45:34 on Jun 16,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters {C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii118.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:45:34 on Jun 16,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters" C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii118.v 
+# -- Compiling module ascii118
+# 
+# Top level modules:
+# 	ascii118
+# End time: 15:45:34 on Jun 16,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters {C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii119.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:45:34 on Jun 16,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters" C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii119.v 
+# -- Compiling module ascii119
+# 
+# Top level modules:
+# 	ascii119
+# End time: 15:45:34 on Jun 16,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters {C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii120.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:45:34 on Jun 16,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters" C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii120.v 
+# -- Compiling module ascii120
+# 
+# Top level modules:
+# 	ascii120
+# End time: 15:45:34 on Jun 16,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters {C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii121.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:45:34 on Jun 16,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters" C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii121.v 
+# -- Compiling module ascii121
+# 
+# Top level modules:
+# 	ascii121
+# End time: 15:45:34 on Jun 16,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters {C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii122.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:45:34 on Jun 16,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters" C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii122.v 
+# -- Compiling module ascii122
+# 
+# Top level modules:
+# 	ascii122
+# End time: 15:45:34 on Jun 16,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters {C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii123.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:45:34 on Jun 16,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters" C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii123.v 
+# -- Compiling module ascii123
+# 
+# Top level modules:
+# 	ascii123
+# End time: 15:45:34 on Jun 16,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters {C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii124.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:45:34 on Jun 16,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters" C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii124.v 
+# -- Compiling module ascii124
+# 
+# Top level modules:
+# 	ascii124
+# End time: 15:45:34 on Jun 16,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters {C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii125.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:45:34 on Jun 16,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters" C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii125.v 
+# -- Compiling module ascii125
+# 
+# Top level modules:
+# 	ascii125
+# End time: 15:45:35 on Jun 16,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters {C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii126.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:45:35 on Jun 16,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters" C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii126.v 
+# -- Compiling module ascii126
+# 
+# Top level modules:
+# 	ascii126
+# End time: 15:45:35 on Jun 16,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters {C:/Users/Usuario/Downloads/p_digitales/VGAletters/xorGate.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:45:35 on Jun 16,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters" C:/Users/Usuario/Downloads/p_digitales/VGAletters/xorGate.sv 
+# -- Compiling module xorGate
+# 
+# Top level modules:
+# 	xorGate
+# End time: 15:45:35 on Jun 16,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters {C:/Users/Usuario/Downloads/p_digitales/VGAletters/ROM32.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:45:35 on Jun 16,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters" C:/Users/Usuario/Downloads/p_digitales/VGAletters/ROM32.sv 
+# -- Compiling module ROM32
+# 
+# Top level modules:
+# 	ROM32
+# End time: 15:45:35 on Jun 16,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters {C:/Users/Usuario/Downloads/p_digitales/VGAletters/regfile.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:45:35 on Jun 16,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters" C:/Users/Usuario/Downloads/p_digitales/VGAletters/regfile.sv 
+# -- Compiling module regfile
+# 
+# Top level modules:
+# 	regfile
+# End time: 15:45:35 on Jun 16,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters {C:/Users/Usuario/Downloads/p_digitales/VGAletters/mux4a1.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:45:35 on Jun 16,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters" C:/Users/Usuario/Downloads/p_digitales/VGAletters/mux4a1.sv 
+# -- Compiling module mux4a1
+# 
+# Top level modules:
+# 	mux4a1
+# End time: 15:45:35 on Jun 16,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters {C:/Users/Usuario/Downloads/p_digitales/VGAletters/mux2.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:45:35 on Jun 16,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters" C:/Users/Usuario/Downloads/p_digitales/VGAletters/mux2.sv 
+# -- Compiling module mux2
+# 
+# Top level modules:
+# 	mux2
+# End time: 15:45:35 on Jun 16,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters {C:/Users/Usuario/Downloads/p_digitales/VGAletters/inv.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:45:35 on Jun 16,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters" C:/Users/Usuario/Downloads/p_digitales/VGAletters/inv.sv 
+# -- Compiling module inv
+# 
+# Top level modules:
+# 	inv
+# End time: 15:45:35 on Jun 16,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters {C:/Users/Usuario/Downloads/p_digitales/VGAletters/instructionMemory.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:45:35 on Jun 16,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters" C:/Users/Usuario/Downloads/p_digitales/VGAletters/instructionMemory.sv 
+# -- Compiling module instructionMemory
+# 
+# Top level modules:
+# 	instructionMemory
+# End time: 15:45:36 on Jun 16,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters {C:/Users/Usuario/Downloads/p_digitales/VGAletters/flopr.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:45:36 on Jun 16,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters" C:/Users/Usuario/Downloads/p_digitales/VGAletters/flopr.sv 
+# -- Compiling module flopr
+# 
+# Top level modules:
+# 	flopr
+# End time: 15:45:36 on Jun 16,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters {C:/Users/Usuario/Downloads/p_digitales/VGAletters/flopenr.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:45:36 on Jun 16,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters" C:/Users/Usuario/Downloads/p_digitales/VGAletters/flopenr.sv 
+# -- Compiling module flopenr
+# 
+# Top level modules:
+# 	flopenr
+# End time: 15:45:36 on Jun 16,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters {C:/Users/Usuario/Downloads/p_digitales/VGAletters/extend.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:45:36 on Jun 16,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters" C:/Users/Usuario/Downloads/p_digitales/VGAletters/extend.sv 
+# -- Compiling module extend
+# 
+# Top level modules:
+# 	extend
+# End time: 15:45:36 on Jun 16,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters {C:/Users/Usuario/Downloads/p_digitales/VGAletters/decoder.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:45:36 on Jun 16,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters" C:/Users/Usuario/Downloads/p_digitales/VGAletters/decoder.sv 
+# -- Compiling module decoder
+# 
+# Top level modules:
+# 	decoder
+# End time: 15:45:36 on Jun 16,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters {C:/Users/Usuario/Downloads/p_digitales/VGAletters/datapath.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:45:36 on Jun 16,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters" C:/Users/Usuario/Downloads/p_digitales/VGAletters/datapath.sv 
+# -- Compiling module datapath
+# 
+# Top level modules:
+# 	datapath
+# End time: 15:45:36 on Jun 16,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters {C:/Users/Usuario/Downloads/p_digitales/VGAletters/dataMemory.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:45:36 on Jun 16,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters" C:/Users/Usuario/Downloads/p_digitales/VGAletters/dataMemory.sv 
+# -- Compiling module dataMemory
+# 
+# Top level modules:
+# 	dataMemory
+# End time: 15:45:36 on Jun 16,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters {C:/Users/Usuario/Downloads/p_digitales/VGAletters/controller.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:45:36 on Jun 16,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters" C:/Users/Usuario/Downloads/p_digitales/VGAletters/controller.sv 
+# -- Compiling module controller
+# 
+# Top level modules:
+# 	controller
+# End time: 15:45:37 on Jun 16,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters {C:/Users/Usuario/Downloads/p_digitales/VGAletters/conditionCheck.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:45:37 on Jun 16,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters" C:/Users/Usuario/Downloads/p_digitales/VGAletters/conditionCheck.sv 
+# -- Compiling module conditionCheck
+# 
+# Top level modules:
+# 	conditionCheck
+# End time: 15:45:37 on Jun 16,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters {C:/Users/Usuario/Downloads/p_digitales/VGAletters/conditionalLogic.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:45:37 on Jun 16,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters" C:/Users/Usuario/Downloads/p_digitales/VGAletters/conditionalLogic.sv 
+# -- Compiling module conditionalLogic
+# 
+# Top level modules:
+# 	conditionalLogic
+# End time: 15:45:37 on Jun 16,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters {C:/Users/Usuario/Downloads/p_digitales/VGAletters/arm.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:45:37 on Jun 16,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters" C:/Users/Usuario/Downloads/p_digitales/VGAletters/arm.sv 
+# -- Compiling module arm
+# 
+# Top level modules:
+# 	arm
+# End time: 15:45:37 on Jun 16,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters {C:/Users/Usuario/Downloads/p_digitales/VGAletters/ALUSinFlags.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:45:37 on Jun 16,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters" C:/Users/Usuario/Downloads/p_digitales/VGAletters/ALUSinFlags.sv 
+# -- Compiling module ALUSinFlags
+# 
+# Top level modules:
+# 	ALUSinFlags
+# End time: 15:45:37 on Jun 16,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters {C:/Users/Usuario/Downloads/p_digitales/VGAletters/ALUConFlags.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:45:37 on Jun 16,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters" C:/Users/Usuario/Downloads/p_digitales/VGAletters/ALUConFlags.sv 
+# -- Compiling module ALUConFlags
+# 
+# Top level modules:
+# 	ALUConFlags
+# End time: 15:45:37 on Jun 16,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters {C:/Users/Usuario/Downloads/p_digitales/VGAletters/adderWithCarry.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:45:37 on Jun 16,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters" C:/Users/Usuario/Downloads/p_digitales/VGAletters/adderWithCarry.sv 
+# -- Compiling module adderWithCarry
+# 
+# Top level modules:
+# 	adderWithCarry
+# End time: 15:45:37 on Jun 16,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters {C:/Users/Usuario/Downloads/p_digitales/VGAletters/adder.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:45:37 on Jun 16,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters" C:/Users/Usuario/Downloads/p_digitales/VGAletters/adder.sv 
+# -- Compiling module adder
+# 
+# Top level modules:
+# 	adder
+# End time: 15:45:37 on Jun 16,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters {C:/Users/Usuario/Downloads/p_digitales/VGAletters/clockDivider.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:45:37 on Jun 16,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters" C:/Users/Usuario/Downloads/p_digitales/VGAletters/clockDivider.sv 
+# -- Compiling module clockDivider
+# 
+# Top level modules:
+# 	clockDivider
+# End time: 15:45:38 on Jun 16,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters {C:/Users/Usuario/Downloads/p_digitales/VGAletters/rgbDecoder.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:45:38 on Jun 16,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters" C:/Users/Usuario/Downloads/p_digitales/VGAletters/rgbDecoder.sv 
+# -- Compiling module rgbDecoder
+# 
+# Top level modules:
+# 	rgbDecoder
+# End time: 15:45:38 on Jun 16,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters {C:/Users/Usuario/Downloads/p_digitales/VGAletters/addressGenerator.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:45:38 on Jun 16,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters" C:/Users/Usuario/Downloads/p_digitales/VGAletters/addressGenerator.sv 
+# -- Compiling module addressGenerator
+# 
+# Top level modules:
+# 	addressGenerator
+# End time: 15:45:38 on Jun 16,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters {C:/Users/Usuario/Downloads/p_digitales/VGAletters/VGAcontroller.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:45:38 on Jun 16,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters" C:/Users/Usuario/Downloads/p_digitales/VGAletters/VGAcontroller.sv 
+# -- Compiling module VGAcontroller
+# 
+# Top level modules:
+# 	VGAcontroller
+# End time: 15:45:38 on Jun 16,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters {C:/Users/Usuario/Downloads/p_digitales/VGAletters/counterXY.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:45:38 on Jun 16,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters" C:/Users/Usuario/Downloads/p_digitales/VGAletters/counterXY.sv 
+# -- Compiling module counterXY
+# 
+# Top level modules:
+# 	counterXY
+# End time: 15:45:38 on Jun 16,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters {C:/Users/Usuario/Downloads/p_digitales/VGAletters/printChar.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:45:38 on Jun 16,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters" C:/Users/Usuario/Downloads/p_digitales/VGAletters/printChar.sv 
+# -- Compiling module printChar
+# 
+# Top level modules:
+# 	printChar
+# End time: 15:45:38 on Jun 16,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters {C:/Users/Usuario/Downloads/p_digitales/VGAletters/topController.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:45:38 on Jun 16,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters" C:/Users/Usuario/Downloads/p_digitales/VGAletters/topController.sv 
+# -- Compiling module topController
+# 
+# Top level modules:
+# 	topController
+# End time: 15:45:38 on Jun 16,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters {C:/Users/Usuario/Downloads/p_digitales/VGAletters/mcuVGA.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:45:38 on Jun 16,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters" C:/Users/Usuario/Downloads/p_digitales/VGAletters/mcuVGA.sv 
+# -- Compiling module mcuVGA
+# 
+# Top level modules:
+# 	mcuVGA
+# End time: 15:45:38 on Jun 16,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters {C:/Users/Usuario/Downloads/p_digitales/VGAletters/charMux.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:45:38 on Jun 16,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters" C:/Users/Usuario/Downloads/p_digitales/VGAletters/charMux.sv 
+# -- Compiling module charMux
+# 
+# Top level modules:
+# 	charMux
+# End time: 15:45:39 on Jun 16,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters {C:/Users/Usuario/Downloads/p_digitales/VGAletters/sprite.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:45:39 on Jun 16,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters" C:/Users/Usuario/Downloads/p_digitales/VGAletters/sprite.sv 
+# -- Compiling module sprite
+# 
+# Top level modules:
+# 	sprite
+# End time: 15:45:39 on Jun 16,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters {C:/Users/Usuario/Downloads/p_digitales/VGAletters/comparator.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:45:39 on Jun 16,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters" C:/Users/Usuario/Downloads/p_digitales/VGAletters/comparator.sv 
+# -- Compiling module comparator
+# 
+# Top level modules:
+# 	comparator
+# End time: 15:45:39 on Jun 16,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -sv -work work +incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters {C:/Users/Usuario/Downloads/p_digitales/VGAletters/tb_VGA.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:45:39 on Jun 16,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters" C:/Users/Usuario/Downloads/p_digitales/VGAletters/tb_VGA.sv 
+# -- Compiling module tb_VGA
+# 
+# Top level modules:
+# 	tb_VGA
+# End time: 15:45:39 on Jun 16,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs="+acc"  Test
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs=""+acc"" Test 
+# Start time: 15:45:39 on Jun 16,2021
+# ** Error: (vsim-3170) Could not find 'Test'.
+#         Searched libraries:
+#             C:/intelFPGA_lite/20.1/modelsim_ase/altera/verilog/altera
+#             C:/intelFPGA_lite/20.1/modelsim_ase/altera/verilog/220model
+#             C:/intelFPGA_lite/20.1/modelsim_ase/altera/verilog/sgate
+#             C:/intelFPGA_lite/20.1/modelsim_ase/altera/verilog/altera_mf
+#             C:/intelFPGA_lite/20.1/modelsim_ase/altera/verilog/altera_lnsim
+#             C:/intelFPGA_lite/20.1/modelsim_ase/altera/verilog/cyclonev
+#             C:/intelFPGA_lite/20.1/modelsim_ase/altera/verilog/cyclonev_hssi
+#             C:/intelFPGA_lite/20.1/modelsim_ase/altera/verilog/cyclonev_pcie_hip
+#             C:/Users/Usuario/Downloads/p_digitales/VGAletters/simulation/modelsim/rtl_work
+#             C:/Users/Usuario/Downloads/p_digitales/VGAletters/simulation/modelsim/rtl_work
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./VGAcontroller_run_msim_rtl_verilog.do PAUSED at line 138
+# End time: 15:45:45 on Jun 16,2021, Elapsed time: 0:00:06
+# Errors: 1, Warnings: 0

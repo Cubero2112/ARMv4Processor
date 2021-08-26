@@ -1,0 +1,17 @@
+module counterXY(input logic clk25, output logic[9:0] counterX, counterY);
+
+    always @(posedge clk25) begin
+				
+        if (counterX == 10'd800) begin //cuando el contador X llega al maximo entonces counterX se vuelve 0 y le suma uno al contador y.
+            counterX <= 0; 
+            counterY++;
+
+        if (counterY == 10'd525) // cuando el contador Y llega a su maximo entonces counterY se hace 0.
+                counterY <= 0;
+        end
+        
+        else
+            counterX++;
+        end
+
+endmodule 

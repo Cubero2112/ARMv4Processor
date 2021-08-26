@@ -1,0 +1,197 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Usuario/Desktop/ALU/simulation/modelsim
+vadder
+Z1 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
+Z2 !s110 1623253736
+!i10b 1
+!s100 L1B7k04SB^6M@9J9KIF173
+Z3 !s11b Dg1SIo80bB@j0V0VzS_@n1
+Ihc9hda8NL8UI>63=XXfa`3
+Z4 VDg1SIo80bB@j0V0VzS_@n1
+S1
+R0
+w1623251927
+8C:/Users/Usuario/Desktop/ALU/adder.sv
+FC:/Users/Usuario/Desktop/ALU/adder.sv
+!i122 0
+Z5 L0 3 22
+Z6 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z7 !s108 1623253736.000000
+!s107 C:/Users/Usuario/Desktop/ALU/adder.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Usuario/Desktop/ALU|C:/Users/Usuario/Desktop/ALU/adder.sv|
+!i113 1
+Z8 o-sv -work work
+Z9 !s92 -sv -work work +incdir+C:/Users/Usuario/Desktop/ALU
+Z10 tCvgOpt 0
+vALUTest
+R1
+Z11 !s110 1623253737
+!i10b 1
+!s100 di8h8Pe]?TM]S_8>m:MoW1
+R3
+IQ[QL:kR^1IHdg=_OeXG[A1
+R4
+S1
+R0
+w1623253709
+8C:/Users/Usuario/Desktop/ALU/ALUTest.sv
+FC:/Users/Usuario/Desktop/ALU/ALUTest.sv
+!i122 6
+L0 1 23
+R6
+r1
+!s85 0
+31
+Z12 !s108 1623253737.000000
+!s107 C:/Users/Usuario/Desktop/ALU/ALUTest.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Usuario/Desktop/ALU|C:/Users/Usuario/Desktop/ALU/ALUTest.sv|
+!i113 1
+R8
+R9
+R10
+n@a@l@u@test
+vinv
+R1
+R2
+!i10b 1
+!s100 d^ENDDL9abQQI^QOa9^6z1
+R3
+IkBYkECE>lde^1QQKz?CHZ3
+R4
+S1
+R0
+w1623251957
+8C:/Users/Usuario/Desktop/ALU/inv.sv
+FC:/Users/Usuario/Desktop/ALU/inv.sv
+!i122 1
+Z13 L0 3 19
+R6
+r1
+!s85 0
+31
+R7
+!s107 C:/Users/Usuario/Desktop/ALU/inv.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Usuario/Desktop/ALU|C:/Users/Usuario/Desktop/ALU/inv.sv|
+!i113 1
+R8
+R9
+R10
+vmux4a1Operacion
+R1
+R11
+!i10b 1
+!s100 1BK2EFF]Rkzj8JQQX5Hbg0
+R3
+I]@0f9aMBm]J0SGiT1Mb:81
+R4
+S1
+R0
+w1623253383
+8C:/Users/Usuario/Desktop/ALU/mux4a1Operacion.sv
+FC:/Users/Usuario/Desktop/ALU/mux4a1Operacion.sv
+!i122 4
+L0 3 17
+R6
+r1
+!s85 0
+31
+R12
+!s107 C:/Users/Usuario/Desktop/ALU/mux4a1Operacion.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Usuario/Desktop/ALU|C:/Users/Usuario/Desktop/ALU/mux4a1Operacion.sv|
+!i113 1
+R8
+R9
+R10
+nmux4a1@operacion
+vsubtract
+R1
+R11
+!i10b 1
+!s100 E3OPP8OmWMJ0neL]=W8>C2
+R3
+I?TB>`3@dj>hRC1iK`KJ?G1
+R4
+S1
+R0
+w1623251949
+8C:/Users/Usuario/Desktop/ALU/subtract.sv
+FC:/Users/Usuario/Desktop/ALU/subtract.sv
+!i122 5
+R5
+R6
+r1
+!s85 0
+31
+R12
+!s107 C:/Users/Usuario/Desktop/ALU/subtract.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Usuario/Desktop/ALU|C:/Users/Usuario/Desktop/ALU/subtract.sv|
+!i113 1
+R8
+R9
+R10
+vtopALU
+R1
+R11
+!i10b 1
+!s100 _4IU9GaFIn?@<e>3NOQDT0
+R3
+I0TSMK57bFT4YnXMXLBQIh2
+R4
+S1
+R0
+w1623252856
+8C:/Users/Usuario/Desktop/ALU/topALU.sv
+FC:/Users/Usuario/Desktop/ALU/topALU.sv
+!i122 3
+L0 3 21
+R6
+r1
+!s85 0
+31
+R7
+!s107 C:/Users/Usuario/Desktop/ALU/topALU.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Usuario/Desktop/ALU|C:/Users/Usuario/Desktop/ALU/topALU.sv|
+!i113 1
+R8
+R9
+R10
+ntop@a@l@u
+vxorGate
+R1
+R2
+!i10b 1
+!s100 E[dCE]eaWQV@nR`;;[E<m3
+R3
+IVg]4GQefXPm0I86aT@Fgg0
+R4
+S1
+R0
+w1623253682
+8C:/Users/Usuario/Desktop/ALU/xorGate.sv
+FC:/Users/Usuario/Desktop/ALU/xorGate.sv
+!i122 2
+R13
+R6
+r1
+!s85 0
+31
+R7
+!s107 C:/Users/Usuario/Desktop/ALU/xorGate.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Usuario/Desktop/ALU|C:/Users/Usuario/Desktop/ALU/xorGate.sv|
+!i113 1
+R8
+R9
+R10
+nxor@gate

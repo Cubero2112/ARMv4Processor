@@ -1,0 +1,307 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Usuario/Downloads/Gerald/p_digitales-development/VGAletters/simulation/modelsim
+vaddressGenerator
+Z1 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
+Z2 !s110 1623731960
+!i10b 1
+!s100 5bIb5CLTR7GDU73HFCR>K0
+Z3 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I3gLLYlKOc^=`GcAZE;SVc2
+Z4 VDg1SIo80bB@j0V0VzS_@n1
+S1
+R0
+w1623731883
+8C:/Users/Usuario/Downloads/Gerald/p_digitales-development/VGAletters/addressGenerator.sv
+FC:/Users/Usuario/Downloads/Gerald/p_digitales-development/VGAletters/addressGenerator.sv
+!i122 2
+Z5 L0 1 19
+Z6 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z7 !s108 1623731960.000000
+!s107 C:/Users/Usuario/Downloads/Gerald/p_digitales-development/VGAletters/addressGenerator.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Usuario/Downloads/Gerald/p_digitales-development/VGAletters|C:/Users/Usuario/Downloads/Gerald/p_digitales-development/VGAletters/addressGenerator.sv|
+!i113 1
+Z8 o-sv -work work
+Z9 !s92 -sv -work work +incdir+C:/Users/Usuario/Downloads/Gerald/p_digitales-development/VGAletters
+Z10 tCvgOpt 0
+naddress@generator
+vclockDivider
+R1
+R2
+!i10b 1
+!s100 JGFfA>14YkHzAF[5A3`NL0
+R3
+Ib1;LAOb2VF2M]`a0^X5zL1
+R4
+S1
+R0
+w1623727634
+8C:/Users/Usuario/Downloads/Gerald/p_digitales-development/VGAletters/clockDivider.sv
+FC:/Users/Usuario/Downloads/Gerald/p_digitales-development/VGAletters/clockDivider.sv
+!i122 0
+L0 1 11
+R6
+r1
+!s85 0
+31
+R7
+!s107 C:/Users/Usuario/Downloads/Gerald/p_digitales-development/VGAletters/clockDivider.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Usuario/Downloads/Gerald/p_digitales-development/VGAletters|C:/Users/Usuario/Downloads/Gerald/p_digitales-development/VGAletters/clockDivider.sv|
+!i113 1
+R8
+R9
+R10
+nclock@divider
+vcounterXY
+R1
+R2
+!i10b 1
+!s100 LRT8?0gcJ@Y5`IlhJJDfY0
+R3
+Ie7b6Z6I:aa2g7?LzfNZEM3
+R4
+S1
+R0
+w1623731454
+8C:/Users/Usuario/Downloads/Gerald/p_digitales-development/VGAletters/counterXY.sv
+FC:/Users/Usuario/Downloads/Gerald/p_digitales-development/VGAletters/counterXY.sv
+!i122 4
+L0 1 24
+R6
+r1
+!s85 0
+31
+R7
+!s107 C:/Users/Usuario/Downloads/Gerald/p_digitales-development/VGAletters/counterXY.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Usuario/Downloads/Gerald/p_digitales-development/VGAletters|C:/Users/Usuario/Downloads/Gerald/p_digitales-development/VGAletters/counterXY.sv|
+!i113 1
+R8
+R9
+R10
+ncounter@x@y
+vmcuVGA
+R1
+Z11 !s110 1623731961
+!i10b 1
+!s100 cX>dRg0gFcZ?o3>[ZHfWI3
+R3
+IXnS2XEVJI6lHLnQ@[Gd6>3
+R4
+S1
+R0
+w1623731752
+8C:/Users/Usuario/Downloads/Gerald/p_digitales-development/VGAletters/mcuVGA.sv
+FC:/Users/Usuario/Downloads/Gerald/p_digitales-development/VGAletters/mcuVGA.sv
+!i122 8
+L0 1 20
+R6
+r1
+!s85 0
+31
+Z12 !s108 1623731961.000000
+!s107 C:/Users/Usuario/Downloads/Gerald/p_digitales-development/VGAletters/mcuVGA.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Usuario/Downloads/Gerald/p_digitales-development/VGAletters|C:/Users/Usuario/Downloads/Gerald/p_digitales-development/VGAletters/mcuVGA.sv|
+!i113 1
+R8
+R9
+R10
+nmcu@v@g@a
+vprintChar
+R1
+R11
+!i10b 1
+!s100 W@?FlONLn]a5?_`i5JGVZ1
+R3
+I7U9Xl<0];:T:O_JLK@P]j1
+R4
+S1
+R0
+w1623731803
+8C:/Users/Usuario/Downloads/Gerald/p_digitales-development/VGAletters/printChar.sv
+FC:/Users/Usuario/Downloads/Gerald/p_digitales-development/VGAletters/printChar.sv
+!i122 6
+L0 1 30
+R6
+r1
+!s85 0
+31
+R12
+!s107 C:/Users/Usuario/Downloads/Gerald/p_digitales-development/VGAletters/printChar.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Usuario/Downloads/Gerald/p_digitales-development/VGAletters|C:/Users/Usuario/Downloads/Gerald/p_digitales-development/VGAletters/printChar.sv|
+!i113 1
+R8
+R9
+R10
+nprint@char
+vrgbDecoder
+R1
+R2
+!i10b 1
+!s100 ICkGa_<ioRCfjl9fkW;kV1
+R3
+IdT1[zN?9?JG7B0j<ejd_60
+R4
+S1
+R0
+w1623729740
+8C:/Users/Usuario/Downloads/Gerald/p_digitales-development/VGAletters/rgbDecoder.sv
+FC:/Users/Usuario/Downloads/Gerald/p_digitales-development/VGAletters/rgbDecoder.sv
+!i122 1
+R5
+R6
+r1
+!s85 0
+31
+R7
+!s107 C:/Users/Usuario/Downloads/Gerald/p_digitales-development/VGAletters/rgbDecoder.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Usuario/Downloads/Gerald/p_digitales-development/VGAletters|C:/Users/Usuario/Downloads/Gerald/p_digitales-development/VGAletters/rgbDecoder.sv|
+!i113 1
+R8
+R9
+R10
+nrgb@decoder
+vROMas
+R1
+R11
+!i10b 1
+!s100 g`cDHdHC8KcD<?Fzn:TJ^3
+R3
+IN@0;D=HM@_WDhMgPhn7?S3
+R4
+S1
+R0
+w1623723246
+8C:/Users/Usuario/Downloads/Gerald/p_digitales-development/VGAletters/ROMas.sv
+FC:/Users/Usuario/Downloads/Gerald/p_digitales-development/VGAletters/ROMas.sv
+!i122 9
+L0 8 106
+R6
+r1
+!s85 0
+31
+R12
+!s107 C:/Users/Usuario/Downloads/Gerald/p_digitales-development/VGAletters/ROMas.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Usuario/Downloads/Gerald/p_digitales-development/VGAletters|C:/Users/Usuario/Downloads/Gerald/p_digitales-development/VGAletters/ROMas.sv|
+!i113 1
+R8
+R9
+R10
+n@r@o@mas
+vsprite65
+R1
+R11
+!i10b 1
+!s100 ]^27BR]l8_z8:J[QOVK^63
+R3
+IMXnEFJ6FjlFY=i8KeMWQC1
+R4
+S1
+R0
+w1623731825
+8C:/Users/Usuario/Downloads/Gerald/p_digitales-development/VGAletters/sprite65.sv
+FC:/Users/Usuario/Downloads/Gerald/p_digitales-development/VGAletters/sprite65.sv
+!i122 5
+L0 1 21
+R6
+r1
+!s85 0
+31
+R7
+!s107 C:/Users/Usuario/Downloads/Gerald/p_digitales-development/VGAletters/sprite65.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Usuario/Downloads/Gerald/p_digitales-development/VGAletters|C:/Users/Usuario/Downloads/Gerald/p_digitales-development/VGAletters/sprite65.sv|
+!i113 1
+R8
+R9
+R10
+vtb_VGA
+R1
+R11
+!i10b 1
+!s100 nQd[;<`gaLhe6>DkkkTJ33
+R3
+IlaoJkXc?16NQ:MNRd7@0f3
+R4
+S1
+R0
+w1623726050
+8C:/Users/Usuario/Downloads/Gerald/p_digitales-development/VGAletters/tb_VGA.sv
+FC:/Users/Usuario/Downloads/Gerald/p_digitales-development/VGAletters/tb_VGA.sv
+!i122 10
+L0 3 15
+R6
+r1
+!s85 0
+31
+R12
+!s107 C:/Users/Usuario/Downloads/Gerald/p_digitales-development/VGAletters/tb_VGA.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Usuario/Downloads/Gerald/p_digitales-development/VGAletters|C:/Users/Usuario/Downloads/Gerald/p_digitales-development/VGAletters/tb_VGA.sv|
+!i113 1
+R8
+R9
+R10
+ntb_@v@g@a
+vtopController
+R1
+R11
+!i10b 1
+!s100 XlIMTTh^8IM:6fBY1_[nZ3
+R3
+I=ff]EcW7B[JaA6WFZeFBW2
+R4
+S1
+R0
+w1623731775
+8C:/Users/Usuario/Downloads/Gerald/p_digitales-development/VGAletters/topController.sv
+FC:/Users/Usuario/Downloads/Gerald/p_digitales-development/VGAletters/topController.sv
+!i122 7
+L0 1 23
+R6
+r1
+!s85 0
+31
+R12
+!s107 C:/Users/Usuario/Downloads/Gerald/p_digitales-development/VGAletters/topController.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Usuario/Downloads/Gerald/p_digitales-development/VGAletters|C:/Users/Usuario/Downloads/Gerald/p_digitales-development/VGAletters/topController.sv|
+!i113 1
+R8
+R9
+R10
+ntop@controller
+vVGAcontroller
+R1
+R2
+!i10b 1
+!s100 F1=zVezdmcf;@=gnW:;>a0
+R3
+IHXQ8JD8LiI<E@3R8NJ5Co2
+R4
+S1
+R0
+w1623731740
+8C:/Users/Usuario/Downloads/Gerald/p_digitales-development/VGAletters/VGAcontroller.sv
+FC:/Users/Usuario/Downloads/Gerald/p_digitales-development/VGAletters/VGAcontroller.sv
+!i122 3
+L0 1 28
+R6
+r1
+!s85 0
+31
+R7
+!s107 C:/Users/Usuario/Downloads/Gerald/p_digitales-development/VGAletters/VGAcontroller.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Usuario/Downloads/Gerald/p_digitales-development/VGAletters|C:/Users/Usuario/Downloads/Gerald/p_digitales-development/VGAletters/VGAcontroller.sv|
+!i113 1
+R8
+R9
+R10
+n@v@g@acontroller

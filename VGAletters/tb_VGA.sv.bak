@@ -1,0 +1,23 @@
+`timescale 1 ps / 1 ps
+
+module tb_VGA();
+	logic clk,rst,clk25,H_SYNC, V_SYNC, SYNC_B, SYNC_BLANK;
+	logic [23:0] RGB;
+
+
+	mcuVGA cc (clk,rst,H_SYNC, V_SYNC, SYNC_B, SYNC_BLANK,clk25,RGB);
+
+	always begin
+		clk<=~clk;#5;
+	end
+
+	initial begin 
+		rst=1;#10;rst=0;
+		clk=0;
+	end
+endmodule 
+
+
+//vsim -L altera_mf_ver -L lpm_ver tb_VGA -t ns
+
+//vsim -L altera_mf_ver tb_VGA -t ns

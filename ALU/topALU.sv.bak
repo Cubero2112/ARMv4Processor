@@ -1,0 +1,22 @@
+// Modulo Top ALU
+
+module topALU   #(parameter N = 4)
+					 (
+					 input logic [N-1:0] a, b, 
+					 input logic [N-1:0] aluControl,
+					 output logic [N-1:0] s,
+					 output logic Ne, Ze, Ca, Ov
+					 );
+					 
+					 
+
+	logic [N-1:0] operacionAdderSubstract, operacionXor, operacionNot, mux2a1Out;
+	
+	adder_substract   #(N) adderALU(a, b, operacionAdderSubstract, Ne, Ze, Ca, Ov);
+	xorGate #(N) xorAlu(a, b, operacionXor, Ne, Ze, Ca, Ov);
+	inv	  #(N) invAlu(a, b, operacionNot, Ne, Ze, Ca, Ov);
+	
+	mux4a1  #(N) mux4(salidaAdderSubstract, salidaXor, salidaNot, notOut, ALUControl, out);
+	
+	
+endmodule

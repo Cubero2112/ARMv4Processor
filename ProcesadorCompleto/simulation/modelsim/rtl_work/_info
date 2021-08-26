@@ -1,0 +1,3168 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Usuario/Downloads/p_digitales/VGAletters/simulation/modelsim
+vadder
+Z1 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
+Z2 !s110 1623879937
+!i10b 1
+!s100 TB^hnR53]ckCVRY8;@>QR0
+Z3 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IL@Tn=oOTMn6?FUB4AADI42
+Z4 VDg1SIo80bB@j0V0VzS_@n1
+S1
+R0
+Z5 w1623871701
+8C:/Users/Usuario/Downloads/p_digitales/VGAletters/adder.sv
+FC:/Users/Usuario/Downloads/p_digitales/VGAletters/adder.sv
+!i122 115
+L0 1 5
+Z6 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z7 !s108 1623879937.000000
+!s107 C:/Users/Usuario/Downloads/p_digitales/VGAletters/adder.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters|C:/Users/Usuario/Downloads/p_digitales/VGAletters/adder.sv|
+!i113 1
+Z8 o-sv -work work
+Z9 !s92 -sv -work work +incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters
+Z10 tCvgOpt 0
+vadderWithCarry
+R1
+R2
+!i10b 1
+!s100 ;WF7S0K;kZ16PfY1l:DW=1
+R3
+IldISBO1795>V]N]dL8GoV2
+R4
+S1
+R0
+R5
+8C:/Users/Usuario/Downloads/p_digitales/VGAletters/adderWithCarry.sv
+FC:/Users/Usuario/Downloads/p_digitales/VGAletters/adderWithCarry.sv
+!i122 114
+L0 1 7
+R6
+r1
+!s85 0
+31
+R7
+!s107 C:/Users/Usuario/Downloads/p_digitales/VGAletters/adderWithCarry.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters|C:/Users/Usuario/Downloads/p_digitales/VGAletters/adderWithCarry.sv|
+!i113 1
+R8
+R9
+R10
+nadder@with@carry
+vaddressGenerator
+R1
+Z11 !s110 1623879938
+!i10b 1
+!s100 QaM;fbOIO@MYz?D^<;D]]1
+R3
+I3aE[e7nnF9zNK0IX1G^@B1
+R4
+S1
+R0
+R5
+8C:/Users/Usuario/Downloads/p_digitales/VGAletters/addressGenerator.sv
+FC:/Users/Usuario/Downloads/p_digitales/VGAletters/addressGenerator.sv
+!i122 118
+Z12 L0 1 11
+R6
+r1
+!s85 0
+31
+Z13 !s108 1623879938.000000
+!s107 C:/Users/Usuario/Downloads/p_digitales/VGAletters/addressGenerator.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters|C:/Users/Usuario/Downloads/p_digitales/VGAletters/addressGenerator.sv|
+!i113 1
+R8
+R9
+R10
+naddress@generator
+vALUConFlags
+R1
+R2
+!i10b 1
+!s100 f0f1VEZZh5ZB6?gRBehBf2
+R3
+I6>P^WMHIkCYOg4OSm7Gkm0
+R4
+S1
+R0
+R5
+8C:/Users/Usuario/Downloads/p_digitales/VGAletters/ALUConFlags.sv
+FC:/Users/Usuario/Downloads/p_digitales/VGAletters/ALUConFlags.sv
+!i122 113
+L0 11 35
+R6
+r1
+!s85 0
+31
+R7
+!s107 C:/Users/Usuario/Downloads/p_digitales/VGAletters/ALUConFlags.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters|C:/Users/Usuario/Downloads/p_digitales/VGAletters/ALUConFlags.sv|
+!i113 1
+R8
+R9
+R10
+n@a@l@u@con@flags
+vALUSinFlags
+R1
+R2
+!i10b 1
+!s100 @Q]D=Ndnff<DB]8^U@Ymi3
+R3
+IJ?33U>eT_iUo>1]<P_CMM2
+R4
+S1
+R0
+R5
+8C:/Users/Usuario/Downloads/p_digitales/VGAletters/ALUSinFlags.sv
+FC:/Users/Usuario/Downloads/p_digitales/VGAletters/ALUSinFlags.sv
+!i122 112
+L0 10 18
+R6
+r1
+!s85 0
+31
+R7
+!s107 C:/Users/Usuario/Downloads/p_digitales/VGAletters/ALUSinFlags.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters|C:/Users/Usuario/Downloads/p_digitales/VGAletters/ALUSinFlags.sv|
+!i113 1
+R8
+R9
+R10
+n@a@l@u@sin@flags
+varm
+R1
+R2
+!i10b 1
+!s100 C5C?Lhh3d0m[fC6hj50nM3
+R3
+I3EQom4Rbi^j@ECA5B476;3
+R4
+S1
+R0
+w1623873311
+8C:/Users/Usuario/Downloads/p_digitales/VGAletters/arm.sv
+FC:/Users/Usuario/Downloads/p_digitales/VGAletters/arm.sv
+!i122 111
+L0 1 52
+R6
+r1
+!s85 0
+31
+R7
+!s107 C:/Users/Usuario/Downloads/p_digitales/VGAletters/arm.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters|C:/Users/Usuario/Downloads/p_digitales/VGAletters/arm.sv|
+!i113 1
+R8
+R9
+R10
+vascii100
+Z14 !s110 1623879932
+!i10b 1
+!s100 od4K1MXW9P>G724GVOgNo3
+R3
+IKWgf1Qi<ES0NWj6lBMEj=3
+R4
+R0
+R5
+8C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii100.v
+FC:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii100.v
+!i122 68
+Z15 L0 40 61
+R6
+r1
+!s85 0
+31
+Z16 !s108 1623879932.000000
+!s107 C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii100.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters|C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii100.v|
+!i113 1
+Z17 o-vlog01compat -work work
+Z18 !s92 -vlog01compat -work work +incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters
+R10
+vascii101
+R14
+!i10b 1
+!s100 8zNG6M_zbfHL:M_InQP4g0
+R3
+I`=SYReYaicQhOYnTSF2G72
+R4
+R0
+R5
+8C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii101.v
+FC:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii101.v
+!i122 69
+R15
+R6
+r1
+!s85 0
+31
+R16
+!s107 C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii101.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters|C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii101.v|
+!i113 1
+R17
+R18
+R10
+vascii102
+R14
+!i10b 1
+!s100 zW3n2Ia7CVT6zWMa:5hG`2
+R3
+I;>SnJML?>onHaoHT[IYON3
+R4
+R0
+R5
+8C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii102.v
+FC:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii102.v
+!i122 70
+R15
+R6
+r1
+!s85 0
+31
+R16
+!s107 C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii102.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters|C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii102.v|
+!i113 1
+R17
+R18
+R10
+vascii103
+R14
+!i10b 1
+!s100 Nzl]l[@9aP;B3`zEUSWTT3
+R3
+I7iP;Z;g7fG>hzlMDnIF8=3
+R4
+R0
+R5
+8C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii103.v
+FC:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii103.v
+!i122 71
+R15
+R6
+r1
+!s85 0
+31
+R16
+!s107 C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii103.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters|C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii103.v|
+!i113 1
+R17
+R18
+R10
+vascii104
+R14
+!i10b 1
+!s100 =63o>:i>S>@7@e4zBfkCd0
+R3
+I_VTl4L`n2JD;G`0o^Og]a0
+R4
+R0
+R5
+8C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii104.v
+FC:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii104.v
+!i122 72
+R15
+R6
+r1
+!s85 0
+31
+R16
+!s107 C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii104.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters|C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii104.v|
+!i113 1
+R17
+R18
+R10
+vascii105
+R14
+!i10b 1
+!s100 Wkf=h1RTRZQE^KQUVMS132
+R3
+IE;hgbB@Y1m8>?<e=z[XS40
+R4
+R0
+R5
+8C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii105.v
+FC:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii105.v
+!i122 73
+R15
+R6
+r1
+!s85 0
+31
+R16
+!s107 C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii105.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters|C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii105.v|
+!i113 1
+R17
+R18
+R10
+vascii106
+R14
+!i10b 1
+!s100 i2=:>9mV;l60BCAALS3Bc0
+R3
+IU6iemU6lBZ1JloXMC30[l1
+R4
+R0
+R5
+8C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii106.v
+FC:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii106.v
+!i122 74
+R15
+R6
+r1
+!s85 0
+31
+R16
+!s107 C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii106.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters|C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii106.v|
+!i113 1
+R17
+R18
+R10
+vascii107
+Z19 !s110 1623879933
+!i10b 1
+!s100 ENFF:=Y^l3]m@PKke8PTg3
+R3
+IX:dK]B?SAY==b]fAMY`Ez1
+R4
+R0
+R5
+8C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii107.v
+FC:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii107.v
+!i122 75
+R15
+R6
+r1
+!s85 0
+31
+R16
+!s107 C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii107.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters|C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii107.v|
+!i113 1
+R17
+R18
+R10
+vascii108
+R19
+!i10b 1
+!s100 ogPecbBMMK0YYOE5Qazzf2
+R3
+I7a6`EU44N3o7Yi`Sn@6NM3
+R4
+R0
+R5
+8C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii108.v
+FC:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii108.v
+!i122 76
+R15
+R6
+r1
+!s85 0
+31
+Z20 !s108 1623879933.000000
+!s107 C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii108.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters|C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii108.v|
+!i113 1
+R17
+R18
+R10
+vascii109
+R19
+!i10b 1
+!s100 lA@zo<6D=h8Ul^^KJ0i^D1
+R3
+IKMPhHcB^mlZLcjo39GX2I3
+R4
+R0
+R5
+8C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii109.v
+FC:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii109.v
+!i122 77
+R15
+R6
+r1
+!s85 0
+31
+R20
+!s107 C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii109.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters|C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii109.v|
+!i113 1
+R17
+R18
+R10
+vascii110
+R19
+!i10b 1
+!s100 AWB0lli_^4jocL2=NoZ8K3
+R3
+I:JY7^QT__D<bz=ol:LHUC2
+R4
+R0
+R5
+8C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii110.v
+FC:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii110.v
+!i122 78
+R15
+R6
+r1
+!s85 0
+31
+R20
+!s107 C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii110.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters|C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii110.v|
+!i113 1
+R17
+R18
+R10
+vascii111
+R19
+!i10b 1
+!s100 C7W65hQz?eP1cS[Z?TW1Q1
+R3
+IY=8mi8F4LJB<MHH]QZUcJ0
+R4
+R0
+R5
+8C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii111.v
+FC:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii111.v
+!i122 79
+R15
+R6
+r1
+!s85 0
+31
+R20
+!s107 C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii111.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters|C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii111.v|
+!i113 1
+R17
+R18
+R10
+vascii112
+R19
+!i10b 1
+!s100 2P8e>BYFZM8R8X2=BaQGg1
+R3
+I^=Yfdm;<]?nSO:]IB]Rd30
+R4
+R0
+R5
+8C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii112.v
+FC:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii112.v
+!i122 80
+R15
+R6
+r1
+!s85 0
+31
+R20
+!s107 C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii112.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters|C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii112.v|
+!i113 1
+R17
+R18
+R10
+vascii113
+R19
+!i10b 1
+!s100 1S7SC`5RKTd;@=JaoDkWN0
+R3
+I8lZCg;RB:5M3NELU@1RR@3
+R4
+R0
+R5
+8C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii113.v
+FC:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii113.v
+!i122 81
+R15
+R6
+r1
+!s85 0
+31
+R20
+!s107 C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii113.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters|C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii113.v|
+!i113 1
+R17
+R18
+R10
+vascii114
+R19
+!i10b 1
+!s100 e@8l1JblBfHc8DgzSgMK50
+R3
+IoB0_oeNaCJo5Z=6?hX46[3
+R4
+R0
+R5
+8C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii114.v
+FC:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii114.v
+!i122 82
+R15
+R6
+r1
+!s85 0
+31
+R20
+!s107 C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii114.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters|C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii114.v|
+!i113 1
+R17
+R18
+R10
+vascii115
+R19
+!i10b 1
+!s100 b[;3GO9h?R`g60K1KjVBF3
+R3
+I95e[gjRCDT<URbK^N9eT[1
+R4
+R0
+R5
+8C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii115.v
+FC:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii115.v
+!i122 83
+R15
+R6
+r1
+!s85 0
+31
+R20
+!s107 C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii115.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters|C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii115.v|
+!i113 1
+R17
+R18
+R10
+vascii116
+Z21 !s110 1623879934
+!i10b 1
+!s100 j[fSZ9<6J;HRW@?Hcd<TD1
+R3
+Id4`m9HMBGhoT_4hSVKlfi1
+R4
+R0
+R5
+8C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii116.v
+FC:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii116.v
+!i122 84
+R15
+R6
+r1
+!s85 0
+31
+R20
+!s107 C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii116.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters|C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii116.v|
+!i113 1
+R17
+R18
+R10
+vascii117
+R21
+!i10b 1
+!s100 eVGb2JKeBgDFanJVEAaeL3
+R3
+Ifh[e`VJXFIhlOIgz9JShH3
+R4
+R0
+R5
+8C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii117.v
+FC:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii117.v
+!i122 85
+R15
+R6
+r1
+!s85 0
+31
+Z22 !s108 1623879934.000000
+!s107 C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii117.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters|C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii117.v|
+!i113 1
+R17
+R18
+R10
+vascii118
+R21
+!i10b 1
+!s100 4BEA@7gkLZd^2?H3VD5XM1
+R3
+ISh5mcMahN6Thk1IgkM@z=3
+R4
+R0
+R5
+8C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii118.v
+FC:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii118.v
+!i122 86
+R15
+R6
+r1
+!s85 0
+31
+R22
+!s107 C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii118.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters|C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii118.v|
+!i113 1
+R17
+R18
+R10
+vascii119
+R21
+!i10b 1
+!s100 Hmc0BY]]Yho]R]O;DjoBJ3
+R3
+IJbFA_nL5BXlc@b0VGh?9z1
+R4
+R0
+R5
+8C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii119.v
+FC:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii119.v
+!i122 87
+R15
+R6
+r1
+!s85 0
+31
+R22
+!s107 C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii119.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters|C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii119.v|
+!i113 1
+R17
+R18
+R10
+vascii120
+R21
+!i10b 1
+!s100 _KTREDBOUl<M]4[NVb;Dz3
+R3
+IRROoDG5QOd;;BBX[kk`:C1
+R4
+R0
+R5
+8C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii120.v
+FC:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii120.v
+!i122 88
+R15
+R6
+r1
+!s85 0
+31
+R22
+!s107 C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii120.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters|C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii120.v|
+!i113 1
+R17
+R18
+R10
+vascii121
+R21
+!i10b 1
+!s100 0R005TVP<9hn?F:nH;XX[3
+R3
+IFngg;cj0AE4o?nKD6X>XW1
+R4
+R0
+R5
+8C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii121.v
+FC:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii121.v
+!i122 89
+R15
+R6
+r1
+!s85 0
+31
+R22
+!s107 C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii121.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters|C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii121.v|
+!i113 1
+R17
+R18
+R10
+vascii122
+R21
+!i10b 1
+!s100 :UG4]85YnEkFX`cGCo0NI1
+R3
+IcXc4T?hhbSfgVz?4ESgV13
+R4
+R0
+R5
+8C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii122.v
+FC:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii122.v
+!i122 90
+R15
+R6
+r1
+!s85 0
+31
+R22
+!s107 C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii122.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters|C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii122.v|
+!i113 1
+R17
+R18
+R10
+vascii123
+R21
+!i10b 1
+!s100 9?XKL9mmlV4f>Q2IjoVoe2
+R3
+IYD1Ed_oafl9FD60G`hRgj3
+R4
+R0
+R5
+8C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii123.v
+FC:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii123.v
+!i122 91
+R15
+R6
+r1
+!s85 0
+31
+R22
+!s107 C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii123.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters|C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii123.v|
+!i113 1
+R17
+R18
+R10
+vascii124
+R21
+!i10b 1
+!s100 VDUfX`H?OZN<[GRAAicM`1
+R3
+IEE2mA9_>XI7CBTIgY=@V63
+R4
+R0
+R5
+8C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii124.v
+FC:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii124.v
+!i122 92
+R15
+R6
+r1
+!s85 0
+31
+R22
+!s107 C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii124.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters|C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii124.v|
+!i113 1
+R17
+R18
+R10
+vascii125
+Z23 !s110 1623879935
+!i10b 1
+!s100 jl`[N18]EenaziJ`5CWLf1
+R3
+IQ2`^^KnBPT<i2d;TmZ74<0
+R4
+R0
+R5
+8C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii125.v
+FC:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii125.v
+!i122 93
+R15
+R6
+r1
+!s85 0
+31
+R22
+!s107 C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii125.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters|C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii125.v|
+!i113 1
+R17
+R18
+R10
+vascii126
+R23
+!i10b 1
+!s100 i0iMG6MhoQX975QM79Sj`2
+R3
+IeeG0T@8DdG>z>f@JJ8VMc0
+R4
+R0
+R5
+8C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii126.v
+FC:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii126.v
+!i122 94
+R15
+R6
+r1
+!s85 0
+31
+Z24 !s108 1623879935.000000
+!s107 C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii126.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters|C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii126.v|
+!i113 1
+R17
+R18
+R10
+vascii32
+Z25 !s110 1623879925
+!i10b 1
+!s100 ^]@Z48O?g5U=7ZfUXdM]`0
+R3
+IZ2o@h;YA=KdOF2RVHbOg^3
+R4
+R0
+R5
+8C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii32.v
+FC:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii32.v
+!i122 4
+R15
+R6
+r1
+!s85 0
+31
+Z26 !s108 1623879925.000000
+!s107 C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii32.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters|C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii32.v|
+!i113 1
+R17
+R18
+R10
+vascii33
+R25
+!i10b 1
+!s100 8LeNcmibJiV9VXQNP^ACH3
+R3
+IcB[b=8O:AU?@0HZcJn0eS3
+R4
+R0
+R5
+8C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii33.v
+FC:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii33.v
+!i122 5
+R15
+R6
+r1
+!s85 0
+31
+R26
+!s107 C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii33.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters|C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii33.v|
+!i113 1
+R17
+R18
+R10
+vascii34
+R25
+!i10b 1
+!s100 n0i7[`G]zHkoza1AMNe:b1
+R3
+I=3??Z4Q<;3DZ;zPEhCHX11
+R4
+R0
+R5
+8C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii34.v
+FC:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii34.v
+!i122 6
+R15
+R6
+r1
+!s85 0
+31
+R26
+!s107 C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii34.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters|C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii34.v|
+!i113 1
+R17
+R18
+R10
+vascii35
+R25
+!i10b 1
+!s100 7b]670K9L[0f2XLO0=Zen0
+R3
+IEm<zi73V?ABKgQiAD`[be2
+R4
+R0
+R5
+8C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii35.v
+FC:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii35.v
+!i122 7
+R15
+R6
+r1
+!s85 0
+31
+R26
+!s107 C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii35.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters|C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii35.v|
+!i113 1
+R17
+R18
+R10
+vascii36
+R25
+!i10b 1
+!s100 VS0===zh0a7moT:6alel52
+R3
+IM>LUHYCJ4P7Vgd3K;S4F=1
+R4
+R0
+R5
+8C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii36.v
+FC:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii36.v
+!i122 8
+R15
+R6
+r1
+!s85 0
+31
+R26
+!s107 C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii36.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters|C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii36.v|
+!i113 1
+R17
+R18
+R10
+vascii37
+R25
+!i10b 1
+!s100 8=DJ]VoCTJH[5e6MBBD4V1
+R3
+I;;?SV5R9L144ecd`ng7l50
+R4
+R0
+R5
+8C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii37.v
+FC:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii37.v
+!i122 9
+R15
+R6
+r1
+!s85 0
+31
+R26
+!s107 C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii37.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters|C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii37.v|
+!i113 1
+R17
+R18
+R10
+vascii38
+R25
+!i10b 1
+!s100 h]N95kU]E1ccMOfVJI3oB0
+R3
+I_VOh5;BcbhW]2E7Aj3AR30
+R4
+R0
+R5
+8C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii38.v
+FC:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii38.v
+!i122 10
+R15
+R6
+r1
+!s85 0
+31
+R26
+!s107 C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii38.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters|C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii38.v|
+!i113 1
+R17
+R18
+R10
+vascii39
+R25
+!i10b 1
+!s100 NAfOZMBF=ZA7cH@GLhfCN3
+R3
+IBUYeDCT3mdco9@B<V25IA0
+R4
+R0
+R5
+8C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii39.v
+FC:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii39.v
+!i122 11
+R15
+R6
+r1
+!s85 0
+31
+R26
+!s107 C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii39.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters|C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii39.v|
+!i113 1
+R17
+R18
+R10
+vascii40
+R25
+!i10b 1
+!s100 [6;7fLdEPCNiZ^>n^_g?g2
+R3
+I]_4@Aj_46[DN1z[F_0Xo43
+R4
+R0
+R5
+8C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii40.v
+FC:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii40.v
+!i122 12
+R15
+R6
+r1
+!s85 0
+31
+R26
+!s107 C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii40.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters|C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii40.v|
+!i113 1
+R17
+R18
+R10
+vascii41
+Z27 !s110 1623879926
+!i10b 1
+!s100 2WRUfA>MgZNWgRGRER=[X3
+R3
+IX>1Gck_8K^_TEB:RZBCD92
+R4
+R0
+R5
+8C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii41.v
+FC:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii41.v
+!i122 13
+R15
+R6
+r1
+!s85 0
+31
+R26
+!s107 C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii41.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters|C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii41.v|
+!i113 1
+R17
+R18
+R10
+vascii42
+R27
+!i10b 1
+!s100 bHc>5N7CfDB^j^<McTR9<2
+R3
+IZ>34V=8bj__3]BRHWCBK13
+R4
+R0
+R5
+8C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii42.v
+FC:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii42.v
+!i122 14
+R15
+R6
+r1
+!s85 0
+31
+Z28 !s108 1623879926.000000
+!s107 C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii42.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters|C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii42.v|
+!i113 1
+R17
+R18
+R10
+vascii43
+R27
+!i10b 1
+!s100 9KIQ5aOm5P`GSbdXVYFje2
+R3
+IL_;_=kR?@>R1nZZHTzZF<2
+R4
+R0
+R5
+8C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii43.v
+FC:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii43.v
+!i122 15
+R15
+R6
+r1
+!s85 0
+31
+R28
+!s107 C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii43.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters|C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii43.v|
+!i113 1
+R17
+R18
+R10
+vascii44
+R27
+!i10b 1
+!s100 PoRP=jR`UCX691McAGMXD1
+R3
+I^`6k;kc>O4c>G>ck@8aaY2
+R4
+R0
+R5
+8C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii44.v
+FC:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii44.v
+!i122 16
+R15
+R6
+r1
+!s85 0
+31
+R28
+!s107 C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii44.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters|C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii44.v|
+!i113 1
+R17
+R18
+R10
+vascii45
+R27
+!i10b 1
+!s100 _h]cgGb8LQz7]:`OW7X8X2
+R3
+IgcO]1Whka7F6jE=5=S[DK2
+R4
+R0
+R5
+8C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii45.v
+FC:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii45.v
+!i122 17
+R15
+R6
+r1
+!s85 0
+31
+R28
+!s107 C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii45.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters|C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii45.v|
+!i113 1
+R17
+R18
+R10
+vascii46
+R27
+!i10b 1
+!s100 0N75B7D>oz[YWo>cD]1;;1
+R3
+IiiY:=N3X5``lnMADYE6A41
+R4
+R0
+R5
+8C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii46.v
+FC:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii46.v
+!i122 18
+R15
+R6
+r1
+!s85 0
+31
+R28
+!s107 C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii46.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters|C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii46.v|
+!i113 1
+R17
+R18
+R10
+vascii47
+R27
+!i10b 1
+!s100 Tgn45HII?ZNm_fJjEXG:O2
+R3
+IIAzUR1SRf9gOG^X[VL9HG0
+R4
+R0
+R5
+8C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii47.v
+FC:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii47.v
+!i122 19
+R15
+R6
+r1
+!s85 0
+31
+R28
+!s107 C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii47.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters|C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii47.v|
+!i113 1
+R17
+R18
+R10
+vascii48
+R27
+!i10b 1
+!s100 WLQ3?oLG<`42032R<e><h2
+R3
+I^eOkbC3i]5o=M@WC:`<8`2
+R4
+R0
+R5
+8C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii48.v
+FC:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii48.v
+!i122 20
+R15
+R6
+r1
+!s85 0
+31
+R28
+!s107 C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii48.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters|C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii48.v|
+!i113 1
+R17
+R18
+R10
+vascii49
+R27
+!i10b 1
+!s100 zOD4YhLenI;X=8n:NBY_N3
+R3
+IKCBl57o8T8C31K<OA@eSm2
+R4
+R0
+R5
+8C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii49.v
+FC:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii49.v
+!i122 21
+R15
+R6
+r1
+!s85 0
+31
+R28
+!s107 C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii49.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters|C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii49.v|
+!i113 1
+R17
+R18
+R10
+vascii50
+Z29 !s110 1623879927
+!i10b 1
+!s100 1a`T<GhRzM`F3LRDMBfZi0
+R3
+Ii`7@jdLXfYAl:gdlXBoAZ2
+R4
+R0
+R5
+8C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii50.v
+FC:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii50.v
+!i122 22
+R15
+R6
+r1
+!s85 0
+31
+R28
+!s107 C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii50.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters|C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii50.v|
+!i113 1
+R17
+R18
+R10
+vascii51
+R29
+!i10b 1
+!s100 WEW<Az=J?<JzBbiNoJ:I@2
+R3
+IU3YV_W<mh>KFGN]S7^>Zh1
+R4
+R0
+R5
+8C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii51.v
+FC:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii51.v
+!i122 23
+R15
+R6
+r1
+!s85 0
+31
+Z30 !s108 1623879927.000000
+!s107 C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii51.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters|C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii51.v|
+!i113 1
+R17
+R18
+R10
+vascii52
+R29
+!i10b 1
+!s100 5[JhzM3DQliNWH5Y5J<PX2
+R3
+IKaL_B2fdg5BYC>d9]>=V12
+R4
+R0
+R5
+8C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii52.v
+FC:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii52.v
+!i122 24
+R15
+R6
+r1
+!s85 0
+31
+R30
+!s107 C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii52.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters|C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii52.v|
+!i113 1
+R17
+R18
+R10
+vascii53
+R29
+!i10b 1
+!s100 h1J2@Z<;><d7H=76e8?`_0
+R3
+IF@LMJ]6WhfC^8XWzAX50H1
+R4
+R0
+R5
+8C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii53.v
+FC:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii53.v
+!i122 25
+R15
+R6
+r1
+!s85 0
+31
+R30
+!s107 C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii53.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters|C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii53.v|
+!i113 1
+R17
+R18
+R10
+vascii54
+R29
+!i10b 1
+!s100 QCi]_z9:Sj>j?Y2J7eg=]0
+R3
+IQhlY?eClT?EcaJ8]lR_F=3
+R4
+R0
+R5
+8C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii54.v
+FC:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii54.v
+!i122 26
+R15
+R6
+r1
+!s85 0
+31
+R30
+!s107 C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii54.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters|C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii54.v|
+!i113 1
+R17
+R18
+R10
+vascii55
+R29
+!i10b 1
+!s100 0YgOTD20K`J1Gg9l<<>]V3
+R3
+I0I1IQmAm5N_Ne9_BVR9b@1
+R4
+R0
+R5
+8C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii55.v
+FC:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii55.v
+!i122 27
+R15
+R6
+r1
+!s85 0
+31
+R30
+!s107 C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii55.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters|C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii55.v|
+!i113 1
+R17
+R18
+R10
+vascii56
+R29
+!i10b 1
+!s100 Lf9eihJfPi>hZU`CTOOR_2
+R3
+I58;_gQoold=h>GB5Lo=ba1
+R4
+R0
+R5
+8C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii56.v
+FC:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii56.v
+!i122 28
+R15
+R6
+r1
+!s85 0
+31
+R30
+!s107 C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii56.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters|C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii56.v|
+!i113 1
+R17
+R18
+R10
+vascii57
+R29
+!i10b 1
+!s100 m9FEZHj1Y@3dNgaNVQ_Zj2
+R3
+I1j6h0Bg8IGQPXTMF=MgjZ3
+R4
+R0
+R5
+8C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii57.v
+FC:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii57.v
+!i122 29
+R15
+R6
+r1
+!s85 0
+31
+R30
+!s107 C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii57.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters|C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii57.v|
+!i113 1
+R17
+R18
+R10
+vascii58
+R29
+!i10b 1
+!s100 HQz_]7hZ0IL2EO3nP7`A42
+R3
+I?TeAS;LSmaHeSUC?RBeK;3
+R4
+R0
+R5
+8C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii58.v
+FC:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii58.v
+!i122 30
+R15
+R6
+r1
+!s85 0
+31
+R30
+!s107 C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii58.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters|C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii58.v|
+!i113 1
+R17
+R18
+R10
+vascii59
+Z31 !s110 1623879928
+!i10b 1
+!s100 _I5kSzZMFkYCdU2I];f8k3
+R3
+IdS14G3iba4neHUSnE999l1
+R4
+R0
+R5
+8C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii59.v
+FC:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii59.v
+!i122 31
+R15
+R6
+r1
+!s85 0
+31
+R30
+!s107 C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii59.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters|C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii59.v|
+!i113 1
+R17
+R18
+R10
+vascii60
+R31
+!i10b 1
+!s100 8oX6PGdJ5WRCJ7OX6JQR82
+R3
+InKlel:Ehn1];To`kjR]HD2
+R4
+R0
+R5
+8C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii60.v
+FC:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii60.v
+!i122 32
+R15
+R6
+r1
+!s85 0
+31
+Z32 !s108 1623879928.000000
+!s107 C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii60.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters|C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii60.v|
+!i113 1
+R17
+R18
+R10
+vascii61
+R31
+!i10b 1
+!s100 UYQUk2V]z0n3XQVz>ZPG<1
+R3
+IG_d;0GllNN>?fQc=8[meM3
+R4
+R0
+R5
+8C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii61.v
+FC:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii61.v
+!i122 33
+R15
+R6
+r1
+!s85 0
+31
+R32
+!s107 C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii61.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters|C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii61.v|
+!i113 1
+R17
+R18
+R10
+vascii62
+R31
+!i10b 1
+!s100 CIVZUJZ]@K:]RH`m@l_::2
+R3
+Ia5^?UVZ:U^8^fU?_ZmC3g1
+R4
+R0
+R5
+8C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii62.v
+FC:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii62.v
+!i122 34
+R15
+R6
+r1
+!s85 0
+31
+R32
+!s107 C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii62.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters|C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii62.v|
+!i113 1
+R17
+R18
+R10
+vascii63
+R31
+!i10b 1
+!s100 24Y1[?EVVCiEeTV=eiJjn3
+R3
+ImXGk7g5diamWWD6QDj5DH1
+R4
+R0
+R5
+8C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii63.v
+FC:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii63.v
+!i122 35
+R15
+R6
+r1
+!s85 0
+31
+R32
+!s107 C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii63.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters|C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii63.v|
+!i113 1
+R17
+R18
+R10
+vascii64
+R31
+!i10b 1
+!s100 8oi4^3`_:YX1o^SIDQQh^0
+R3
+IS<<z0eUzCMYh<2i0J?]WC3
+R4
+R0
+R5
+8C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii64.v
+FC:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii64.v
+!i122 36
+R15
+R6
+r1
+!s85 0
+31
+R32
+!s107 C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii64.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters|C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii64.v|
+!i113 1
+R17
+R18
+R10
+vascii65
+Z33 !s110 1623879924
+!i10b 1
+!s100 >2lj?7oj?bglS3Hf`WfQl3
+R3
+Ia7Fa^fe2G[FP>m:d2]?@j2
+R4
+R0
+w1623875954
+8C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii65.v
+FC:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii65.v
+!i122 0
+R15
+R6
+r1
+!s85 0
+31
+Z34 !s108 1623879924.000000
+!s107 C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii65.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters|C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii65.v|
+!i113 1
+R17
+R18
+R10
+vascii66
+R31
+!i10b 1
+!s100 HB[S<a0oZBgX;4GEHa5_U0
+R3
+ISjWnQ5hf>YY?nlLk@@EV`0
+R4
+R0
+R5
+8C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii66.v
+FC:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii66.v
+!i122 37
+R15
+R6
+r1
+!s85 0
+31
+R32
+!s107 C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii66.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters|C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii66.v|
+!i113 1
+R17
+R18
+R10
+vascii67
+R31
+!i10b 1
+!s100 b]ak^7YO:AlRPNoAVoY0<1
+R3
+I:]7gkAJW54n]109V?MJ053
+R4
+R0
+R5
+8C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii67.v
+FC:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii67.v
+!i122 38
+R15
+R6
+r1
+!s85 0
+31
+R32
+!s107 C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii67.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters|C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii67.v|
+!i113 1
+R17
+R18
+R10
+vascii68
+R31
+!i10b 1
+!s100 :Id5cCoVM25XS@PVDPGKh1
+R3
+I^n6^FBm[_H]BeJZncjM=j2
+R4
+R0
+R5
+8C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii68.v
+FC:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii68.v
+!i122 39
+R15
+R6
+r1
+!s85 0
+31
+R32
+!s107 C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii68.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters|C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii68.v|
+!i113 1
+R17
+R18
+R10
+vascii69
+Z35 !s110 1623879929
+!i10b 1
+!s100 Y_K9efJ^VIL[hm92<<U[g1
+R3
+IU@L1<`EHVo>8[NFD8T3hS1
+R4
+R0
+R5
+8C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii69.v
+FC:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii69.v
+!i122 40
+R15
+R6
+r1
+!s85 0
+31
+R32
+!s107 C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii69.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters|C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii69.v|
+!i113 1
+R17
+R18
+R10
+vascii70
+R35
+!i10b 1
+!s100 L5W=6OM9W6]dPYTg2GYQR1
+R3
+IWG;ni6OU2AN6McFWTLD3K1
+R4
+R0
+R5
+8C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii70.v
+FC:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii70.v
+!i122 41
+R15
+R6
+r1
+!s85 0
+31
+Z36 !s108 1623879929.000000
+!s107 C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii70.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters|C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii70.v|
+!i113 1
+R17
+R18
+R10
+vascii71
+R35
+!i10b 1
+!s100 [[@k[;GjAf8M=hEiLFDaR1
+R3
+Ik@X]aP31mQ?ca1SOX7h[D2
+R4
+R0
+R5
+8C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii71.v
+FC:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii71.v
+!i122 42
+R15
+R6
+r1
+!s85 0
+31
+R36
+!s107 C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii71.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters|C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii71.v|
+!i113 1
+R17
+R18
+R10
+vascii72
+R33
+!i10b 1
+!s100 e57ae3i<WdbT6cU9mEEZV0
+R3
+I;3?nN=c3U>GgYa=clAV_71
+R4
+R0
+w1623875981
+8C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii72.v
+FC:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii72.v
+!i122 1
+R15
+R6
+r1
+!s85 0
+31
+R34
+!s107 C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii72.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters|C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii72.v|
+!i113 1
+R17
+R18
+R10
+vascii73
+R35
+!i10b 1
+!s100 :zoA@O4zAPmY5Zce?`lzY1
+R3
+I]=L5IYJ3A`94aGjMGhd=82
+R4
+R0
+R5
+8C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii73.v
+FC:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii73.v
+!i122 43
+R15
+R6
+r1
+!s85 0
+31
+R36
+!s107 C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii73.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters|C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii73.v|
+!i113 1
+R17
+R18
+R10
+vascii74
+R35
+!i10b 1
+!s100 m?eAljz3<QFfojdJmXBIh2
+R3
+I[WUkNMV6]DA^<JWB<:W]<1
+R4
+R0
+R5
+8C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii74.v
+FC:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii74.v
+!i122 44
+R15
+R6
+r1
+!s85 0
+31
+R36
+!s107 C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii74.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters|C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii74.v|
+!i113 1
+R17
+R18
+R10
+vascii75
+R35
+!i10b 1
+!s100 =Uk5z?<9OT9Q]S7GKkdcc0
+R3
+IjE@7bgMl[Gghf?kelJ5`@3
+R4
+R0
+R5
+8C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii75.v
+FC:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii75.v
+!i122 45
+R15
+R6
+r1
+!s85 0
+31
+R36
+!s107 C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii75.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters|C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii75.v|
+!i113 1
+R17
+R18
+R10
+vascii76
+R33
+!i10b 1
+!s100 gGb@=XS<Fi`TRU_`ce^X13
+R3
+IAz@mgUi8AXSY;z_i@`J2G0
+R4
+R0
+w1623876002
+8C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii76.v
+FC:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii76.v
+!i122 2
+R15
+R6
+r1
+!s85 0
+31
+R34
+!s107 C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii76.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters|C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii76.v|
+!i113 1
+R17
+R18
+R10
+vascii77
+R35
+!i10b 1
+!s100 [0M5h^@A_^@K0Yo]@lf[80
+R3
+Iba6k1>WFVB7:?9m0CWXN:0
+R4
+R0
+R5
+8C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii77.v
+FC:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii77.v
+!i122 46
+R15
+R6
+r1
+!s85 0
+31
+R36
+!s107 C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii77.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters|C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii77.v|
+!i113 1
+R17
+R18
+R10
+vascii78
+R35
+!i10b 1
+!s100 CcT6g?lF@dHzEaDK9TTao3
+R3
+IBMHAD?nWLfT:<=C_jX^JB1
+R4
+R0
+R5
+8C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii78.v
+FC:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii78.v
+!i122 47
+R15
+R6
+r1
+!s85 0
+31
+R36
+!s107 C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii78.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters|C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii78.v|
+!i113 1
+R17
+R18
+R10
+vascii79
+R25
+!i10b 1
+!s100 FWILYCKQZ6kVEJTX?_P3^0
+R3
+I`kQk2WoEVTGh<GXd53:Q30
+R4
+R0
+w1623876013
+8C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii79.v
+FC:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii79.v
+!i122 3
+R15
+R6
+r1
+!s85 0
+31
+R34
+!s107 C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii79.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters|C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii79.v|
+!i113 1
+R17
+R18
+R10
+vascii80
+R35
+!i10b 1
+!s100 liMhHzh^IDgkMn_U?BHd33
+R3
+IBGkJNgG]_RDZ@Lg?VR<3K1
+R4
+R0
+R5
+8C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii80.v
+FC:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii80.v
+!i122 48
+R15
+R6
+r1
+!s85 0
+31
+R36
+!s107 C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii80.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters|C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii80.v|
+!i113 1
+R17
+R18
+R10
+vascii81
+Z37 !s110 1623879930
+!i10b 1
+!s100 YaGN1M`0d`TcGRWk?e;kK3
+R3
+I<>@9JXl:=QPGlRR=8FS7O1
+R4
+R0
+R5
+8C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii81.v
+FC:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii81.v
+!i122 49
+R15
+R6
+r1
+!s85 0
+31
+Z38 !s108 1623879930.000000
+!s107 C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii81.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters|C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii81.v|
+!i113 1
+R17
+R18
+R10
+vascii82
+R37
+!i10b 1
+!s100 iZ7MfL7SD>zT=A8Pc:hX20
+R3
+IRGUQQog@o<@j@QUcmRYeJ1
+R4
+R0
+R5
+8C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii82.v
+FC:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii82.v
+!i122 50
+R15
+R6
+r1
+!s85 0
+31
+R38
+!s107 C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii82.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters|C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii82.v|
+!i113 1
+R17
+R18
+R10
+vascii83
+R37
+!i10b 1
+!s100 8HEEe]HcCN8HkT6RkL@VX0
+R3
+IcU21iE9JTjCkZTXfc]cEW3
+R4
+R0
+R5
+8C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii83.v
+FC:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii83.v
+!i122 51
+R15
+R6
+r1
+!s85 0
+31
+R38
+!s107 C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii83.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters|C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii83.v|
+!i113 1
+R17
+R18
+R10
+vascii84
+R37
+!i10b 1
+!s100 9M1kFLKQ5W3gC1Ak<dMH_0
+R3
+IL9824^3MWJ[K7<2oJbHPB0
+R4
+R0
+R5
+8C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii84.v
+FC:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii84.v
+!i122 52
+R15
+R6
+r1
+!s85 0
+31
+R38
+!s107 C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii84.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters|C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii84.v|
+!i113 1
+R17
+R18
+R10
+vascii85
+R37
+!i10b 1
+!s100 h1bd22zjk6FHCBgE:^5`k2
+R3
+IjVM`9z2_KFV97gigOd55Q1
+R4
+R0
+R5
+8C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii85.v
+FC:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii85.v
+!i122 53
+R15
+R6
+r1
+!s85 0
+31
+R38
+!s107 C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii85.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters|C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii85.v|
+!i113 1
+R17
+R18
+R10
+vascii86
+R37
+!i10b 1
+!s100 Jgjm`MkY_Hlb9ERgNJ6_n1
+R3
+I@RnLiOS57;T]GSfzGj7j@3
+R4
+R0
+R5
+8C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii86.v
+FC:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii86.v
+!i122 54
+R15
+R6
+r1
+!s85 0
+31
+R38
+!s107 C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii86.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters|C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii86.v|
+!i113 1
+R17
+R18
+R10
+vascii87
+R37
+!i10b 1
+!s100 ]CSRZSN]M3HQOV9o8XKE91
+R3
+IbTnLUILN0M_eaD^S7Yjgl1
+R4
+R0
+R5
+8C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii87.v
+FC:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii87.v
+!i122 55
+R15
+R6
+r1
+!s85 0
+31
+R38
+!s107 C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii87.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters|C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii87.v|
+!i113 1
+R17
+R18
+R10
+vascii88
+R37
+!i10b 1
+!s100 8TD?HeM1H_zea_?1X@3YC1
+R3
+I_N>AMX30be^Ck=LkSDadO0
+R4
+R0
+R5
+8C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii88.v
+FC:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii88.v
+!i122 56
+R15
+R6
+r1
+!s85 0
+31
+R38
+!s107 C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii88.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters|C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii88.v|
+!i113 1
+R17
+R18
+R10
+vascii89
+R37
+!i10b 1
+!s100 4e:oBW^b?hFC`ehl_ZF^?0
+R3
+IcRKU`mc<_W^7AbSTl8>LD1
+R4
+R0
+R5
+8C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii89.v
+FC:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii89.v
+!i122 57
+R15
+R6
+r1
+!s85 0
+31
+R38
+!s107 C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii89.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters|C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii89.v|
+!i113 1
+R17
+R18
+R10
+vascii90
+Z39 !s110 1623879931
+!i10b 1
+!s100 UFSl_1;>@X?3hTY?SEDHM1
+R3
+Ib_JEY3Y`h4LikE>zW;n`Z0
+R4
+R0
+R5
+8C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii90.v
+FC:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii90.v
+!i122 58
+R15
+R6
+r1
+!s85 0
+31
+Z40 !s108 1623879931.000000
+!s107 C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii90.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters|C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii90.v|
+!i113 1
+R17
+R18
+R10
+vascii91
+R39
+!i10b 1
+!s100 M_=fWWood=2[3MnJimZkH3
+R3
+IM0c<zmAnSRMaf193SFcg;2
+R4
+R0
+R5
+8C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii91.v
+FC:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii91.v
+!i122 59
+R15
+R6
+r1
+!s85 0
+31
+R40
+!s107 C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii91.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters|C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii91.v|
+!i113 1
+R17
+R18
+R10
+vascii92
+R39
+!i10b 1
+!s100 NO4NEB6i`MARA?5C8We8`3
+R3
+I1YUSa4`i=L9J^fMQn11VD0
+R4
+R0
+R5
+8C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii92.v
+FC:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii92.v
+!i122 60
+R15
+R6
+r1
+!s85 0
+31
+R40
+!s107 C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii92.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters|C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii92.v|
+!i113 1
+R17
+R18
+R10
+vascii93
+R39
+!i10b 1
+!s100 ZW4lK4@hkoFBCPJ1WLkXE3
+R3
+IiQ8H8MR?njYN=i23IAfc31
+R4
+R0
+R5
+8C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii93.v
+FC:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii93.v
+!i122 61
+R15
+R6
+r1
+!s85 0
+31
+R40
+!s107 C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii93.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters|C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii93.v|
+!i113 1
+R17
+R18
+R10
+vascii94
+R39
+!i10b 1
+!s100 0g=<TU<<6QzQ@ObT1M`@W1
+R3
+I>LA?gWzM3cPlbNQmDQ61c0
+R4
+R0
+R5
+8C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii94.v
+FC:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii94.v
+!i122 62
+R15
+R6
+r1
+!s85 0
+31
+R40
+!s107 C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii94.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters|C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii94.v|
+!i113 1
+R17
+R18
+R10
+vascii95
+R39
+!i10b 1
+!s100 KoY94daU3D^ET]4AaW[ae2
+R3
+I_H^XT`S7;8ek<YgVKVPjg3
+R4
+R0
+R5
+8C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii95.v
+FC:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii95.v
+!i122 63
+R15
+R6
+r1
+!s85 0
+31
+R40
+!s107 C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii95.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters|C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii95.v|
+!i113 1
+R17
+R18
+R10
+vascii96
+R39
+!i10b 1
+!s100 ocH;lnEbDDXY7Af?=OVN80
+R3
+IViM?E3`hGbd;UX60EgL7o0
+R4
+R0
+R5
+8C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii96.v
+FC:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii96.v
+!i122 64
+R15
+R6
+r1
+!s85 0
+31
+R40
+!s107 C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii96.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters|C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii96.v|
+!i113 1
+R17
+R18
+R10
+vascii97
+R39
+!i10b 1
+!s100 4[M>5Rja3AGz;9Q<?dK6U1
+R3
+IHNDZ=EDo0[K?D6T[U=GUY3
+R4
+R0
+R5
+8C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii97.v
+FC:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii97.v
+!i122 65
+R15
+R6
+r1
+!s85 0
+31
+R40
+!s107 C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii97.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters|C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii97.v|
+!i113 1
+R17
+R18
+R10
+vascii98
+R14
+!i10b 1
+!s100 <PiLc@TX:0jHbnJ_Ze4`k1
+R3
+I_ZX^e1>6ZRX:9ZBkaYnYZ1
+R4
+R0
+R5
+8C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii98.v
+FC:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii98.v
+!i122 66
+R15
+R6
+r1
+!s85 0
+31
+R40
+!s107 C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii98.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters|C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii98.v|
+!i113 1
+R17
+R18
+R10
+vascii99
+R14
+!i10b 1
+!s100 ]h5J_LnPPAW3VNidjXTN33
+R3
+IkCM;Q]AI5jH_FO]EIRT]c1
+R4
+R0
+R5
+8C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii99.v
+FC:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii99.v
+!i122 67
+R15
+R6
+r1
+!s85 0
+31
+R16
+!s107 C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii99.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters|C:/Users/Usuario/Downloads/p_digitales/VGAletters/ascii99.v|
+!i113 1
+R17
+R18
+R10
+vcharMux
+R1
+Z41 !s110 1623879939
+!i10b 1
+!s100 [GJ9i9F43IJiUBeXBB1h33
+R3
+I4l2o31PkC4ZJeeAjh6QWf0
+R4
+S1
+R0
+R5
+8C:/Users/Usuario/Downloads/p_digitales/VGAletters/charMux.sv
+FC:/Users/Usuario/Downloads/p_digitales/VGAletters/charMux.sv
+!i122 124
+L0 2 121
+R6
+r1
+!s85 0
+31
+R13
+!s107 C:/Users/Usuario/Downloads/p_digitales/VGAletters/charMux.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters|C:/Users/Usuario/Downloads/p_digitales/VGAletters/charMux.sv|
+!i113 1
+R8
+R9
+R10
+nchar@mux
+vclockDivider
+R1
+R11
+!i10b 1
+!s100 JGFfA>14YkHzAF[5A3`NL0
+R3
+If?RilMz00ZLd5Il^gjMj@2
+R4
+S1
+R0
+R5
+8C:/Users/Usuario/Downloads/p_digitales/VGAletters/clockDivider.sv
+FC:/Users/Usuario/Downloads/p_digitales/VGAletters/clockDivider.sv
+!i122 116
+R12
+R6
+r1
+!s85 0
+31
+R7
+!s107 C:/Users/Usuario/Downloads/p_digitales/VGAletters/clockDivider.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters|C:/Users/Usuario/Downloads/p_digitales/VGAletters/clockDivider.sv|
+!i113 1
+R8
+R9
+R10
+nclock@divider
+vcomparator
+R1
+R41
+!i10b 1
+!s100 2hg_X[RU6l8kDW;4zMECn3
+R3
+IXzWA0a0AFjTbE88mmQmBz1
+R4
+S1
+R0
+R5
+8C:/Users/Usuario/Downloads/p_digitales/VGAletters/comparator.sv
+FC:/Users/Usuario/Downloads/p_digitales/VGAletters/comparator.sv
+!i122 126
+L0 1 19
+R6
+r1
+!s85 0
+31
+Z42 !s108 1623879939.000000
+!s107 C:/Users/Usuario/Downloads/p_digitales/VGAletters/comparator.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters|C:/Users/Usuario/Downloads/p_digitales/VGAletters/comparator.sv|
+!i113 1
+R8
+R9
+R10
+vconditionalLogic
+R1
+R2
+!i10b 1
+!s100 3LPi3Z=[cDmdadY:W2li>0
+R3
+Ig_jOKli=XjJVF4K9zIeDM0
+R4
+S1
+R0
+R5
+8C:/Users/Usuario/Downloads/p_digitales/VGAletters/conditionalLogic.sv
+FC:/Users/Usuario/Downloads/p_digitales/VGAletters/conditionalLogic.sv
+!i122 110
+L0 1 26
+R6
+r1
+!s85 0
+31
+R7
+!s107 C:/Users/Usuario/Downloads/p_digitales/VGAletters/conditionalLogic.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters|C:/Users/Usuario/Downloads/p_digitales/VGAletters/conditionalLogic.sv|
+!i113 1
+R8
+R9
+R10
+nconditional@logic
+vconditionCheck
+R1
+R2
+!i10b 1
+!s100 ?P:cX8UPV?zQFbTTi:5dZ3
+R3
+IAP6cNeK=D80DlaU:0:_6[0
+R4
+S1
+R0
+R5
+8C:/Users/Usuario/Downloads/p_digitales/VGAletters/conditionCheck.sv
+FC:/Users/Usuario/Downloads/p_digitales/VGAletters/conditionCheck.sv
+!i122 109
+L0 1 30
+R6
+r1
+!s85 0
+31
+R7
+!s107 C:/Users/Usuario/Downloads/p_digitales/VGAletters/conditionCheck.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters|C:/Users/Usuario/Downloads/p_digitales/VGAletters/conditionCheck.sv|
+!i113 1
+R8
+R9
+R10
+ncondition@check
+vcontroller
+R1
+R2
+!i10b 1
+!s100 mL@DzTiiL9DRhQUf>LEO<3
+R3
+InCTcL_@Wm9B:T=iKDhzhR2
+R4
+S1
+R0
+R5
+8C:/Users/Usuario/Downloads/p_digitales/VGAletters/controller.sv
+FC:/Users/Usuario/Downloads/p_digitales/VGAletters/controller.sv
+!i122 108
+L0 8 24
+R6
+r1
+!s85 0
+31
+Z43 !s108 1623879936.000000
+!s107 C:/Users/Usuario/Downloads/p_digitales/VGAletters/controller.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters|C:/Users/Usuario/Downloads/p_digitales/VGAletters/controller.sv|
+!i113 1
+R8
+R9
+R10
+vcounterXY
+R1
+R11
+!i10b 1
+!s100 5`_9=0=4R?hVIe311AFFo2
+R3
+In6llN3X0Tg5i[nF@d@oYM2
+R4
+S1
+R0
+R5
+8C:/Users/Usuario/Downloads/p_digitales/VGAletters/counterXY.sv
+FC:/Users/Usuario/Downloads/p_digitales/VGAletters/counterXY.sv
+!i122 120
+L0 1 24
+R6
+r1
+!s85 0
+31
+R13
+!s107 C:/Users/Usuario/Downloads/p_digitales/VGAletters/counterXY.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters|C:/Users/Usuario/Downloads/p_digitales/VGAletters/counterXY.sv|
+!i113 1
+R8
+R9
+R10
+ncounter@x@y
+vdataMemory
+R1
+Z44 !s110 1623879936
+!i10b 1
+!s100 _FocQNEOPgA790G<z0XQP0
+R3
+IVZKfhbfH<[LDR0IzUzYmC0
+R4
+S1
+R0
+R5
+8C:/Users/Usuario/Downloads/p_digitales/VGAletters/dataMemory.sv
+FC:/Users/Usuario/Downloads/p_digitales/VGAletters/dataMemory.sv
+!i122 107
+L0 6 25
+R6
+r1
+!s85 0
+31
+R43
+!s107 C:/Users/Usuario/Downloads/p_digitales/VGAletters/dataMemory.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters|C:/Users/Usuario/Downloads/p_digitales/VGAletters/dataMemory.sv|
+!i113 1
+R8
+R9
+R10
+ndata@memory
+vdatapath
+R1
+R44
+!i10b 1
+!s100 Y;?@gX`HZUz4=PEHD;R4R2
+R3
+IdJ1ZO@`[U<a31>z:oi[B_3
+R4
+S1
+R0
+R5
+8C:/Users/Usuario/Downloads/p_digitales/VGAletters/datapath.sv
+FC:/Users/Usuario/Downloads/p_digitales/VGAletters/datapath.sv
+!i122 106
+L0 17 50
+R6
+r1
+!s85 0
+31
+R43
+!s107 C:/Users/Usuario/Downloads/p_digitales/VGAletters/datapath.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters|C:/Users/Usuario/Downloads/p_digitales/VGAletters/datapath.sv|
+!i113 1
+R8
+R9
+R10
+vdecoder
+R1
+R44
+!i10b 1
+!s100 5j]NH2;nn;Z[ZAK]>FX:S0
+R3
+I]]1C__ZDi9zkOS6d`<LoR1
+R4
+S1
+R0
+R5
+8C:/Users/Usuario/Downloads/p_digitales/VGAletters/decoder.sv
+FC:/Users/Usuario/Downloads/p_digitales/VGAletters/decoder.sv
+!i122 105
+L0 1 58
+R6
+r1
+!s85 0
+31
+R43
+!s107 C:/Users/Usuario/Downloads/p_digitales/VGAletters/decoder.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters|C:/Users/Usuario/Downloads/p_digitales/VGAletters/decoder.sv|
+!i113 1
+R8
+R9
+R10
+vextend
+R1
+R44
+!i10b 1
+!s100 YVQ5=gLLmKOjbcUHNDSg>2
+R3
+I]lRZ2G^FESILY]^Ke9InS1
+R4
+S1
+R0
+R5
+8C:/Users/Usuario/Downloads/p_digitales/VGAletters/extend.sv
+FC:/Users/Usuario/Downloads/p_digitales/VGAletters/extend.sv
+!i122 104
+L0 1 15
+R6
+r1
+!s85 0
+31
+R43
+!s107 C:/Users/Usuario/Downloads/p_digitales/VGAletters/extend.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters|C:/Users/Usuario/Downloads/p_digitales/VGAletters/extend.sv|
+!i113 1
+R8
+R9
+R10
+vflopenr
+R1
+R44
+!i10b 1
+!s100 S3S:^ng^A2]T3^7n]9Cch2
+R3
+IcO3JeBD8?5X_G5=g;f8Ek3
+R4
+S1
+R0
+R5
+8C:/Users/Usuario/Downloads/p_digitales/VGAletters/flopenr.sv
+FC:/Users/Usuario/Downloads/p_digitales/VGAletters/flopenr.sv
+!i122 103
+Z45 L0 1 10
+R6
+r1
+!s85 0
+31
+R43
+!s107 C:/Users/Usuario/Downloads/p_digitales/VGAletters/flopenr.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters|C:/Users/Usuario/Downloads/p_digitales/VGAletters/flopenr.sv|
+!i113 1
+R8
+R9
+R10
+vflopr
+R1
+R44
+!i10b 1
+!s100 Yi>CZ<dTRmR7V^DFR8V=81
+R3
+IREnb;d94aVFJ6D;;5lJEU2
+R4
+S1
+R0
+R5
+8C:/Users/Usuario/Downloads/p_digitales/VGAletters/flopr.sv
+FC:/Users/Usuario/Downloads/p_digitales/VGAletters/flopr.sv
+!i122 102
+R45
+R6
+r1
+!s85 0
+31
+R43
+!s107 C:/Users/Usuario/Downloads/p_digitales/VGAletters/flopr.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters|C:/Users/Usuario/Downloads/p_digitales/VGAletters/flopr.sv|
+!i113 1
+R8
+R9
+R10
+vinstructionMemory
+R1
+R44
+!i10b 1
+!s100 bQ4iF0Z4hOSE4^L?[XBhB1
+R3
+IAVzhGVn6HOSHcn2]G?^g?3
+R4
+S1
+R0
+R5
+8C:/Users/Usuario/Downloads/p_digitales/VGAletters/instructionMemory.sv
+FC:/Users/Usuario/Downloads/p_digitales/VGAletters/instructionMemory.sv
+!i122 101
+L0 6 97
+R6
+r1
+!s85 0
+31
+R24
+!s107 C:/Users/Usuario/Downloads/p_digitales/VGAletters/instructionMemory.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters|C:/Users/Usuario/Downloads/p_digitales/VGAletters/instructionMemory.sv|
+!i113 1
+R8
+R9
+R10
+ninstruction@memory
+vinv
+R1
+R23
+!i10b 1
+!s100 T6]JW5TMA[`ik>d64c_YZ2
+R3
+IA0i`oSoT`j9AC1fLAa[2L1
+R4
+S1
+R0
+R5
+8C:/Users/Usuario/Downloads/p_digitales/VGAletters/inv.sv
+FC:/Users/Usuario/Downloads/p_digitales/VGAletters/inv.sv
+!i122 100
+Z46 L0 1 6
+R6
+r1
+!s85 0
+31
+R24
+!s107 C:/Users/Usuario/Downloads/p_digitales/VGAletters/inv.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters|C:/Users/Usuario/Downloads/p_digitales/VGAletters/inv.sv|
+!i113 1
+R8
+R9
+R10
+vmcuVGA
+R1
+R11
+!i10b 1
+!s100 kP5<5hI1TW2HVf`VI3SVZ0
+R3
+I`N_F_kOACh2z@TIzH1PSZ2
+R4
+S1
+R0
+w1623873494
+8C:/Users/Usuario/Downloads/p_digitales/VGAletters/mcuVGA.sv
+FC:/Users/Usuario/Downloads/p_digitales/VGAletters/mcuVGA.sv
+!i122 123
+L0 1 22
+R6
+r1
+!s85 0
+31
+R13
+!s107 C:/Users/Usuario/Downloads/p_digitales/VGAletters/mcuVGA.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters|C:/Users/Usuario/Downloads/p_digitales/VGAletters/mcuVGA.sv|
+!i113 1
+R8
+R9
+R10
+nmcu@v@g@a
+vmux2
+R1
+R23
+!i10b 1
+!s100 chEUMf29dLm;hkSPWAcdA0
+R3
+II[cDMPgbgZ>PlDeLWeTa@3
+R4
+S1
+R0
+R5
+8C:/Users/Usuario/Downloads/p_digitales/VGAletters/mux2.sv
+FC:/Users/Usuario/Downloads/p_digitales/VGAletters/mux2.sv
+!i122 99
+L0 1 8
+R6
+r1
+!s85 0
+31
+R24
+!s107 C:/Users/Usuario/Downloads/p_digitales/VGAletters/mux2.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters|C:/Users/Usuario/Downloads/p_digitales/VGAletters/mux2.sv|
+!i113 1
+R8
+R9
+R10
+vmux4a1
+R1
+R23
+!i10b 1
+!s100 fgAL=H?L>?kQ@4l;WbGm<0
+R3
+I89CV1GX>GoGnDS0Y[HJBE3
+R4
+S1
+R0
+R5
+8C:/Users/Usuario/Downloads/p_digitales/VGAletters/mux4a1.sv
+FC:/Users/Usuario/Downloads/p_digitales/VGAletters/mux4a1.sv
+!i122 98
+L0 1 12
+R6
+r1
+!s85 0
+31
+R24
+!s107 C:/Users/Usuario/Downloads/p_digitales/VGAletters/mux4a1.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters|C:/Users/Usuario/Downloads/p_digitales/VGAletters/mux4a1.sv|
+!i113 1
+R8
+R9
+R10
+vprintChar
+R1
+R11
+!i10b 1
+!s100 1Zh^znlJg]Z;o[]o^lDH=3
+R3
+IYI]b1SlhmH13HOg_KfDdi3
+R4
+S1
+R0
+w1623874452
+8C:/Users/Usuario/Downloads/p_digitales/VGAletters/printChar.sv
+FC:/Users/Usuario/Downloads/p_digitales/VGAletters/printChar.sv
+!i122 121
+L0 1 68
+R6
+r1
+!s85 0
+31
+R13
+!s107 C:/Users/Usuario/Downloads/p_digitales/VGAletters/printChar.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters|C:/Users/Usuario/Downloads/p_digitales/VGAletters/printChar.sv|
+!i113 1
+R8
+R9
+R10
+nprint@char
+vregfile
+R1
+R23
+!i10b 1
+!s100 l63N2kPhZ<Y[djBl:EZZ<1
+R3
+Id8B8QTzW::^M<c?o1c]h]2
+R4
+S1
+R0
+R5
+8C:/Users/Usuario/Downloads/p_digitales/VGAletters/regfile.sv
+FC:/Users/Usuario/Downloads/p_digitales/VGAletters/regfile.sv
+!i122 97
+L0 13 19
+R6
+r1
+!s85 0
+31
+R24
+!s107 C:/Users/Usuario/Downloads/p_digitales/VGAletters/regfile.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters|C:/Users/Usuario/Downloads/p_digitales/VGAletters/regfile.sv|
+!i113 1
+R8
+R9
+R10
+vrgbDecoder
+R1
+R11
+!i10b 1
+!s100 NH:F?5Yg3g7Ne_7LB?G=V3
+R3
+I<;5e2ZO?7aNgSG=mLL0NM1
+R4
+S1
+R0
+w1623876262
+8C:/Users/Usuario/Downloads/p_digitales/VGAletters/rgbDecoder.sv
+FC:/Users/Usuario/Downloads/p_digitales/VGAletters/rgbDecoder.sv
+!i122 117
+L0 1 13
+R6
+r1
+!s85 0
+31
+R13
+!s107 C:/Users/Usuario/Downloads/p_digitales/VGAletters/rgbDecoder.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters|C:/Users/Usuario/Downloads/p_digitales/VGAletters/rgbDecoder.sv|
+!i113 1
+R8
+R9
+R10
+nrgb@decoder
+vROM32
+R1
+R23
+!i10b 1
+!s100 cF[kIlXKKeC`CUA4O]ZZM1
+R3
+IZDkDW3F>AK7X^ZbB>AZif0
+R4
+S1
+R0
+w1623879781
+8C:/Users/Usuario/Downloads/p_digitales/VGAletters/ROM32.sv
+FC:/Users/Usuario/Downloads/p_digitales/VGAletters/ROM32.sv
+!i122 96
+L0 7 97
+R6
+r1
+!s85 0
+31
+R24
+!s107 C:/Users/Usuario/Downloads/p_digitales/VGAletters/ROM32.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters|C:/Users/Usuario/Downloads/p_digitales/VGAletters/ROM32.sv|
+!i113 1
+R8
+R9
+R10
+n@r@o@m32
+vsprite
+R1
+R41
+!i10b 1
+!s100 zZgQB>5?A]`h4`IF@k0S22
+R3
+IMcBVKjjiEzGATaX:i0a[i3
+R4
+S1
+R0
+R5
+8C:/Users/Usuario/Downloads/p_digitales/VGAletters/sprite.sv
+FC:/Users/Usuario/Downloads/p_digitales/VGAletters/sprite.sv
+!i122 125
+L0 1 146
+R6
+r1
+!s85 0
+31
+R42
+!s107 C:/Users/Usuario/Downloads/p_digitales/VGAletters/sprite.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters|C:/Users/Usuario/Downloads/p_digitales/VGAletters/sprite.sv|
+!i113 1
+R8
+R9
+R10
+vtb_VGA
+R1
+R41
+!i10b 1
+!s100 PT>_?0QV;21]IaU^Gf[021
+R3
+II[>gFm[kjXO]^07[;YEb@0
+R4
+S1
+R0
+R5
+8C:/Users/Usuario/Downloads/p_digitales/VGAletters/tb_VGA.sv
+FC:/Users/Usuario/Downloads/p_digitales/VGAletters/tb_VGA.sv
+!i122 127
+L0 3 16
+R6
+r1
+!s85 0
+31
+R42
+!s107 C:/Users/Usuario/Downloads/p_digitales/VGAletters/tb_VGA.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters|C:/Users/Usuario/Downloads/p_digitales/VGAletters/tb_VGA.sv|
+!i113 1
+R8
+R9
+R10
+ntb_@v@g@a
+vtopController
+R1
+R11
+!i10b 1
+!s100 j2JDOGin;n[AZbNdm^>Tb1
+R3
+IBMY[7[z<XAec[jVJh@_8c3
+R4
+S1
+R0
+w1623873549
+8C:/Users/Usuario/Downloads/p_digitales/VGAletters/topController.sv
+FC:/Users/Usuario/Downloads/p_digitales/VGAletters/topController.sv
+!i122 122
+L0 1 67
+R6
+r1
+!s85 0
+31
+R13
+!s107 C:/Users/Usuario/Downloads/p_digitales/VGAletters/topController.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters|C:/Users/Usuario/Downloads/p_digitales/VGAletters/topController.sv|
+!i113 1
+R8
+R9
+R10
+ntop@controller
+vVGAcontroller
+R1
+R11
+!i10b 1
+!s100 F1=zVezdmcf;@=gnW:;>a0
+R3
+I[C2fXH4cVZ>:hIRS@fdi;1
+R4
+S1
+R0
+R5
+8C:/Users/Usuario/Downloads/p_digitales/VGAletters/VGAcontroller.sv
+FC:/Users/Usuario/Downloads/p_digitales/VGAletters/VGAcontroller.sv
+!i122 119
+L0 1 28
+R6
+r1
+!s85 0
+31
+R13
+!s107 C:/Users/Usuario/Downloads/p_digitales/VGAletters/VGAcontroller.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters|C:/Users/Usuario/Downloads/p_digitales/VGAletters/VGAcontroller.sv|
+!i113 1
+R8
+R9
+R10
+n@v@g@acontroller
+vxorGate
+R1
+R23
+!i10b 1
+!s100 M]S7?2^F8Q^GGPYc=2c9g1
+R3
+ImPg9lQ[kdKG[Ldj7F:VHZ2
+R4
+S1
+R0
+R5
+8C:/Users/Usuario/Downloads/p_digitales/VGAletters/xorGate.sv
+FC:/Users/Usuario/Downloads/p_digitales/VGAletters/xorGate.sv
+!i122 95
+R46
+R6
+r1
+!s85 0
+31
+R24
+!s107 C:/Users/Usuario/Downloads/p_digitales/VGAletters/xorGate.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Usuario/Downloads/p_digitales/VGAletters|C:/Users/Usuario/Downloads/p_digitales/VGAletters/xorGate.sv|
+!i113 1
+R8
+R9
+R10
+nxor@gate

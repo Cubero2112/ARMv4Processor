@@ -1,0 +1,324 @@
+# Reading pref.tcl
+# do ProcesadorARM_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -sv -work work +incdir+C:/Users/Usuario/Desktop/JosueCodes/p_digitales-SystemVerilogCodes/Procesador {C:/Users/Usuario/Desktop/JosueCodes/p_digitales-SystemVerilogCodes/Procesador/armForTest.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:12:23 on Jun 13,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Usuario/Desktop/JosueCodes/p_digitales-SystemVerilogCodes/Procesador" C:/Users/Usuario/Desktop/JosueCodes/p_digitales-SystemVerilogCodes/Procesador/armForTest.sv 
+# -- Compiling module armForTest
+# 
+# Top level modules:
+# 	armForTest
+# End time: 16:12:23 on Jun 13,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/Usuario/Desktop/JosueCodes/p_digitales-SystemVerilogCodes/Procesador {C:/Users/Usuario/Desktop/JosueCodes/p_digitales-SystemVerilogCodes/Procesador/decoder.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:12:24 on Jun 13,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Usuario/Desktop/JosueCodes/p_digitales-SystemVerilogCodes/Procesador" C:/Users/Usuario/Desktop/JosueCodes/p_digitales-SystemVerilogCodes/Procesador/decoder.sv 
+# -- Compiling module decoder
+# 
+# Top level modules:
+# 	decoder
+# End time: 16:12:24 on Jun 13,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/Usuario/Desktop/JosueCodes/p_digitales-SystemVerilogCodes/Procesador {C:/Users/Usuario/Desktop/JosueCodes/p_digitales-SystemVerilogCodes/Procesador/conditionalLogic.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:12:24 on Jun 13,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Usuario/Desktop/JosueCodes/p_digitales-SystemVerilogCodes/Procesador" C:/Users/Usuario/Desktop/JosueCodes/p_digitales-SystemVerilogCodes/Procesador/conditionalLogic.sv 
+# -- Compiling module conditionalLogic
+# 
+# Top level modules:
+# 	conditionalLogic
+# End time: 16:12:24 on Jun 13,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/Usuario/Desktop/JosueCodes/p_digitales-SystemVerilogCodes/Procesador {C:/Users/Usuario/Desktop/JosueCodes/p_digitales-SystemVerilogCodes/Procesador/conditionCheck.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:12:24 on Jun 13,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Usuario/Desktop/JosueCodes/p_digitales-SystemVerilogCodes/Procesador" C:/Users/Usuario/Desktop/JosueCodes/p_digitales-SystemVerilogCodes/Procesador/conditionCheck.sv 
+# -- Compiling module conditionCheck
+# 
+# Top level modules:
+# 	conditionCheck
+# End time: 16:12:24 on Jun 13,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/Usuario/Desktop/JosueCodes/p_digitales-SystemVerilogCodes/Procesador {C:/Users/Usuario/Desktop/JosueCodes/p_digitales-SystemVerilogCodes/Procesador/controller.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:12:24 on Jun 13,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Usuario/Desktop/JosueCodes/p_digitales-SystemVerilogCodes/Procesador" C:/Users/Usuario/Desktop/JosueCodes/p_digitales-SystemVerilogCodes/Procesador/controller.sv 
+# -- Compiling module controller
+# 
+# Top level modules:
+# 	controller
+# End time: 16:12:24 on Jun 13,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/Usuario/Desktop/JosueCodes/p_digitales-SystemVerilogCodes/Procesador {C:/Users/Usuario/Desktop/JosueCodes/p_digitales-SystemVerilogCodes/Procesador/flopenr.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:12:24 on Jun 13,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Usuario/Desktop/JosueCodes/p_digitales-SystemVerilogCodes/Procesador" C:/Users/Usuario/Desktop/JosueCodes/p_digitales-SystemVerilogCodes/Procesador/flopenr.sv 
+# -- Compiling module flopenr
+# 
+# Top level modules:
+# 	flopenr
+# End time: 16:12:24 on Jun 13,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/Usuario/Desktop/JosueCodes/p_digitales-SystemVerilogCodes/Procesador {C:/Users/Usuario/Desktop/JosueCodes/p_digitales-SystemVerilogCodes/Procesador/datapath.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:12:24 on Jun 13,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Usuario/Desktop/JosueCodes/p_digitales-SystemVerilogCodes/Procesador" C:/Users/Usuario/Desktop/JosueCodes/p_digitales-SystemVerilogCodes/Procesador/datapath.sv 
+# -- Compiling module datapath
+# 
+# Top level modules:
+# 	datapath
+# End time: 16:12:25 on Jun 13,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/Usuario/Desktop/JosueCodes/p_digitales-SystemVerilogCodes/Procesador {C:/Users/Usuario/Desktop/JosueCodes/p_digitales-SystemVerilogCodes/Procesador/flopr.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:12:25 on Jun 13,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Usuario/Desktop/JosueCodes/p_digitales-SystemVerilogCodes/Procesador" C:/Users/Usuario/Desktop/JosueCodes/p_digitales-SystemVerilogCodes/Procesador/flopr.sv 
+# -- Compiling module flopr
+# 
+# Top level modules:
+# 	flopr
+# End time: 16:12:25 on Jun 13,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/Usuario/Desktop/JosueCodes/p_digitales-SystemVerilogCodes/Procesador {C:/Users/Usuario/Desktop/JosueCodes/p_digitales-SystemVerilogCodes/Procesador/instructionMemory.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:12:25 on Jun 13,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Usuario/Desktop/JosueCodes/p_digitales-SystemVerilogCodes/Procesador" C:/Users/Usuario/Desktop/JosueCodes/p_digitales-SystemVerilogCodes/Procesador/instructionMemory.sv 
+# -- Compiling module instructionMemory
+# 
+# Top level modules:
+# 	instructionMemory
+# End time: 16:12:25 on Jun 13,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/Usuario/Desktop/JosueCodes/p_digitales-SystemVerilogCodes/Procesador {C:/Users/Usuario/Desktop/JosueCodes/p_digitales-SystemVerilogCodes/Procesador/adder.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:12:25 on Jun 13,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Usuario/Desktop/JosueCodes/p_digitales-SystemVerilogCodes/Procesador" C:/Users/Usuario/Desktop/JosueCodes/p_digitales-SystemVerilogCodes/Procesador/adder.sv 
+# -- Compiling module adder
+# 
+# Top level modules:
+# 	adder
+# End time: 16:12:25 on Jun 13,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/Usuario/Desktop/JosueCodes/p_digitales-SystemVerilogCodes/Procesador {C:/Users/Usuario/Desktop/JosueCodes/p_digitales-SystemVerilogCodes/Procesador/mux2.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:12:25 on Jun 13,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Usuario/Desktop/JosueCodes/p_digitales-SystemVerilogCodes/Procesador" C:/Users/Usuario/Desktop/JosueCodes/p_digitales-SystemVerilogCodes/Procesador/mux2.sv 
+# -- Compiling module mux2
+# 
+# Top level modules:
+# 	mux2
+# End time: 16:12:25 on Jun 13,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/Usuario/Desktop/JosueCodes/p_digitales-SystemVerilogCodes/Procesador {C:/Users/Usuario/Desktop/JosueCodes/p_digitales-SystemVerilogCodes/Procesador/regfile.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:12:25 on Jun 13,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Usuario/Desktop/JosueCodes/p_digitales-SystemVerilogCodes/Procesador" C:/Users/Usuario/Desktop/JosueCodes/p_digitales-SystemVerilogCodes/Procesador/regfile.sv 
+# -- Compiling module regfile
+# 
+# Top level modules:
+# 	regfile
+# End time: 16:12:25 on Jun 13,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/Usuario/Desktop/JosueCodes/p_digitales-SystemVerilogCodes/Procesador {C:/Users/Usuario/Desktop/JosueCodes/p_digitales-SystemVerilogCodes/Procesador/extend.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:12:25 on Jun 13,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Usuario/Desktop/JosueCodes/p_digitales-SystemVerilogCodes/Procesador" C:/Users/Usuario/Desktop/JosueCodes/p_digitales-SystemVerilogCodes/Procesador/extend.sv 
+# -- Compiling module extend
+# 
+# Top level modules:
+# 	extend
+# End time: 16:12:25 on Jun 13,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/Usuario/Desktop/JosueCodes/p_digitales-SystemVerilogCodes/Procesador {C:/Users/Usuario/Desktop/JosueCodes/p_digitales-SystemVerilogCodes/Procesador/ALUConFlags.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:12:25 on Jun 13,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Usuario/Desktop/JosueCodes/p_digitales-SystemVerilogCodes/Procesador" C:/Users/Usuario/Desktop/JosueCodes/p_digitales-SystemVerilogCodes/Procesador/ALUConFlags.sv 
+# -- Compiling module ALUConFlags
+# 
+# Top level modules:
+# 	ALUConFlags
+# End time: 16:12:25 on Jun 13,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/Usuario/Desktop/JosueCodes/p_digitales-SystemVerilogCodes/Procesador {C:/Users/Usuario/Desktop/JosueCodes/p_digitales-SystemVerilogCodes/Procesador/ALUSinFlags.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:12:25 on Jun 13,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Usuario/Desktop/JosueCodes/p_digitales-SystemVerilogCodes/Procesador" C:/Users/Usuario/Desktop/JosueCodes/p_digitales-SystemVerilogCodes/Procesador/ALUSinFlags.sv 
+# -- Compiling module ALUSinFlags
+# 
+# Top level modules:
+# 	ALUSinFlags
+# End time: 16:12:25 on Jun 13,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/Usuario/Desktop/JosueCodes/p_digitales-SystemVerilogCodes/Procesador {C:/Users/Usuario/Desktop/JosueCodes/p_digitales-SystemVerilogCodes/Procesador/adderWithCarry.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:12:25 on Jun 13,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Usuario/Desktop/JosueCodes/p_digitales-SystemVerilogCodes/Procesador" C:/Users/Usuario/Desktop/JosueCodes/p_digitales-SystemVerilogCodes/Procesador/adderWithCarry.sv 
+# -- Compiling module adderWithCarry
+# 
+# Top level modules:
+# 	adderWithCarry
+# End time: 16:12:26 on Jun 13,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/Usuario/Desktop/JosueCodes/p_digitales-SystemVerilogCodes/Procesador {C:/Users/Usuario/Desktop/JosueCodes/p_digitales-SystemVerilogCodes/Procesador/xorGate.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:12:26 on Jun 13,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Usuario/Desktop/JosueCodes/p_digitales-SystemVerilogCodes/Procesador" C:/Users/Usuario/Desktop/JosueCodes/p_digitales-SystemVerilogCodes/Procesador/xorGate.sv 
+# -- Compiling module xorGate
+# 
+# Top level modules:
+# 	xorGate
+# End time: 16:12:26 on Jun 13,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/Usuario/Desktop/JosueCodes/p_digitales-SystemVerilogCodes/Procesador {C:/Users/Usuario/Desktop/JosueCodes/p_digitales-SystemVerilogCodes/Procesador/inv.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:12:26 on Jun 13,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Usuario/Desktop/JosueCodes/p_digitales-SystemVerilogCodes/Procesador" C:/Users/Usuario/Desktop/JosueCodes/p_digitales-SystemVerilogCodes/Procesador/inv.sv 
+# -- Compiling module inv
+# 
+# Top level modules:
+# 	inv
+# End time: 16:12:26 on Jun 13,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/Usuario/Desktop/JosueCodes/p_digitales-SystemVerilogCodes/Procesador {C:/Users/Usuario/Desktop/JosueCodes/p_digitales-SystemVerilogCodes/Procesador/mux4a1.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:12:26 on Jun 13,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Usuario/Desktop/JosueCodes/p_digitales-SystemVerilogCodes/Procesador" C:/Users/Usuario/Desktop/JosueCodes/p_digitales-SystemVerilogCodes/Procesador/mux4a1.sv 
+# -- Compiling module mux4a1
+# 
+# Top level modules:
+# 	mux4a1
+# End time: 16:12:26 on Jun 13,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/Usuario/Desktop/JosueCodes/p_digitales-SystemVerilogCodes/Procesador {C:/Users/Usuario/Desktop/JosueCodes/p_digitales-SystemVerilogCodes/Procesador/dataMemory.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:12:26 on Jun 13,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Usuario/Desktop/JosueCodes/p_digitales-SystemVerilogCodes/Procesador" C:/Users/Usuario/Desktop/JosueCodes/p_digitales-SystemVerilogCodes/Procesador/dataMemory.sv 
+# -- Compiling module dataMemory
+# 
+# Top level modules:
+# 	dataMemory
+# End time: 16:12:26 on Jun 13,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/Usuario/Desktop/JosueCodes/p_digitales-SystemVerilogCodes/Procesador {C:/Users/Usuario/Desktop/JosueCodes/p_digitales-SystemVerilogCodes/Procesador/ROM32.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:12:26 on Jun 13,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Usuario/Desktop/JosueCodes/p_digitales-SystemVerilogCodes/Procesador" C:/Users/Usuario/Desktop/JosueCodes/p_digitales-SystemVerilogCodes/Procesador/ROM32.sv 
+# -- Compiling module ROM32
+# 
+# Top level modules:
+# 	ROM32
+# End time: 16:12:26 on Jun 13,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/Usuario/Desktop/JosueCodes/p_digitales-SystemVerilogCodes/Procesador {C:/Users/Usuario/Desktop/JosueCodes/p_digitales-SystemVerilogCodes/Procesador/deco_datos.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:12:26 on Jun 13,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Usuario/Desktop/JosueCodes/p_digitales-SystemVerilogCodes/Procesador" C:/Users/Usuario/Desktop/JosueCodes/p_digitales-SystemVerilogCodes/Procesador/deco_datos.sv 
+# -- Compiling module deco_datos
+# 
+# Top level modules:
+# 	deco_datos
+# End time: 16:12:26 on Jun 13,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -sv -work work +incdir+C:/Users/Usuario/Desktop/JosueCodes/p_digitales-SystemVerilogCodes/Procesador {C:/Users/Usuario/Desktop/JosueCodes/p_digitales-SystemVerilogCodes/Procesador/procesadorTest.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:12:26 on Jun 13,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Usuario/Desktop/JosueCodes/p_digitales-SystemVerilogCodes/Procesador" C:/Users/Usuario/Desktop/JosueCodes/p_digitales-SystemVerilogCodes/Procesador/procesadorTest.sv 
+# -- Compiling module procesadorTest
+# 
+# Top level modules:
+# 	procesadorTest
+# End time: 16:12:26 on Jun 13,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs="+acc"  armTest
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs=""+acc"" armTest 
+# Start time: 16:12:26 on Jun 13,2021
+# ** Error: (vsim-3170) Could not find 'armTest'.
+#         Searched libraries:
+#             C:/intelFPGA_lite/20.1/modelsim_ase/altera/verilog/altera
+#             C:/intelFPGA_lite/20.1/modelsim_ase/altera/verilog/220model
+#             C:/intelFPGA_lite/20.1/modelsim_ase/altera/verilog/sgate
+#             C:/intelFPGA_lite/20.1/modelsim_ase/altera/verilog/altera_mf
+#             C:/intelFPGA_lite/20.1/modelsim_ase/altera/verilog/altera_lnsim
+#             C:/intelFPGA_lite/20.1/modelsim_ase/altera/verilog/cyclonev
+#             C:/intelFPGA_lite/20.1/modelsim_ase/altera/verilog/cyclonev_hssi
+#             C:/intelFPGA_lite/20.1/modelsim_ase/altera/verilog/cyclonev_pcie_hip
+#             C:/Users/Usuario/Desktop/JosueCodes/p_digitales-SystemVerilogCodes/Procesador/simulation/modelsim/rtl_work
+#             C:/Users/Usuario/Desktop/JosueCodes/p_digitales-SystemVerilogCodes/Procesador/simulation/modelsim/rtl_work
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./ProcesadorARM_run_msim_rtl_verilog.do PAUSED at line 33
+vsim rtl_work.procesadorTest
+# vsim rtl_work.procesadorTest 
+# Start time: 16:12:26 on Jun 13,2021
+# Loading sv_std.std
+# Loading work.procesadorTest
+# Loading work.armForTest
+# Loading work.controller
+# Loading work.decoder
+# Loading work.conditionalLogic
+# Loading work.flopenr
+# Loading work.conditionCheck
+# Loading work.datapath
+# Loading work.mux2
+# Loading work.flopr
+# Loading work.instructionMemory
+# Loading work.adder
+# Loading work.regfile
+# Loading work.extend
+# Loading work.ALUConFlags
+# Loading work.ALUSinFlags
+# Loading work.adderWithCarry
+# Loading work.xorGate
+# Loading work.inv
+# Loading work.mux4a1
+# Loading work.dataMemory
+# Loading work.ROM32
+# Loading work.deco_datos
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (1) for port 'addressForVga'. The port definition is at: C:/Users/Usuario/Desktop/JosueCodes/p_digitales-SystemVerilogCodes/Procesador/datapath.sv(25).
+#    Time: 0 ps  Iteration: 0  Instance: /procesadorTest/ARM/dp File: C:/Users/Usuario/Desktop/JosueCodes/p_digitales-SystemVerilogCodes/Procesador/armForTest.sv Line: 22
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (32) for port 'address'. The port definition is at: C:/Users/Usuario/Desktop/JosueCodes/p_digitales-SystemVerilogCodes/Procesador/instructionMemory.sv(6).
+#    Time: 0 ps  Iteration: 0  Instance: /procesadorTest/ARM/dp/instMem File: C:/Users/Usuario/Desktop/JosueCodes/p_digitales-SystemVerilogCodes/Procesador/datapath.sv Line: 43
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (1) for port 'addressForVga'. The port definition is at: C:/Users/Usuario/Desktop/JosueCodes/p_digitales-SystemVerilogCodes/Procesador/deco_datos.sv(5).
+#    Time: 0 ps  Iteration: 0  Instance: /procesadorTest/ARM/mostrarDatos File: C:/Users/Usuario/Desktop/JosueCodes/p_digitales-SystemVerilogCodes/Procesador/armForTest.sv Line: 37
+add wave -position end  sim:/procesadorTest/clk
+add wave -position end  sim:/procesadorTest/reset
+add wave -position end  sim:/procesadorTest/mostrarLetra
+add wave -position end  sim:/procesadorTest/rdataForVga
+add wave -position end  sim:/procesadorTest/ReadOutData
+add wave -position end  sim:/procesadorTest/PC
+add wave -position end  sim:/procesadorTest/Result
+add wave -position end  sim:/procesadorTest/Instr
+add wave -position end  sim:/procesadorTest/ALUFlags
+add wave -position end  sim:/procesadorTest/PCSrc
+add wave -position end  sim:/procesadorTest/MemtoReg
+add wave -position end  sim:/procesadorTest/MemWrite
+add wave -position end  sim:/procesadorTest/ALUSrc
+add wave -position end  sim:/procesadorTest/RegWrite
+add wave -position end  sim:/procesadorTest/ALUControl
+add wave -position end  sim:/procesadorTest/ImmSrc
+add wave -position end  sim:/procesadorTest/RegSrc
+add wave -position end  sim:/procesadorTest/segments
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: Usuario  Hostname: DESKTOP-LGT7EFS  ProcessID: 7824
+#           Attempting to use alternate WLF file "./wlfticb7y3".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlfticb7y3
+run -all
+# Break key hit
+# Simulation stop requested.
+# End time: 16:14:02 on Jun 13,2021, Elapsed time: 0:01:36
+# Errors: 1, Warnings: 5
