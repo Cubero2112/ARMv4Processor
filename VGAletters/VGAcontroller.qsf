@@ -1,0 +1,339 @@
+# -------------------------------------------------------------------------- #
+#
+# Copyright (C) 2020  Intel Corporation. All rights reserved.
+# Your use of Intel Corporation's design tools, logic functions 
+# and other software and tools, and any partner logic 
+# functions, and any output files from any of the foregoing 
+# (including device programming or simulation files), and any 
+# associated documentation or information are expressly subject 
+# to the terms and conditions of the Intel Program License 
+# Subscription Agreement, the Intel Quartus Prime License Agreement,
+# the Intel FPGA IP License Agreement, or other applicable license
+# agreement, including, without limitation, that your use is for
+# the sole purpose of programming logic devices manufactured by
+# Intel and sold by Intel or its authorized distributors.  Please
+# refer to the applicable agreement for further details, at
+# https://fpgasoftware.intel.com/eula.
+#
+# -------------------------------------------------------------------------- #
+#
+# Quartus Prime
+# Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
+# Date created = 00:03:10  June 13, 2021
+#
+# -------------------------------------------------------------------------- #
+#
+# Notes:
+#
+# 1) The default values for assignments are stored in the file:
+#		VGAcontroller_assignment_defaults.qdf
+#    If this file doesn't exist, see file:
+#		assignment_defaults.qdf
+#
+# 2) Altera recommends that you do not modify this file. This
+#    file is updated automatically by the Quartus Prime software
+#    and any changes you make may be lost or overwritten.
+#
+# -------------------------------------------------------------------------- #
+
+
+set_global_assignment -name FAMILY "Cyclone V"
+set_global_assignment -name DEVICE 5CSEMA5F31C6
+set_global_assignment -name TOP_LEVEL_ENTITY mcuVGA
+set_global_assignment -name ORIGINAL_QUARTUS_VERSION 20.1.1
+set_global_assignment -name PROJECT_CREATION_TIME_DATE "00:03:10  JUNE 13, 2021"
+set_global_assignment -name LAST_QUARTUS_VERSION "20.1.1 Lite Edition"
+set_global_assignment -name PROJECT_OUTPUT_DIRECTORY output_files
+set_global_assignment -name MIN_CORE_JUNCTION_TEMP 0
+set_global_assignment -name MAX_CORE_JUNCTION_TEMP 85
+set_global_assignment -name ERROR_CHECK_FREQUENCY_DIVISOR 256
+set_global_assignment -name EDA_SIMULATION_TOOL "ModelSim-Altera (SystemVerilog)"
+set_global_assignment -name EDA_TIME_SCALE "1 ps" -section_id eda_simulation
+set_global_assignment -name EDA_OUTPUT_DATA_FORMAT "SYSTEMVERILOG HDL" -section_id eda_simulation
+set_global_assignment -name EDA_GENERATE_FUNCTIONAL_NETLIST OFF -section_id eda_board_design_timing
+set_global_assignment -name EDA_GENERATE_FUNCTIONAL_NETLIST OFF -section_id eda_board_design_symbol
+set_global_assignment -name EDA_GENERATE_FUNCTIONAL_NETLIST OFF -section_id eda_board_design_signal_integrity
+set_global_assignment -name EDA_GENERATE_FUNCTIONAL_NETLIST OFF -section_id eda_board_design_boundary_scan
+set_location_assignment PIN_A13 -to RGB[0]
+set_location_assignment PIN_C13 -to RGB[1]
+set_location_assignment PIN_E13 -to RGB[2]
+set_location_assignment PIN_B12 -to RGB[3]
+set_location_assignment PIN_C12 -to RGB[4]
+set_location_assignment PIN_D12 -to RGB[5]
+set_location_assignment PIN_E12 -to RGB[6]
+set_location_assignment PIN_F13 -to RGB[7]
+set_location_assignment PIN_J9 -to RGB[8]
+set_location_assignment PIN_J10 -to RGB[9]
+set_location_assignment PIN_H12 -to RGB[10]
+set_location_assignment PIN_G10 -to RGB[11]
+set_location_assignment PIN_G11 -to RGB[12]
+set_location_assignment PIN_G12 -to RGB[13]
+set_location_assignment PIN_F11 -to RGB[14]
+set_location_assignment PIN_E11 -to RGB[15]
+set_location_assignment PIN_B13 -to RGB[16]
+set_location_assignment PIN_G13 -to RGB[17]
+set_location_assignment PIN_F14 -to RGB[19]
+set_location_assignment PIN_H13 -to RGB[18]
+set_location_assignment PIN_H14 -to RGB[20]
+set_location_assignment PIN_F15 -to RGB[21]
+set_location_assignment PIN_G15 -to RGB[22]
+set_location_assignment PIN_J14 -to RGB[23]
+set_location_assignment PIN_B11 -to H_SYNC
+set_location_assignment PIN_D11 -to V_SYNC
+set_location_assignment PIN_F10 -to SYNC_BLANK
+set_location_assignment PIN_C10 -to SYNC_B
+set_location_assignment PIN_A11 -to clk25
+set_location_assignment PIN_AE12 -to rstBtn
+set_location_assignment PIN_AF14 -to clk
+set_global_assignment -name POWER_PRESET_COOLING_SOLUTION "23 MM HEAT SINK WITH 200 LFPM AIRFLOW"
+set_global_assignment -name POWER_BOARD_THERMAL_MODEL "NONE (CONSERVATIVE)"
+set_global_assignment -name EDA_TEST_BENCH_ENABLE_STATUS TEST_BENCH_MODE -section_id eda_simulation
+set_global_assignment -name EDA_NATIVELINK_SIMULATION_TEST_BENCH Test -section_id eda_simulation
+set_global_assignment -name EDA_TEST_BENCH_NAME Test -section_id eda_simulation
+set_global_assignment -name EDA_DESIGN_INSTANCE_NAME NA -section_id Test
+set_global_assignment -name EDA_TEST_BENCH_MODULE_NAME Test -section_id Test
+set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
+set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
+set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
+set_global_assignment -name EDA_TEST_BENCH_FILE tb_VGA.sv -section_id Test
+set_global_assignment -name MIF_FILE 126.mif
+set_global_assignment -name MIF_FILE 125.mif
+set_global_assignment -name MIF_FILE 124.mif
+set_global_assignment -name MIF_FILE 123.mif
+set_global_assignment -name MIF_FILE 122.mif
+set_global_assignment -name MIF_FILE 121.mif
+set_global_assignment -name MIF_FILE 120.mif
+set_global_assignment -name MIF_FILE 119.mif
+set_global_assignment -name MIF_FILE 118.mif
+set_global_assignment -name MIF_FILE 117.mif
+set_global_assignment -name MIF_FILE 116.mif
+set_global_assignment -name MIF_FILE 115.mif
+set_global_assignment -name MIF_FILE 114.mif
+set_global_assignment -name MIF_FILE 113.mif
+set_global_assignment -name MIF_FILE 112.mif
+set_global_assignment -name MIF_FILE 111.mif
+set_global_assignment -name MIF_FILE 110.mif
+set_global_assignment -name MIF_FILE 109.mif
+set_global_assignment -name MIF_FILE 108.mif
+set_global_assignment -name MIF_FILE 107.mif
+set_global_assignment -name MIF_FILE 106.mif
+set_global_assignment -name MIF_FILE 105.mif
+set_global_assignment -name MIF_FILE 104.mif
+set_global_assignment -name MIF_FILE 103.mif
+set_global_assignment -name MIF_FILE 102.mif
+set_global_assignment -name MIF_FILE 101.mif
+set_global_assignment -name MIF_FILE 100.mif
+set_global_assignment -name MIF_FILE 99.mif
+set_global_assignment -name MIF_FILE 98.mif
+set_global_assignment -name MIF_FILE 97.mif
+set_global_assignment -name MIF_FILE 96.mif
+set_global_assignment -name MIF_FILE 95.mif
+set_global_assignment -name MIF_FILE 94.mif
+set_global_assignment -name MIF_FILE 93.mif
+set_global_assignment -name MIF_FILE 92.mif
+set_global_assignment -name MIF_FILE 91.mif
+set_global_assignment -name MIF_FILE 90.mif
+set_global_assignment -name MIF_FILE 89.mif
+set_global_assignment -name MIF_FILE 88.mif
+set_global_assignment -name MIF_FILE 87.mif
+set_global_assignment -name MIF_FILE 86.mif
+set_global_assignment -name MIF_FILE 85.mif
+set_global_assignment -name MIF_FILE 84.mif
+set_global_assignment -name MIF_FILE 83.mif
+set_global_assignment -name MIF_FILE 82.mif
+set_global_assignment -name MIF_FILE 81.mif
+set_global_assignment -name MIF_FILE 80.mif
+set_global_assignment -name MIF_FILE 79.mif
+set_global_assignment -name MIF_FILE 78.mif
+set_global_assignment -name MIF_FILE 77.mif
+set_global_assignment -name MIF_FILE 76.mif
+set_global_assignment -name MIF_FILE 75.mif
+set_global_assignment -name MIF_FILE 74.mif
+set_global_assignment -name MIF_FILE 73.mif
+set_global_assignment -name MIF_FILE 72.mif
+set_global_assignment -name MIF_FILE 71.mif
+set_global_assignment -name MIF_FILE 70.mif
+set_global_assignment -name MIF_FILE 69.mif
+set_global_assignment -name MIF_FILE 68.mif
+set_global_assignment -name MIF_FILE 67.mif
+set_global_assignment -name MIF_FILE 66.mif
+set_global_assignment -name MIF_FILE 65.mif
+set_global_assignment -name MIF_FILE 64.mif
+set_global_assignment -name MIF_FILE 63.mif
+set_global_assignment -name MIF_FILE 62.mif
+set_global_assignment -name MIF_FILE 61.mif
+set_global_assignment -name MIF_FILE 60.mif
+set_global_assignment -name MIF_FILE 59.mif
+set_global_assignment -name MIF_FILE 58.mif
+set_global_assignment -name MIF_FILE 57.mif
+set_global_assignment -name MIF_FILE 56.mif
+set_global_assignment -name MIF_FILE 55.mif
+set_global_assignment -name MIF_FILE 54.mif
+set_global_assignment -name MIF_FILE 53.mif
+set_global_assignment -name MIF_FILE 52.mif
+set_global_assignment -name MIF_FILE 51.mif
+set_global_assignment -name MIF_FILE 50.mif
+set_global_assignment -name MIF_FILE 49.mif
+set_global_assignment -name MIF_FILE 48.mif
+set_global_assignment -name MIF_FILE 47.mif
+set_global_assignment -name MIF_FILE 46.mif
+set_global_assignment -name MIF_FILE 45.mif
+set_global_assignment -name MIF_FILE 44.mif
+set_global_assignment -name MIF_FILE 43.mif
+set_global_assignment -name MIF_FILE 42.mif
+set_global_assignment -name MIF_FILE 41.mif
+set_global_assignment -name MIF_FILE 40.mif
+set_global_assignment -name MIF_FILE 39.mif
+set_global_assignment -name MIF_FILE 38.mif
+set_global_assignment -name MIF_FILE 37.mif
+set_global_assignment -name MIF_FILE 36.mif
+set_global_assignment -name MIF_FILE 35.mif
+set_global_assignment -name MIF_FILE 34.mif
+set_global_assignment -name MIF_FILE 33.mif
+set_global_assignment -name MIF_FILE 32.mif
+set_global_assignment -name QIP_FILE romtest.qip
+set_global_assignment -name SYSTEMVERILOG_FILE xorGate.sv
+set_global_assignment -name SYSTEMVERILOG_FILE ROM32.sv
+set_global_assignment -name SYSTEMVERILOG_FILE regfile.sv
+set_global_assignment -name SYSTEMVERILOG_FILE procesadorTest.sv
+set_global_assignment -name SYSTEMVERILOG_FILE mux4a1.sv
+set_global_assignment -name SYSTEMVERILOG_FILE mux2.sv
+set_global_assignment -name SYSTEMVERILOG_FILE inv.sv
+set_global_assignment -name SYSTEMVERILOG_FILE instructionMemory.sv
+set_global_assignment -name SYSTEMVERILOG_FILE flopr.sv
+set_global_assignment -name SYSTEMVERILOG_FILE flopenr.sv
+set_global_assignment -name SYSTEMVERILOG_FILE extend.sv
+set_global_assignment -name SYSTEMVERILOG_FILE deco_datos.sv
+set_global_assignment -name SYSTEMVERILOG_FILE decoder.sv
+set_global_assignment -name SYSTEMVERILOG_FILE datapath.sv
+set_global_assignment -name SYSTEMVERILOG_FILE dataMemory.sv
+set_global_assignment -name SYSTEMVERILOG_FILE controller.sv
+set_global_assignment -name SYSTEMVERILOG_FILE conditionCheck.sv
+set_global_assignment -name SYSTEMVERILOG_FILE conditionalLogic.sv
+set_global_assignment -name SYSTEMVERILOG_FILE armForTest.sv
+set_global_assignment -name SYSTEMVERILOG_FILE arm.sv
+set_global_assignment -name SYSTEMVERILOG_FILE ALUSinFlags.sv
+set_global_assignment -name SYSTEMVERILOG_FILE ALUConFlags.sv
+set_global_assignment -name SYSTEMVERILOG_FILE adderWithCarry.sv
+set_global_assignment -name SYSTEMVERILOG_FILE adder.sv
+set_global_assignment -name VERILOG_FILE romtest.v
+set_global_assignment -name MIF_FILE asciiMemory.mif
+set_global_assignment -name SYSTEMVERILOG_FILE clockDivider.sv
+set_global_assignment -name SYSTEMVERILOG_FILE rgbDecoder.sv
+set_global_assignment -name SYSTEMVERILOG_FILE addressGenerator.sv
+set_global_assignment -name SYSTEMVERILOG_FILE VGAcontroller.sv
+set_global_assignment -name SYSTEMVERILOG_FILE counterXY.sv
+set_global_assignment -name SYSTEMVERILOG_FILE printChar.sv
+set_global_assignment -name SYSTEMVERILOG_FILE topController.sv
+set_global_assignment -name SYSTEMVERILOG_FILE mcuVGA.sv
+set_global_assignment -name SYSTEMVERILOG_FILE tb_VGA.sv
+set_global_assignment -name SYSTEMVERILOG_FILE tb_sprite.sv
+set_global_assignment -name SYSTEMVERILOG_FILE tb_counterXY.sv
+set_global_assignment -name MIF_FILE memoria_prueba.mif
+set_global_assignment -name SYSTEMVERILOG_FILE sprite66.sv
+set_global_assignment -name SYSTEMVERILOG_FILE rgbDecoderSprite.sv
+set_global_assignment -name SYSTEMVERILOG_FILE charMux.sv
+set_global_assignment -name SYSTEMVERILOG_FILE sprite.sv
+set_global_assignment -name SYSTEMVERILOG_FILE comparator.sv
+set_global_assignment -name QIP_FILE asciiMemory.qip
+set_global_assignment -name MIF_FILE ascii65.mif
+set_global_assignment -name QIP_FILE ascii65.qip
+set_global_assignment -name MIF_FILE ascii72.mif
+set_global_assignment -name MIF_FILE ascii76.mif
+set_global_assignment -name MIF_FILE ascii79.mif
+set_global_assignment -name QIP_FILE ascii72.qip
+set_global_assignment -name QIP_FILE ascii76.qip
+set_global_assignment -name QIP_FILE ascii79.qip
+set_global_assignment -name SYSTEMVERILOG_FILE dataMemoryVGA.sv
+set_global_assignment -name QIP_FILE ascii32.qip
+set_global_assignment -name QIP_FILE ascii33.qip
+set_global_assignment -name QIP_FILE ascii34.qip
+set_global_assignment -name QIP_FILE ascii35.qip
+set_global_assignment -name QIP_FILE ascii36.qip
+set_global_assignment -name QIP_FILE ascii37.qip
+set_global_assignment -name QIP_FILE ascii38.qip
+set_global_assignment -name QIP_FILE ascii39.qip
+set_global_assignment -name QIP_FILE ascii40.qip
+set_global_assignment -name QIP_FILE ascii41.qip
+set_global_assignment -name QIP_FILE ascii42.qip
+set_global_assignment -name QIP_FILE ascii43.qip
+set_global_assignment -name QIP_FILE ascii44.qip
+set_global_assignment -name QIP_FILE ascii45.qip
+set_global_assignment -name QIP_FILE ascii46.qip
+set_global_assignment -name QIP_FILE ascii47.qip
+set_global_assignment -name QIP_FILE ascii48.qip
+set_global_assignment -name QIP_FILE ascii49.qip
+set_global_assignment -name QIP_FILE ascii50.qip
+set_global_assignment -name QIP_FILE ascii51.qip
+set_global_assignment -name QIP_FILE ascii52.qip
+set_global_assignment -name QIP_FILE ascii53.qip
+set_global_assignment -name QIP_FILE ascii54.qip
+set_global_assignment -name QIP_FILE ascii55.qip
+set_global_assignment -name QIP_FILE ascii56.qip
+set_global_assignment -name QIP_FILE ascii57.qip
+set_global_assignment -name QIP_FILE ascii58.qip
+set_global_assignment -name QIP_FILE ascii59.qip
+set_global_assignment -name QIP_FILE ascii60.qip
+set_global_assignment -name QIP_FILE ascii61.qip
+set_global_assignment -name QIP_FILE ascii62.qip
+set_global_assignment -name QIP_FILE ascii63.qip
+set_global_assignment -name QIP_FILE ascii64.qip
+set_global_assignment -name QIP_FILE ascii66.qip
+set_global_assignment -name QIP_FILE ascii67.qip
+set_global_assignment -name QIP_FILE ascii68.qip
+set_global_assignment -name QIP_FILE ascii69.qip
+set_global_assignment -name QIP_FILE ascii70.qip
+set_global_assignment -name QIP_FILE ascii71.qip
+set_global_assignment -name QIP_FILE ascii73.qip
+set_global_assignment -name QIP_FILE ascii74.qip
+set_global_assignment -name QIP_FILE ascii75.qip
+set_global_assignment -name QIP_FILE ascii77.qip
+set_global_assignment -name QIP_FILE ascii78.qip
+set_global_assignment -name QIP_FILE ascii80.qip
+set_global_assignment -name QIP_FILE ascii81.qip
+set_global_assignment -name QIP_FILE ascii82.qip
+set_global_assignment -name QIP_FILE ascii83.qip
+set_global_assignment -name QIP_FILE ascii84.qip
+set_global_assignment -name QIP_FILE ascii85.qip
+set_global_assignment -name QIP_FILE ascii86.qip
+set_global_assignment -name QIP_FILE ascii87.qip
+set_global_assignment -name QIP_FILE ascii88.qip
+set_global_assignment -name QIP_FILE ascii89.qip
+set_global_assignment -name QIP_FILE ascii90.qip
+set_global_assignment -name QIP_FILE ascii91.qip
+set_global_assignment -name QIP_FILE ascii92.qip
+set_global_assignment -name QIP_FILE ascii93.qip
+set_global_assignment -name QIP_FILE ascii94.qip
+set_global_assignment -name QIP_FILE ascii95.qip
+set_global_assignment -name QIP_FILE ascii96.qip
+set_global_assignment -name QIP_FILE ascii97.qip
+set_global_assignment -name QIP_FILE ascii98.qip
+set_global_assignment -name QIP_FILE ascii99.qip
+set_global_assignment -name QIP_FILE ascii100.qip
+set_global_assignment -name QIP_FILE ascii101.qip
+set_global_assignment -name QIP_FILE ascii102.qip
+set_global_assignment -name QIP_FILE ascii103.qip
+set_global_assignment -name QIP_FILE ascii104.qip
+set_global_assignment -name QIP_FILE ascii105.qip
+set_global_assignment -name QIP_FILE ascii106.qip
+set_global_assignment -name QIP_FILE ascii107.qip
+set_global_assignment -name QIP_FILE ascii108.qip
+set_global_assignment -name QIP_FILE ascii109.qip
+set_global_assignment -name QIP_FILE ascii110.qip
+set_global_assignment -name QIP_FILE ascii111.qip
+set_global_assignment -name QIP_FILE ascii112.qip
+set_global_assignment -name QIP_FILE ascii113.qip
+set_global_assignment -name QIP_FILE ascii114.qip
+set_global_assignment -name QIP_FILE ascii115.qip
+set_global_assignment -name QIP_FILE ascii116.qip
+set_global_assignment -name QIP_FILE ascii117.qip
+set_global_assignment -name QIP_FILE ascii118.qip
+set_global_assignment -name QIP_FILE ascii119.qip
+set_global_assignment -name QIP_FILE ascii120.qip
+set_global_assignment -name QIP_FILE ascii121.qip
+set_global_assignment -name QIP_FILE ascii122.qip
+set_global_assignment -name QIP_FILE ascii123.qip
+set_global_assignment -name QIP_FILE ascii124.qip
+set_global_assignment -name QIP_FILE ascii125.qip
+set_global_assignment -name QIP_FILE ascii126.qip
+set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top

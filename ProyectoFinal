@@ -1,0 +1,77 @@
+			
+			;		Almacenar las frases (SUMA)
+			mov		r1, #0X1000      ; almacena la direccion de las frases codificadas
+			mov		r2, #0b01001010 ; obtiene una H cifrada (01001000)
+			str		r2, [r1]		 ; almacena la H
+			
+			add		r1, r1, #4	 ; aumenta la memoria
+			mov		r2, #0b01001110 ; obtiene una O cifrada (01001111)
+			str		r2, [r1]		 ; almacena la O
+			
+			add		r1, r1, #4	 ; aumenta la memoria
+			mov		r2, #0b00110011 ; obtiene un 1 cifrado (00110001)
+			str		r2, [r1]		 ; almacena el 1 (condicion de parada)
+			
+			;		Instrucciones
+			mov		r1, #0X2000 ; almacena la direccion de la operacion (XOR, NOT, SUMA)
+			mov		r2, #3      ; XOR = 1; NOT = 2; SUMA = 3;
+			str		r2, [r1]    ; almacena en la direccion 0X2000 la operacion elegida
+			
+			add		r1, r1, #4  ; direccion de operando dos para la operacion XOR
+			mov		r2, #3      ; operando 2 (XOR)
+			str		r2, [r1]    ; almacena en la direccion 0X1004 el operando 2 (XOR)
+			
+			ldr		r3, [r1]     ; carga la posicion
+			
+			mov		r1,  #0X2000 ; moverse a la posicion de la operacion elegida
+			ldr		r2, [r1]     ; carga la posicion
+			cmp		r2, #2
+			bgt		comparar_suma		   ; si es mayor a 2 -> suma
+			beq		comparar_not		   ; si es igual a 2 -> not
+			b		comparar_xor 		   ; sino -> xor
+			
+comparar_xor
+			mov		r4, #0b00110001  ; almacena la direccion del valor de 1 cifrado a XOR
+			mov		r1, #0X1000      ; direccion caracter
+			b		xor
+			
+comparar_not
+			mov		r4,  #0b00110001 ; almacena la direccion del valor de 1 cifrado a NOT
+			mov		r1, #0X1000   ; direccion caracter
+			b		not
+			
+comparar_suma
+			mov		r4, #0b00110001   ; almacena la direccion del valor de 1 cifrado a SUMA
+			mov		r1, #0X1000       ; direccion caracter
+			b		suma
+			
+xor
+			ldr		r2, [r1]      ; carga el caracter
+			eor		r2, r2, r3
+			str		r2, [r1]      ; almacenar el caracter cifrado
+			add		r1, r1, #4	 ; aumenta la memoria
+			cmp		r2, r4
+			bne		xor
+			b		fin
+			
+not
+			ldr		r2, [r1]      ; carga el caracter
+			mvns		r5, r2        ; not al caracter
+			str		r5, [r1]      ; almacenar el caracter cifrado
+			add		r1, r1, #4    ; aumenta la memoria
+			cmp		r5, r4
+			bne		not
+			b		fin
+			
+suma
+			ldr		r2, [r1]      ; carga el caracter
+			sub		r2, r2, #2
+			str		r2, [r1]        ; almacenar el caracter cifrado
+			add		r1, r1, #4	 ; aumenta la memoria
+			cmp		r2, r4
+			bne		suma
+			b		fin
+			
+fin
+			end
+			
