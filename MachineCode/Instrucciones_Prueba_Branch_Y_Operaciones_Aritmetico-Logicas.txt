@@ -1,0 +1,16 @@
+	8'h00: data = 32'hE04F000F; // SUB R0, R15,R15  ; R0 = 8 - 8 = 0
+	8'h04: data = 32'hE2801002; // ADD R1, R0, #2   ; R1 = 0 + 2 = 2
+	8'h08: data = 32'hE2802005; // ADD R2, R0, #5   ; R2 = 0 + 5 = 5
+	8'h0c: data = 32'hE0513002; // SUBS R3, R1, R2  ; R3 = 2 - 5 = -3 (NZCV = 1000)
+			
+	8'h10: data = 32'hBA000003; // BLT R2ESMAYOR
+	8'h14: data = 32'hE0414002; // SUB R4,R1,R2		; R4 = 5 - 2 = 3
+	8'h18: data = 32'hE0217004; // EOR R7,R1,R4		; R7 = 0101 XOR 0011 = 6 = 0110 
+	8'h1c: data = 32'hE0826007; // ADD R6,R2,R7		; R6 = 8 = 1000
+			
+	8'h20: data = 32'hEA000002; // B FIN				 
+	8'h24: data = 32'hE0814002; // ADD R4,R1,R2		; R4 = 7 = 0111 (R2ESMAYOR) 
+	8'h28: data = 32'hE2847003; // ADD R7,R4,#3		; R7 = 7+3 = 10 = 1010
+	8'h2c: data = 32'hE0216007; // EOR R6,R1, R7		; R6 = 0010 XOR 1010 = 1000 = 8
+			
+	8'h30: data = 32'hE0845004; // ADD R5, R4,R4 (FIN)	R5 = 14 

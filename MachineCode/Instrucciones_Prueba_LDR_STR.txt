@@ -1,0 +1,7 @@
+NOTA: Es importante recalcar que para hacer uso de estas instrucciones DEBE
+de existir informacion cargada en la direccion 0x0 de la memoria ROM.
+ 
+	8'h00: data = 32'hE04F000F; // SUB R0, R15,R15  ; R0 = 8 - 8 = 0
+	8'h04: data = 32'hE5901000; // LDR R1, [R0] 		; R1 = 5 | ROM32 -> 0x0:5
+	8'h08: data = 32'hE2812003; // ADD R2, R1, #3	; R2 = 8
+	8'h0c: data = 32'hE5802000; // STR R2, [R0] 		; RAM -> 0x0: 8
